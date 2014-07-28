@@ -61,6 +61,12 @@
     <option name="LOCALE" />
     <option name="OPEN_IN_BROWSER" value="true" />
   </component>
+  <component name="ProjectCodeStyleSettingsManager">
+    <option name="PER_PROJECT_SETTINGS">
+      <value />
+    </option>
+    <option name="PREFERRED_PROJECT_CODE_STYLE" value="Default (1)" />
+  </component>
   <component name="ProjectDictionaryState">
     <dictionary name="Michael">
       <words>
@@ -73,7 +79,7 @@
       <module fileurl="file://$PROJECT_DIR$/LetsModReboot.iml" filepath="$PROJECT_DIR$/LetsModReboot.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_7" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">
