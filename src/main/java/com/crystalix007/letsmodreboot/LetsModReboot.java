@@ -1,4 +1,5 @@
 package com.crystalix007.letsmodreboot;
+import com.crystalix007.letsmodreboot.configuration.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.proxy.IProxy;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -19,7 +20,7 @@ public class LetsModReboot
 	@Mod.EventHandler
 	public void preInit(FMLPreInitializationEvent event)    //Network handling, mod config, items and blocks init
 	{
-
+		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 	}
 
 	@Mod.EventHandler
