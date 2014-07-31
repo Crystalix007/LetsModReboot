@@ -27,6 +27,6 @@ public class ConfigurationHandler
 			configuration.save();
 		}
 
-		System.out.println(configValue);
+		System.out.println("LetsModReboot: " + configValue);
 	}
 }
