@@ -1,5 +1,5 @@
 package com.crystalix007.letsmodreboot;
-import com.crystalix007.letsmodreboot.configuration.ConfigurationHandler;
+import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.proxy.IProxy;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.Mod;
@@ -8,7 +8,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsModReboot
 {
 	@Mod.Instance(Reference.MOD_ID)
