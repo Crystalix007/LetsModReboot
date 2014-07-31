@@ -14,9 +14,10 @@ public class ConfigurationHandler
 	public static void init(File configFile)
 	{
 		//Create configuration object from the given File
-
-		if (configuration == null)
+		if (configuration == null) {
 			configuration = new Configuration(configFile);
+			loadConfiguration();
+		}
 	}
 
 	@SubscribeEvent
@@ -27,7 +28,7 @@ public class ConfigurationHandler
 		}
 	}
 
-	public void loadConfiguration()
+	private static void loadConfiguration()
 	{
 		try {   //Exceptions can be thrown
 			//Load configuration file

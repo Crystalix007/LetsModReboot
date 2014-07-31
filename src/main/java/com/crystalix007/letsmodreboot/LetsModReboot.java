@@ -3,11 +3,13 @@ import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.proxy.IProxy;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import com.crystalix007.letsmodreboot.utility.LogHelper;
+import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraftforge.common.config.Configuration;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsModReboot
@@ -22,6 +24,7 @@ public class LetsModReboot
 	public void preInit(FMLPreInitializationEvent event)    //Network handling, mod config, items and blocks init
 	{
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
+		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		LogHelper.info("Pre-initialization complete");
 	}
 
