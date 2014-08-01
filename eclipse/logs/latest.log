@@ -1,27 +1,10 @@
-[19:59:41] [main/INFO]: Setting user: ForgeDevName
-[19:59:42] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:59:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[19:59:48] [Sound Library Loader/INFO]: Sound engine started
-[19:59:50] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:59:50] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:59:50] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[19:59:51] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:59:51] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:59:52] [Sound Library Loader/INFO]: Sound engine started
-[19:59:57] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:59:57] [Server thread/INFO]: Generating keypair
-[19:59:57] [Server thread/INFO]: Preparing start region for level 0
-[19:59:57] [Server thread/INFO]: Changing view distance to 12, from 10
-[19:59:58] [Server thread/INFO]: ForgeDevName[local:E:55562f7c] logged in with entity id 258 at (287.12370814256394, 5.0155550727022, -298.4561863700947)
-[19:59:58] [Server thread/INFO]: ForgeDevName joined the game
-[20:00:14] [Server thread/INFO]: Saving and pausing game...
-[20:00:14] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[20:00:14] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[20:00:14] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[20:00:15] [Client thread/INFO]: Stopping!
-[20:00:15] [Server thread/INFO]: Stopping server
-[20:00:15] [Server thread/INFO]: Saving players
-[20:00:15] [Server thread/INFO]: Saving worlds
-[20:00:15] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[20:00:15] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[20:00:15] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[20:26:56] [main/INFO]: Setting user: ForgeDevName
+[20:26:57] [Client thread/INFO]: LWJGL Version: 2.9.1
+[20:27:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[20:27:03] [Sound Library Loader/INFO]: Sound engine started
+[20:27:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:27:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:27:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[20:27:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[20:27:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[20:27:06] [Sound Library Loader/INFO]: Sound engine started

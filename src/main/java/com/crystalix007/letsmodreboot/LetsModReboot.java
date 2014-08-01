@@ -1,5 +1,6 @@
 package com.crystalix007.letsmodreboot;
 import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
+import com.crystalix007.letsmodreboot.init.ModBlocks;
 import com.crystalix007.letsmodreboot.init.ModItems;
 import com.crystalix007.letsmodreboot.proxy.IProxy;
 import com.crystalix007.letsmodreboot.reference.Reference;
@@ -30,6 +31,8 @@ public class LetsModReboot
 
 		//Init items
 		ModItems.init();
+		//Init blocks
+		ModBlocks.init();
 	}
 
 	@Mod.EventHandler
