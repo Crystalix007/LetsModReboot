@@ -1,5 +1,6 @@
 package com.crystalix007.letsmodreboot;
 import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
+import com.crystalix007.letsmodreboot.init.ModItems;
 import com.crystalix007.letsmodreboot.proxy.IProxy;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import com.crystalix007.letsmodreboot.utility.LogHelper;
@@ -26,6 +27,9 @@ public class LetsModReboot
 		ConfigurationHandler.init(event.getSuggestedConfigurationFile());
 		FMLCommonHandler.instance().bus().register(new ConfigurationHandler());
 		LogHelper.info("Pre-initialization complete");
+
+		//Init items
+		ModItems.init();
 	}
 
 	@Mod.EventHandler
