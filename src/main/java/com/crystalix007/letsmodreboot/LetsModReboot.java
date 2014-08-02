@@ -12,6 +12,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class LetsModReboot
@@ -45,5 +46,8 @@ public class LetsModReboot
 	public void postInit(FMLPostInitializationEvent event)  //Things you want to do after other mods have loaded
 	{
 		LogHelper.info("Post-initialization complete");
+
+		for (String oreName : OreDictionary.getOreNames())
+			LogHelper.info(oreName);
 	}
 }
