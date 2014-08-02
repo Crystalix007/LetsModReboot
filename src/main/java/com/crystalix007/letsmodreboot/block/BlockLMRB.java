@@ -1,5 +1,6 @@
 package com.crystalix007.letsmodreboot.block;
 
+import com.crystalix007.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,10 +14,12 @@ public class BlockLMRB extends Block
 	public BlockLMRB(Material material)
 	{
 		super(material);
+		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 	}
 	public BlockLMRB()
 	{
 		this(Material.rock);
+		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 	}
 
 	@Override
