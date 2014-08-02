@@ -1,49 +1,31 @@
-[20:26:56] [main/INFO]: Setting user: ForgeDevName
-[20:26:57] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:27:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[20:27:03] [Sound Library Loader/INFO]: Sound engine started
-[20:27:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:27:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:27:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[20:27:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:27:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:27:06] [Sound Library Loader/INFO]: Sound engine started
-[20:30:02] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:30:02] [Server thread/INFO]: Generating keypair
-[20:30:03] [Server thread/INFO]: Preparing start region for level 0
-[20:30:03] [Server thread/INFO]: Changing view distance to 12, from 10
-[20:30:04] [Server thread/INFO]: ForgeDevName[local:E:f78deff6] logged in with entity id 260 at (288.74587587487844, 4.480710876331692, -305.3815446755945)
-[20:30:04] [Server thread/INFO]: ForgeDevName joined the game
-[20:30:14] [Client thread/INFO]: [CHAT] LetsModReboot:flag, LetsModReboot:mapleLeaf
-[20:30:14] [Client thread/INFO]: [CHAT] LetsModReboot:flag, LetsModReboot:mapleLeaf
-[20:30:15] [Server thread/INFO]: [ForgeDevName: Given [Maple leaf of anticipation] * 1 to ForgeDevName]
-[20:30:15] [Client thread/INFO]: [CHAT] Given [Maple leaf of anticipation] * 1 to ForgeDevName
-[20:30:23] [Client thread/INFO]: [CHAT] LetsModReboot:flag, LetsModReboot:mapleLeaf
-[20:30:24] [Server thread/INFO]: [ForgeDevName: Given [Canadian solid flag] * 1 to ForgeDevName]
-[20:30:24] [Client thread/INFO]: [CHAT] Given [Canadian solid flag] * 1 to ForgeDevName
-[20:30:54] [Server thread/INFO]: Saving and pausing game...
-[20:30:54] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[20:30:54] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[20:30:54] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[20:31:03] [Server thread/INFO]: Saving and pausing game...
-[20:31:03] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[20:31:03] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[20:31:03] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[20:31:21] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
-[20:31:24] [Server thread/INFO]: [ForgeDevName: Game rule has been updated]
-[20:31:24] [Client thread/INFO]: [CHAT] Game rule has been updated
-[20:31:35] [Server thread/INFO]: [ForgeDevName: Game rule has been updated]
-[20:31:35] [Client thread/INFO]: [CHAT] Game rule has been updated
-[20:31:45] [Server thread/INFO]: [ForgeDevName: Game rule has been updated]
-[20:31:45] [Client thread/INFO]: [CHAT] Game rule has been updated
-[20:31:47] [Server thread/INFO]: Saving and pausing game...
-[20:31:47] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[20:31:47] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[20:31:47] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[20:31:48] [Server thread/INFO]: Stopping server
-[20:31:48] [Server thread/INFO]: Saving players
-[20:31:48] [Server thread/INFO]: Saving worlds
-[20:31:48] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[20:31:48] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[20:31:48] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[20:31:50] [Client thread/INFO]: Stopping!
+[13:02:31] [main/INFO]: Setting user: ForgeDevName
+[13:02:32] [Client thread/INFO]: LWJGL Version: 2.9.1
+[13:02:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[13:02:39] [Sound Library Loader/INFO]: Sound engine started
+[13:02:41] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:02:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:02:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[13:02:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[13:02:42] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[13:02:43] [Sound Library Loader/INFO]: Sound engine started
+[13:02:48] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[13:02:48] [Server thread/INFO]: Generating keypair
+[13:02:49] [Server thread/INFO]: Preparing start region for level 0
+[13:02:49] [Server thread/INFO]: Changing view distance to 12, from 10
+[13:02:50] [Server thread/INFO]: ForgeDevName[local:E:25f5adbf] logged in with entity id 179 at (295.21312337014814, 5.0, -303.68353780085096)
+[13:02:50] [Server thread/INFO]: ForgeDevName joined the game
+[13:02:50] [Server thread/INFO]: Saving and pausing game...
+[13:02:50] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:02:50] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:02:50] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[13:03:43] [Server thread/INFO]: Saving and pausing game...
+[13:03:43] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:03:43] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:03:43] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[13:03:44] [Server thread/INFO]: Stopping server
+[13:03:44] [Server thread/INFO]: Saving players
+[13:03:44] [Server thread/INFO]: Saving worlds
+[13:03:44] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[13:03:44] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[13:03:44] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[13:03:45] [Client thread/INFO]: Stopping!
