@@ -8,6 +8,5 @@ public class BlockFlag extends BlockLMRB
 	{
 		super();
 		this.setBlockName("flag");
-		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 	}
 }
