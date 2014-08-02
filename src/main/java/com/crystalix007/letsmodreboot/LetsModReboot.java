@@ -48,6 +48,6 @@ public class LetsModReboot
 		LogHelper.info("Post-initialization complete");
 
 		for (String oreName : OreDictionary.getOreNames())
-			LogHelper.info(oreName);
+			LogHelper.info("Id: "+ OreDictionary.getOreID(oreName) + ", name: " + oreName);
 	}
 }
