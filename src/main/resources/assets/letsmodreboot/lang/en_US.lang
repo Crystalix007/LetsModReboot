@@ -1,3 +1,5 @@
-item.letsmodreboot:mapleLeaf.name=Maple leaf of anticipation
-tile.letsmodreboot:flag.name=Canadian solid flag
+item.letsmodreboot:mapleLeaf.name=Maple leaf
+tile.letsmodreboot:flag.name=Canadian flag
+tile.letsmodreboot:spinel.name=Spinel block
+tile.letsmodreboot:siliconNitride.name=SiNi block
 itemGroup.letsmodreboot=Let's Mod Reboot

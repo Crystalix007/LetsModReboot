@@ -7,7 +7,6 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
-import net.minecraft.item.ItemStack;
 
 public class BlockLMRB extends Block
 {
@@ -20,6 +19,7 @@ public class BlockLMRB extends Block
 	{
 		this(Material.rock);
 		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+		this.setStepSound(Block.soundTypeStone);
 	}
 
 	@Override

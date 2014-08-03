@@ -1,7 +1,5 @@
 package com.crystalix007.letsmodreboot.item;
 
-import com.crystalix007.letsmodreboot.creativetab.CreativeTabLMRB;
-
 public class ItemMapleLeaf extends ItemLMRB
 {
 	public ItemMapleLeaf()

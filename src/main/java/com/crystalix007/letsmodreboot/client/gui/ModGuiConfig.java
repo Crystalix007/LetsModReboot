@@ -1,6 +1,5 @@
 package com.crystalix007.letsmodreboot.client.gui;
 
-import com.crystalix007.letsmodreboot.LetsModReboot;
 import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import cpw.mods.fml.client.config.GuiConfig;
