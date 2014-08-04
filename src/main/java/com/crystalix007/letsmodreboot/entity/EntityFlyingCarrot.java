@@ -10,4 +10,10 @@ public class EntityFlyingCarrot extends EntityArrow
 	{
 		super(world, entityLivingBase, velocity);
 	}
+
+	//Creates particle stream
+	public boolean getIsCritical()
+	{
+		return true;
+	}
 }
