@@ -1,47 +1,31 @@
-[14:31:13] [main/INFO]: Setting user: ForgeDevName
-[14:31:14] [Client thread/INFO]: LWJGL Version: 2.9.1
-[14:31:24] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[14:31:25] [Sound Library Loader/INFO]: Sound engine started
-[14:31:26] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:31:26] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:31:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[14:31:27] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[14:31:27] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[14:31:28] [Sound Library Loader/INFO]: Sound engine started
-[14:32:22] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[14:32:22] [Server thread/INFO]: Generating keypair
-[14:32:22] [Server thread/INFO]: Preparing start region for level 0
-[14:32:23] [Server thread/INFO]: Changing view distance to 3, from 10
-[14:32:23] [Server thread/INFO]: ForgeDevName[local:E:5109ddc8] logged in with entity id 176 at (324.05376324952704, 5.0, -295.76394564365626)
-[14:32:23] [Server thread/INFO]: ForgeDevName joined the game
-[14:32:41] [Client thread/INFO]: [CHAT] LetsModReboot:siliconNitride, LetsModReboot:siliconNitridePickaxe
-[14:32:42] [Client thread/INFO]: [CHAT] LetsModReboot:siliconNitride, LetsModReboot:siliconNitridePickaxe
-[14:32:43] [Server thread/INFO]: [ForgeDevName: Given [SiNi pickaxe] * 1 to ForgeDevName]
-[14:32:43] [Client thread/INFO]: [CHAT] Given [SiNi pickaxe] * 1 to ForgeDevName
-[14:35:13] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
-[14:35:13] [Client thread/INFO]: [CHAT] doDaylightCycle, doFireTick, doMobLoot, doMobSpawning, doTileDrops
-[14:35:16] [Server thread/INFO]: [ForgeDevName: Game rule has been updated]
-[14:35:16] [Client thread/INFO]: [CHAT] Game rule has been updated
-[14:35:49] [Client thread/INFO]: [CHAT] minecraft:enchanting_table, minecraft:end_portal, minecraft:ender_chest, minecraft:enchanted_book, minecraft:end_portal_frame, minecraft:ender_pearl, minecraft:ender_eye, minecraft:end_stone
-[14:35:50] [Server thread/INFO]: [ForgeDevName: Given [Enchantment Table] * 1 to ForgeDevName]
-[14:35:50] [Client thread/INFO]: [CHAT] Given [Enchantment Table] * 1 to ForgeDevName
-[14:35:57] [Client thread/INFO]: [CHAT] minecraft:book, minecraft:bookshelf
-[14:35:57] [Client thread/INFO]: [CHAT] minecraft:book, minecraft:bookshelf
-[14:36:02] [Server thread/INFO]: [ForgeDevName: Given [Bookshelf] * 30 to ForgeDevName]
-[14:36:02] [Client thread/INFO]: [CHAT] Given [Bookshelf] * 30 to ForgeDevName
-[14:36:57] [Client thread/INFO]: [CHAT] 'give' is not a valid number
-[14:37:01] [Server thread/INFO]: [ForgeDevName: Given 500 experience to ForgeDevName]
-[14:37:01] [Client thread/INFO]: [CHAT] Given 500 experience to ForgeDevName
-[14:37:04] [Server thread/INFO]: [ForgeDevName: Given 500 experience to ForgeDevName]
-[14:37:04] [Client thread/INFO]: [CHAT] Given 500 experience to ForgeDevName
-[14:38:26] [Server thread/INFO]: Saving and pausing game...
-[14:38:26] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[14:38:26] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[14:38:26] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[14:38:27] [Server thread/INFO]: Stopping server
-[14:38:27] [Server thread/INFO]: Saving players
-[14:38:27] [Server thread/INFO]: Saving worlds
-[14:38:27] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[14:38:27] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[14:38:27] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[14:38:28] [Client thread/INFO]: Stopping!
+[14:52:31] [main/INFO]: Setting user: ForgeDevName
+[14:52:31] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:52:36] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[14:52:37] [Sound Library Loader/INFO]: Sound engine started
+[14:52:38] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:52:38] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:52:38] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[14:52:38] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:52:39] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:52:39] [Sound Library Loader/INFO]: Sound engine started
+[14:52:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:52:47] [Server thread/INFO]: Generating keypair
+[14:52:47] [Server thread/INFO]: Preparing start region for level 0
+[14:52:48] [Server thread/INFO]: Changing view distance to 3, from 10
+[14:52:48] [Server thread/INFO]: ForgeDevName[local:E:65cd0b3e] logged in with entity id 180 at (315.07475056869214, 1.0, -309.7468597583189)
+[14:52:48] [Server thread/INFO]: ForgeDevName joined the game
+[14:52:48] [Server thread/INFO]: Saving and pausing game...
+[14:52:48] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[14:52:48] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[14:52:48] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[14:54:38] [Server thread/INFO]: Saving and pausing game...
+[14:54:39] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[14:54:39] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[14:54:39] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[14:54:40] [Server thread/INFO]: Stopping server
+[14:54:40] [Server thread/INFO]: Saving players
+[14:54:40] [Server thread/INFO]: Saving worlds
+[14:54:40] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[14:54:40] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[14:54:40] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[14:54:41] [Client thread/INFO]: Stopping!

@@ -7,6 +7,6 @@ public class BlockSiliconNitride extends BlockLMRB
 		super();
 		this.setBlockName("siliconNitride");
 		this.setHardness(150);
-		this.setHarvestLevel("pickaxe", 3);
+		this.setHarvestLevel("pickaxe", 5);
 	}
 }
