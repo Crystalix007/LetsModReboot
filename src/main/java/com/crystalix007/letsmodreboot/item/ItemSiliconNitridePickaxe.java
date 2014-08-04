@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.item;
 
-import net.minecraft.block.material.Material;
+import com.crystalix007.letsmodreboot.creativetab.CreativeTabLMRB;
 
 public class ItemSiliconNitridePickaxe extends ItemPickaxeLMRB
 {
