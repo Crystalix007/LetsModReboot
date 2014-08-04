@@ -1,10 +1,10 @@
 package com.crystalix007.letsmodreboot.entity;
 
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.projectile.EntityArrow;
-import net.minecraft.init.Items;
-import net.minecraft.item.ItemStack;
+import net.minecraft.util.MathHelper;
 import net.minecraft.world.World;
 
 public class EntityFlyingCarrot extends EntityArrow
@@ -13,7 +13,12 @@ public class EntityFlyingCarrot extends EntityArrow
 
 	public EntityFlyingCarrot(World world, EntityLivingBase entityLivingBase, float velocity)
 	{
-		super(world, entityLivingBase, velocity);
+		super(world, entityLivingBase.posX + 0.00001D, entityLivingBase.posY + 0.00001D, entityLivingBase.posZ + 0.00001D);
+
+		this.motionX = (double)(-MathHelper.sin(this.rotationYaw / 180.0F * (float)Math.PI) * MathHelper.cos(this.rotationPitch / 180.0F * (float)Math.PI));
+		this.motionZ = (double)(MathHelper.cos(this.rotationYaw / 180.0F * (float)Math.PI) * MathHelper.cos(this.rotationPitch / 180.0F * (float)Math.PI));
+		this.motionY = (double)(-MathHelper.sin(this.rotationPitch / 180.0F * (float)Math.PI));
+		this.setThrowableHeading(this.motionX, this.motionY, this.motionZ, velocity * 1.5F, 1.0F);
 	}
 
 	//Creates particle stream
@@ -24,22 +29,11 @@ public class EntityFlyingCarrot extends EntityArrow
 
 	public void onCollideWithPlayer(EntityPlayer entityPlayer)
 	{
-		if (!this.worldObj.isRemote && this.inGround && this.arrowShake <= 0)
-		{
-			boolean flag = this.canBePickedUp == 1 || this.canBePickedUp == 2 && entityPlayer.capabilities.isCreativeMode;
-			this.worldObj.createExplosion(entityPlayer, entityPlayer.posX, entityPlayer.posY, entityPlayer.posZ, 2F, true);
-
-			if (this.canBePickedUp == 1 && !entityPlayer.inventory.addItemStackToInventory(new ItemStack(Items.arrow, 1)))
-			{
-				flag = false;
-			}
-
-			if (flag)
-			{
-				this.playSound("random.pop", 0.2F, ((this.rand.nextFloat() - this.rand.nextFloat()) * 0.7F + 1.0F) * 2.0F);
-				entityPlayer.onItemPickup(this, 1);
-				this.setDead();
-			}
-		}
+		super.onCollideWithPlayer(entityPlayer);
+		int i = MathHelper.floor_double(this.boundingBox.minX + 0.001D);
+		int j = MathHelper.floor_double(this.boundingBox.minY + 0.001D);
+		int k = MathHelper.floor_double(this.boundingBox.minZ + 0.001D);
+		World world = this.worldObj;
+		world.createExplosion((Entity)null, i, j, k, 4.0F, true);
 	}
 }
