@@ -1,47 +1,30 @@
-[19:24:49] [main/INFO]: Setting user: ForgeDevName
-[19:24:50] [Client thread/INFO]: LWJGL Version: 2.9.1
-[19:24:56] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[19:24:57] [Sound Library Loader/INFO]: Sound engine started
-[19:24:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:24:59] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:24:59] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[19:24:59] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[19:24:59] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[19:25:00] [Sound Library Loader/INFO]: Sound engine started
-[19:25:09] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[19:25:09] [Server thread/INFO]: Generating keypair
-[19:25:09] [Server thread/INFO]: Preparing start region for level 0
-[19:25:10] [Server thread/INFO]: Changing view distance to 3, from 10
-[19:25:11] [Server thread/INFO]: ForgeDevName[local:E:038a51d3] logged in with entity id 179 at (288.556964306749, 5.0, -308.0937276703664)
-[19:25:11] [Server thread/INFO]: ForgeDevName joined the game
-[19:25:19] [Server thread/INFO]: Saving and pausing game...
-[19:25:19] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[19:25:19] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[19:25:19] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[19:25:25] [Server thread/INFO]: Saving and pausing game...
-[19:25:25] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[19:25:25] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[19:25:25] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[19:25:36] [Server thread/INFO]: Saving and pausing game...
-[19:25:36] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[19:25:36] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[19:25:36] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[19:25:54] [Server thread/INFO]: [ForgeDevName: Set own game mode to Creative Mode]
-[19:25:54] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:26:36] [Server thread/INFO]: Saving and pausing game...
-[19:26:36] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[19:26:36] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[19:26:36] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[19:27:01] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
-[19:27:02] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[19:27:10] [Server thread/INFO]: Saving and pausing game...
-[19:27:10] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[19:27:10] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[19:27:10] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[19:27:10] [Server thread/INFO]: Stopping server
-[19:27:10] [Server thread/INFO]: Saving players
-[19:27:10] [Server thread/INFO]: Saving worlds
-[19:27:10] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[19:27:10] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[19:27:10] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[19:27:11] [Client thread/INFO]: Stopping!
+[14:01:41] [main/INFO]: Setting user: ForgeDevName
+[14:01:42] [Client thread/INFO]: LWJGL Version: 2.9.1
+[14:01:47] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[14:01:48] [Sound Library Loader/INFO]: Sound engine started
+[14:01:48] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:01:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:01:49] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[14:01:49] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[14:01:49] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[14:01:50] [Sound Library Loader/INFO]: Sound engine started
+[14:01:58] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[14:01:58] [Server thread/INFO]: Generating keypair
+[14:01:58] [Server thread/INFO]: Preparing start region for level 0
+[14:01:58] [Server thread/INFO]: Changing view distance to 3, from 10
+[14:01:59] [Server thread/INFO]: ForgeDevName[local:E:1f3ad54c] logged in with entity id 176 at (323.7255777435158, 4.0, -297.9273142962923)
+[14:01:59] [Server thread/INFO]: ForgeDevName joined the game
+[14:02:22] [Client thread/INFO]: [CHAT] /gamemode, /gamerule
+[14:02:25] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
+[14:02:25] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[14:02:35] [Server thread/INFO]: Saving and pausing game...
+[14:02:35] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[14:02:35] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[14:02:35] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[14:02:35] [Server thread/INFO]: Stopping server
+[14:02:35] [Server thread/INFO]: Saving players
+[14:02:35] [Server thread/INFO]: Saving worlds
+[14:02:35] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[14:02:35] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[14:02:35] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[14:02:36] [Client thread/INFO]: Stopping!
