@@ -7,6 +7,6 @@ public class BlockSpinel extends BlockLMRB
 		super();
 		this.setBlockName("spinel");
 		this.setHardness(100);
-		this.setHarvestLevel("pickaxe", 3);
+		this.setHarvestLevel("pickaxe", 4);
 	}
 }
