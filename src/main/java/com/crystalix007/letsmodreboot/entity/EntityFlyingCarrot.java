@@ -1,14 +1,18 @@
 package com.crystalix007.letsmodreboot.entity;
 
+import com.crystalix007.letsmodreboot.init.ModItems;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
+import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.monster.EntityEnderman;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.entity.projectile.EntityArrow;
+import net.minecraft.init.Items;
+import net.minecraft.item.ItemStack;
 import net.minecraft.network.play.server.S2BPacketChangeGameState;
 import net.minecraft.util.*;
 import net.minecraft.world.World;
@@ -52,6 +56,27 @@ public class EntityFlyingCarrot extends EntityArrow
 		return true;
 	}
 
+	public void onCollideWithPlayer(EntityPlayer entityPlayer)
+	{
+		if (!this.worldObj.isRemote && this.inGround && this.arrowShake <= 0)
+		{
+			this.worldObj.createExplosion(null, x, y, z, (this.initialVelocity * 2.f), true);
+			boolean flag = this.canBePickedUp == 1 || this.canBePickedUp == 2 && entityPlayer.capabilities.isCreativeMode;
+
+			if (this.canBePickedUp == 1 && !entityPlayer.inventory.addItemStackToInventory(new ItemStack(Items.arrow, 1)))
+			{
+				flag = false;
+			}
+
+			if (flag)
+			{
+				this.playSound("random.pop", 0.2F, ((this.rand.nextFloat() - this.rand.nextFloat()) * 0.7F + 1.0F) * 2.0F);
+				entityPlayer.onItemPickup(this, 1);
+				this.setDead();
+			}
+		}
+	}
+
 	public void onUpdate()
 	{
 		super.onUpdate();
@@ -86,7 +111,12 @@ public class EntityFlyingCarrot extends EntityArrow
 			int j = this.worldObj.getBlockMetadata(this.x, this.y, this.z);
 
 			if (ticksInGround == 0)
+			{
 				this.worldObj.createExplosion(null, x, y, z, (this.initialVelocity * 2.f), true);
+
+				this.worldObj.spawnEntityInWorld(new EntityItem(worldObj, posX, posY, posZ, new ItemStack(ModItems.carrotAmmo)));
+			}
+
 			++this.ticksInGround;
 			if (this.ticksInGround == 5)
 			{
