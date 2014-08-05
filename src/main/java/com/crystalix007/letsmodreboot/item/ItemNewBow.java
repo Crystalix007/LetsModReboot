@@ -2,6 +2,7 @@ package com.crystalix007.letsmodreboot.item;
 
 import com.crystalix007.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.crystalix007.letsmodreboot.entity.EntityFlyingCarrot;
+import com.crystalix007.letsmodreboot.init.ModItems;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import com.crystalix007.letsmodreboot.utility.LogHelper;
 import cpw.mods.fml.relauncher.Side;
@@ -17,6 +18,7 @@ import net.minecraft.util.IIcon;
 import net.minecraft.world.World;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.entity.player.ArrowLooseEvent;
+import net.minecraftforge.event.entity.player.ArrowNockEvent;
 
 public class ItemNewBow extends ItemBow
 {
@@ -66,6 +68,35 @@ public class ItemNewBow extends ItemBow
         LogHelper.info("Trying to render icon");
         return this.iconArray[duration];
     }
+
+	@Override
+	@SideOnly(Side.CLIENT)
+	public IIcon getIcon(ItemStack stack, int renderPass, EntityPlayer player, ItemStack usingItem, int useRemaining)
+	{
+		if (usingItem == null)
+		{
+			return itemIcon;
+		}
+		return getItemIconForUseDuration(0);
+	}
+
+	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer entityPlayer)
+	{
+		ArrowNockEvent event = new ArrowNockEvent(entityPlayer, itemStack);
+		MinecraftForge.EVENT_BUS.post(event);
+
+		if (event.isCanceled())
+		{
+			return event.result;
+		}
+
+		if (entityPlayer.capabilities.isCreativeMode || entityPlayer.inventory.hasItem(ModItems.carrotAmmo))
+		{
+			entityPlayer.setItemInUse(itemStack, this.getMaxItemUseDuration(itemStack));
+		}
+
+		return itemStack;
+	}
 
 	public void onPlayerStoppedUsing(ItemStack itemStack, World world, EntityPlayer entityPlayer, int i)
 	{
