@@ -23,7 +23,9 @@ import net.minecraftforge.event.entity.player.ArrowNockEvent;
 public class ItemNewBow extends ItemBow
 {
     private IIcon[] iconArray;
-	long timeStartedClick;
+	long timeStartedClick = 0;
+	boolean haveReleased = true;
+	byte stage = 0;
 
     public ItemNewBow()
     {
@@ -65,11 +67,25 @@ public class ItemNewBow extends ItemBow
     }
 
     @SideOnly(Side.CLIENT)
-    public IIcon getItemIconForUseDuration(int duration)
+    public IIcon getItemIconForUseDuration(long duration)
     {
-        LogHelper.info("Trying to render icon");
-        return this.iconArray[duration];
+        LogHelper.info("Trying to render icon: " + String.valueOf(duration));
+
+	    if (duration < 12)
+		    return this.iconArray[0];
+	    else if (duration < 19)
+	        return this.iconArray[1];
+	    else
+	        return this.iconArray[2];
     }
+
+	private long max(long val, long maxVal)
+	{
+		if (val > maxVal)
+			return maxVal;
+		else
+			return val;
+	}
 
 	@Override
 	@SideOnly(Side.CLIENT)
@@ -79,7 +95,15 @@ public class ItemNewBow extends ItemBow
 		{
 			return itemIcon;
 		}
-		return getItemIconForUseDuration(renderPass % 3);
+		long timeUsed = (player.worldObj.getTotalWorldTime() - this.timeStartedClick);
+
+		float f = (float)timeUsed / 20.0F;
+		f = (f * f + f * 2.0F) / 3.0F;
+
+		LogHelper.info("Getting icon at index: " + String.valueOf(timeUsed));
+		LogHelper.info("Current time: " + String.valueOf(player.worldObj.getTotalWorldTime()) + ", time started: " + String.valueOf(this.timeStartedClick));
+
+		return getItemIconForUseDuration(timeUsed);
 	}
 
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer entityPlayer)
@@ -97,13 +121,18 @@ public class ItemNewBow extends ItemBow
 			entityPlayer.setItemInUse(itemStack, this.getMaxItemUseDuration(itemStack));
 		}
 
-		this.timeStartedClick = world.getTotalWorldTime();
 
+		if (this.haveReleased)
+			this.timeStartedClick = world.getTotalWorldTime();
+
+		this.haveReleased = false;
 		return itemStack;
 	}
 
 	public void onPlayerStoppedUsing(ItemStack itemStack, World world, EntityPlayer entityPlayer, int i)
 	{
+		this.haveReleased = true;
+		this.stage = 0;
 		int j = this.getMaxItemUseDuration(itemStack) - i;
 
 		ArrowLooseEvent event = new ArrowLooseEvent(entityPlayer, itemStack, j);
