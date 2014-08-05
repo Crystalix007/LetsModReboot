@@ -1,6 +1,9 @@
 package com.crystalix007.letsmodreboot.init;
 
-import com.crystalix007.letsmodreboot.block.*;
+import com.crystalix007.letsmodreboot.block.BlockFlag;
+import com.crystalix007.letsmodreboot.block.BlockLMRB;
+import com.crystalix007.letsmodreboot.block.BlockSiliconNitride;
+import com.crystalix007.letsmodreboot.block.BlockSpinel;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
