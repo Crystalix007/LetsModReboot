@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bab5b8e0-e1ff-41b3-9beb-259fe2e9c9a0" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/items/carrotAmmo.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/items/carrotAmmo.png" />
@@ -12,6 +13,9 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/Test/session.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityFlyingCarrot.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityFlyingCarrot.java" />
+>>>>>>> 1a218758acb7e821295a76309f728676ed8e5508
     </list>
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -88,8 +92,8 @@
       <file leaf-file-name="EntityFlyingCarrot.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityFlyingCarrot.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71900827" vertical-offset="823" max-vertical-offset="5304">
-              <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+            <state vertical-scroll-proportion="0.8033058" vertical-offset="874" max-vertical-offset="5372">
+              <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -2490,8 +2494,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityFlyingCarrot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71900827" vertical-offset="823" max-vertical-offset="5304">
-          <caret line="93" column="13" selection-start-line="93" selection-start-column="13" selection-end-line="93" selection-end-column="13" />
+        <state vertical-scroll-proportion="0.8033058" vertical-offset="874" max-vertical-offset="5372">
+          <caret line="99" column="12" selection-start-line="99" selection-start-column="12" selection-end-line="99" selection-end-column="12" />
           <folding />
 >>>>>>> origin/master
         </state>
