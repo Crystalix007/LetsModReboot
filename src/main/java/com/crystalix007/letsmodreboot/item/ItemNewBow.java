@@ -97,6 +97,7 @@ public class ItemNewBow extends ItemBow
 			}
 
 			EntityFlyingCarrot entityarrow = new EntityFlyingCarrot(world, entityPlayer, f * 2.0F);
+			//EntityArrow entityarrow = new EntityArrow(world, entityPlayer, f * 2.0F);
 
 			if (f == 1.0F)
 			{

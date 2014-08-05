@@ -32,16 +32,13 @@ public class EntityFlyingCarrot extends EntityArrow
 	private double damage = 2.0D;
 	private int inData;
 	private int knockbackStrength;
+	private float initialVelocity = 0;
 
 	public EntityFlyingCarrot(World world, EntityLivingBase entityLivingBase, float velocity)
 	{
-		super(world, entityLivingBase.posX + 0.00001D, entityLivingBase.posY + 0.00001D, entityLivingBase.posZ + 0.00001D);
+		super(world, entityLivingBase, velocity);
+		initialVelocity = velocity;
 		this.shootingEntity = entityLivingBase;
-
-		this.motionX = (double)(-MathHelper.sin(this.rotationYaw / 180.0F * (float)Math.PI) * MathHelper.cos(this.rotationPitch / 180.0F * (float)Math.PI));
-		this.motionZ = (double)(MathHelper.cos(this.rotationYaw / 180.0F * (float)Math.PI) * MathHelper.cos(this.rotationPitch / 180.0F * (float)Math.PI));
-		this.motionY = (double)(-MathHelper.sin(this.rotationPitch / 180.0F * (float)Math.PI));
-		this.setThrowableHeading(this.motionX, this.motionY, this.motionZ, velocity * 1.5F, 1.0F);
 	}
 
 	public void setKnockbackStrength(int i)
@@ -86,18 +83,14 @@ public class EntityFlyingCarrot extends EntityArrow
 
 		if (this.inGround)
 		{
-			this.worldObj.createExplosion(null, x, y, z, 4.0F, true);
-			this.setDead();
 			int j = this.worldObj.getBlockMetadata(this.x, this.y, this.z);
 
-			if (!(block == this.field_145790_g && j == this.inData))
+			if (ticksInGround == 0)
+				this.worldObj.createExplosion(null, x, y, z, (this.initialVelocity * 2.f), true);
+			++this.ticksInGround;
+			if (this.ticksInGround == 5)
 			{
-				this.inGround = false;
-				this.motionX *= (double)(this.rand.nextFloat() * 0.2F);
-				this.motionY *= (double)(this.rand.nextFloat() * 0.2F);
-				this.motionZ *= (double)(this.rand.nextFloat() * 0.2F);
-				this.ticksInGround = 0;
-				this.ticksInAir = 0;
+				this.setDead();
 			}
 		}
 		else
