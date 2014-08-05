@@ -1,6 +1,7 @@
 package com.crystalix007.letsmodreboot.entity;
 
 import com.crystalix007.letsmodreboot.init.ModItems;
+import com.crystalix007.letsmodreboot.proxy.ClientProxy;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.enchantment.EnchantmentHelper;
@@ -58,9 +59,10 @@ public class EntityFlyingCarrot extends EntityArrow
 
 	public void onCollideWithPlayer(EntityPlayer entityPlayer)
 	{
-		if (!this.worldObj.isRemote && this.inGround && this.arrowShake <= 0)
-		{
+		if (!this.inGround)
 			this.worldObj.createExplosion(null, x, y, z, (this.initialVelocity * 2.f), true);
+		else if (!this.worldObj.isRemote && this.inGround && this.arrowShake <= 0)
+		{
 			boolean flag = this.canBePickedUp == 1 || this.canBePickedUp == 2 && entityPlayer.capabilities.isCreativeMode;
 
 			if (this.canBePickedUp == 1 && !entityPlayer.inventory.addItemStackToInventory(new ItemStack(Items.arrow, 1)))
@@ -101,6 +103,9 @@ public class EntityFlyingCarrot extends EntityArrow
 			}
 		}
 
+		if (worldObj.isRemote)
+			worldObj.spawnParticle("hugeexplosion", posX, posY + 0.5f, posZ, 50.0D, 50.0D, 50.0D);
+
 		if (this.arrowShake > 0)
 		{
 			--this.arrowShake;
@@ -110,26 +115,20 @@ public class EntityFlyingCarrot extends EntityArrow
 		{
 			int j = this.worldObj.getBlockMetadata(this.x, this.y, this.z);
 
-			if (ticksInGround == 0)
+			++this.ticksInGround;
+
+			if (this.ticksInGround == 15)
 			{
 				this.worldObj.createExplosion(null, x, y, z, (this.initialVelocity * 2.f), true);
-
 				this.worldObj.spawnEntityInWorld(new EntityItem(worldObj, posX, posY, posZ, new ItemStack(ModItems.carrotAmmo)));
-			}
-
-			++this.ticksInGround;
-			if (this.ticksInGround == 5)
-			{
+				ClientProxy.printMessageToPlayer("Boom!");
 				this.setDead();
 			}
-
-			/*EffectRenderer effectRenderer = new EffectRenderer(worldObj, );
-			.addEffect(var0 = new TestEffect(Alptraum.mc.theWorld, Alptraum.mc.theWorld.getSpawnPoint().posX, Alptraum.mc.theWorld.getSpawnPoint().posY, Alptraum.mc.theWorld.getSpawnPoint().posZ, 0F, 0F, 0F));
-			world.spawnEntityInWorld(new TestEffect(world, ep.posX, ep.posY, ep.posZ, 0F, 0F, 0F));*/
 		}
 		else
 		{
 			++this.ticksInAir;
+
 			Vec3 vec31 = Vec3.createVectorHelper(this.posX, this.posY, this.posZ);
 			Vec3 vec3 = Vec3.createVectorHelper(this.posX + this.motionX, this.posY + this.motionY, this.posZ + this.motionZ);
 			MovingObjectPosition movingobjectposition = this.worldObj.func_147447_a(vec31, vec3, false, true, false);
