@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"achievement.exploreAllBiomes":{"value":0,"progress":["Plains"]},"achievement.openInventory":14,"stat.fallOneCm":2099,"stat.flyOneCm":51143,"stat.drop":3,"stat.damageTaken":120,"stat.killEntity.Pig":1,"stat.playOneMinute":14396,"stat.walkOneCm":33019,"stat.jump":127,"stat.mineBlock.3":4,"stat.mobKills":1}
+=======
+{"achievement.exploreAllBiomes":{"value":0,"progress":["Plains"]},"achievement.openInventory":8,"stat.damageTaken":120,"stat.fallOneCm":2099,"stat.flyOneCm":23164,"stat.killEntity.Pig":1,"stat.playOneMinute":7665,"stat.walkOneCm":28293,"stat.jump":96,"stat.mineBlock.3":4,"stat.mobKills":1}
+>>>>>>> 747250492f95bd88cbca36df9094e5f6d454e9bf

@@ -1,9 +1,14 @@
 item.letsmodreboot:mapleLeaf.name=Maple leaf
 item.letsmodreboot:spinelPickaxe.name=Spinel pickaxe
-item.letsmodreboot:siliconNitridePickaxe.name=SiNi pickaxe
+item.letsmodreboot:siliconNitridePickaxe.name=SiN pickaxe
 item.letsmodreboot:newBow.name=Carrot Bomber
 tile.letsmodreboot:flag.name=Canadian flag
 tile.letsmodreboot:spinel.name=Spinel block
+<<<<<<< HEAD
 tile.letsmodreboot:siliconNitride.name=SiNi block
 item.letsmodreboot:carrotAmmo.name=Carrot Ammo
+=======
+tile.letsmodreboot:siliconNitride.name=SiN block
+tile.letsmodreboot:carrotAmmo.name=Carrot Ammo
+>>>>>>> 747250492f95bd88cbca36df9094e5f6d454e9bf
 itemGroup.letsmodreboot=Let's Mod Reboot
