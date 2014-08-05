@@ -1,6 +1,5 @@
 package com.crystalix007.letsmodreboot.init;
 
-import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.item.*;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
