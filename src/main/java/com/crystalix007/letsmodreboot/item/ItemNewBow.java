@@ -61,9 +61,10 @@ public class ItemNewBow extends ItemBow
     }
 
     @SideOnly(Side.CLIENT)
+    @Override
     public IIcon getItemIconForUseDuration(int duration)
     {
-        LogHelper.info("Trying to render icon");
+        LogHelper.info("Trying to render icon" + String.valueOf(duration));
         return this.iconArray[duration];
     }
 
