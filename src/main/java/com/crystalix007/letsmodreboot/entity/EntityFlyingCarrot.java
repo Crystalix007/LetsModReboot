@@ -92,6 +92,10 @@ public class EntityFlyingCarrot extends EntityArrow
 			{
 				this.setDead();
 			}
+
+			/*EffectRenderer effectRenderer = new EffectRenderer(worldObj, );
+			.addEffect(var0 = new TestEffect(Alptraum.mc.theWorld, Alptraum.mc.theWorld.getSpawnPoint().posX, Alptraum.mc.theWorld.getSpawnPoint().posY, Alptraum.mc.theWorld.getSpawnPoint().posZ, 0F, 0F, 0F));
+			world.spawnEntityInWorld(new TestEffect(world, ep.posX, ep.posY, ep.posZ, 0F, 0F, 0F));*/
 		}
 		else
 		{
