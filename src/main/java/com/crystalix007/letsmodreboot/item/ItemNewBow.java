@@ -11,7 +11,6 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.enchantment.EnchantmentHelper;
 import net.minecraft.entity.player.EntityPlayer;
-import net.minecraft.init.Items;
 import net.minecraft.item.ItemBow;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.IIcon;
@@ -145,7 +144,7 @@ public class ItemNewBow extends ItemBow
 
 		boolean flag = entityPlayer.capabilities.isCreativeMode || EnchantmentHelper.getEnchantmentLevel(Enchantment.infinity.effectId, itemStack) > 0;
 
-		if (flag || entityPlayer.inventory.hasItem(Items.arrow))
+		if (flag || entityPlayer.inventory.hasItem(ModItems.carrotAmmo))
 		{
 			float f = (float)j / 20.0F;
 			f = (f * f + f * 2.0F) / 3.0F;
@@ -196,7 +195,7 @@ public class ItemNewBow extends ItemBow
 			}
 			else
 			{
-				entityPlayer.inventory.consumeInventoryItem(Items.arrow);
+				entityPlayer.inventory.consumeInventoryItem(ModItems.carrotAmmo);
 			}
 
 			if (!world.isRemote)
