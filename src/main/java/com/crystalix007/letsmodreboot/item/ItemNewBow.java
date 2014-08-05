@@ -23,6 +23,8 @@ import net.minecraftforge.event.entity.player.ArrowNockEvent;
 public class ItemNewBow extends ItemBow
 {
     private IIcon[] iconArray;
+	long timeStartedClick;
+
     public ItemNewBow()
     {
         super();
@@ -77,7 +79,7 @@ public class ItemNewBow extends ItemBow
 		{
 			return itemIcon;
 		}
-		return getItemIconForUseDuration(0);
+		return getItemIconForUseDuration(renderPass % 3);
 	}
 
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer entityPlayer)
@@ -94,6 +96,8 @@ public class ItemNewBow extends ItemBow
 		{
 			entityPlayer.setItemInUse(itemStack, this.getMaxItemUseDuration(itemStack));
 		}
+
+		this.timeStartedClick = world.getTotalWorldTime();
 
 		return itemStack;
 	}
