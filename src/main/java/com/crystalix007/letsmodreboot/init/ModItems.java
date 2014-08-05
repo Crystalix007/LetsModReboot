@@ -11,6 +11,7 @@ import net.minecraftforge.common.util.EnumHelper;
 public class ModItems
 {
 	public static final ItemLMRB mapleLeaf = new ItemMapleLeaf();
+    public static final ItemLMRB carrotAmmo = new ItemCarrotAmmo();
 
     //Tool materials
     public static Item.ToolMaterial spinelMaterial = EnumHelper.addToolMaterial("spinelMaterial", 4, 3000, 12, 7, 0);
@@ -24,6 +25,7 @@ public class ModItems
 	public static void init()
 	{
 		GameRegistry.registerItem(mapleLeaf, "mapleLeaf");
+        GameRegistry.registerItem(carrotAmmo, "carrotAmmo");
         GameRegistry.registerItem(spinelPickaxe, "spinelPickaxe");
         GameRegistry.registerItem(siliconNitridePickaxe, "siliconNitridePickaxe");
 
