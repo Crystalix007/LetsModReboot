@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0711124a-7432-4789-8781-7a668138f464" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-05-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-05-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-05-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-05-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-05-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-05-3.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-05-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-05-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-05-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-05-5.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-05-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-05-6.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-05-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-05-7.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/Test/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/region/r.1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test/region/r.1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/Test/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemNewBow.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemNewBow.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-    </list>
+    <list default="true" id="0711124a-7432-4789-8781-7a668138f464" name="Default" comment="" />
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -94,8 +72,8 @@
       <file leaf-file-name="ItemNewBow.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemNewBow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4394184" vertical-offset="629" max-vertical-offset="3332">
-              <caret line="71" column="77" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.49434572" vertical-offset="629" max-vertical-offset="3332">
+              <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -1359,8 +1337,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemNewBow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4394184" vertical-offset="629" max-vertical-offset="3332">
-          <caret line="71" column="77" selection-start-line="71" selection-start-column="77" selection-end-line="71" selection-end-column="77" />
+        <state vertical-scroll-proportion="0.49434572" vertical-offset="629" max-vertical-offset="3332">
+          <caret line="73" column="26" selection-start-line="73" selection-start-column="26" selection-end-line="73" selection-end-column="26" />
           <folding />
         </state>
       </provider>
