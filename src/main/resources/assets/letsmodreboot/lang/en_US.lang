@@ -1,14 +1,18 @@
 item.letsmodreboot:mapleLeaf.name=Maple leaf
+item.letsmodreboot:newBow.name=Carrot Bomber
+item.letsmodreboot:carrotAmmo.name=Carrot Ammo
+item.letsmodreboot:darkString.name=Dark String
+item.letsmodreboot:spinelDust.name=Spinel dust
+item.letsmodreboot:siliconNitrideDust.name=SiN dust
+item.letsmodreboot:spinelIngot.name=Spinel ingot
+item.letsmodreboot:siliconNitrideIngot.name=SiN ingot
+
 item.letsmodreboot:spinelPickaxe.name=Spinel pickaxe
 item.letsmodreboot:siliconNitridePickaxe.name=SiN pickaxe
-item.letsmodreboot:newBow.name=Carrot Bomber
+item.letsmodreboot:heavyHammer.name=Heavy hammer
+
 tile.letsmodreboot:flag.name=Canadian flag
 tile.letsmodreboot:spinel.name=Spinel block
-
-tile.letsmodreboot:siliconNitride.name=SiNi block
-item.letsmodreboot:carrotAmmo.name=Carrot Ammo
-
 tile.letsmodreboot:siliconNitride.name=SiN block
-item.letsmodreboot:carrotAmmo.name=Carrot Ammo
 
 itemGroup.letsmodreboot=Let's Mod Reboot

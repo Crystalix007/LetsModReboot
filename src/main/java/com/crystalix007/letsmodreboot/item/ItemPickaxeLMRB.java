@@ -14,6 +14,7 @@ public class ItemPickaxeLMRB extends ItemPickaxe
     {
         super(toolMaterial);
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+	    this.setMaxStackSize(1);
     }
 
     @Override
