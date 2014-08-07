@@ -9,6 +9,8 @@ import net.minecraft.world.World;
 
 public class ItemHeavyHammer extends ItemPickaxeLMRB
 {
+	//private static final Set mineableBlocks = Sets.newHashSet(new Block[]{ModBlocks.spinel, ModBlocks.siliconNitride});
+
 	public ItemHeavyHammer(ToolMaterial toolMaterial)
 	{
 		super(toolMaterial);

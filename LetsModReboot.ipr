@@ -213,7 +213,7 @@
       <module fileurl="file://$PROJECT_DIR$/LetsModReboot.iml" filepath="$PROJECT_DIR$/LetsModReboot.iml" />
     </modules>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.7" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6" assert-keyword="true" jdk-15="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
   <component name="SvnBranchConfigurationManager">
@@ -252,9 +252,9 @@
       <JAVADOC />
       <SOURCES />
     </library>
-    <library name="Gradle: C__Users_Michael__gradle_caches_minecraft_net_minecraftforge_forge_1_7_10_10_13_0_1180_start">
+    <library name="Gradle: C__Users_Michael__gradle_caches_minecraft_net_minecraftforge_forge_1_7_10_10_13_0_1187_start">
       <CLASSES>
-        <root url="file://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/start" />
+        <root url="file://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1187/start" />
       </CLASSES>
       <JAVADOC />
       <SOURCES />
@@ -339,13 +339,13 @@
         <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/bdacf4f82ce9b29cd474bfde2e91eeb0ca623d28/config-1.2.1-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Gradle: forgeSrc-1.7.10-10.13.0.1180">
+    <library name="Gradle: forgeSrc-1.7.10-10.13.0.1187">
       <CLASSES>
-        <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1187/forgeSrc-1.7.10-10.13.0.1187.jar!/" />
       </CLASSES>
       <JAVADOC />
       <SOURCES>
-        <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1180/forgeSrc-1.7.10-10.13.0.1180-sources.jar!/" />
+        <root url="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1187/forgeSrc-1.7.10-10.13.0.1187-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Gradle: gson-2.2.4">
