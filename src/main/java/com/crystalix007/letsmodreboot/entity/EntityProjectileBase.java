@@ -195,6 +195,7 @@ public abstract class EntityProjectileBase extends EntityArrow
 			{
 				if (movingobjectposition.entityHit != null)
 				{
+					worldObj.createExplosion(movingobjectposition.entityHit, movingobjectposition.entityHit.posX, movingobjectposition.entityHit.posY, movingobjectposition.entityHit.posZ, this.initialVelocity, true);
 					f2 = MathHelper.sqrt_double(this.motionX * this.motionX + this.motionY * this.motionY + this.motionZ * this.motionZ);
 					int k = MathHelper.ceiling_double_int((double)f2 * this.damage);
 
