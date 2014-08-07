@@ -68,7 +68,7 @@ public class ItemNewBow extends ItemBow
     @SideOnly(Side.CLIENT)
     public IIcon getItemIconForUseDuration(long duration)
     {
-        LogHelper.info("Trying to render icon: " + String.valueOf(duration));
+        //LogHelper.info("Trying to render icon: " + String.valueOf(duration));
 
 	    if (duration < 12)
 		    return this.iconArray[0];
@@ -99,8 +99,8 @@ public class ItemNewBow extends ItemBow
 		float f = (float)timeUsed / 20.0F;
 		f = (f * f + f * 2.0F) / 3.0F;
 
-		LogHelper.info("Getting icon at index: " + String.valueOf(timeUsed));
-		LogHelper.info("Current time: " + String.valueOf(player.worldObj.getTotalWorldTime()) + ", time started: " + String.valueOf(this.timeStartedClick));
+		//LogHelper.info("Getting icon at index: " + String.valueOf(timeUsed));
+		//LogHelper.info("Current time: " + String.valueOf(player.worldObj.getTotalWorldTime()) + ", time started: " + String.valueOf(this.timeStartedClick));
 
 		return getItemIconForUseDuration(timeUsed);
 	}

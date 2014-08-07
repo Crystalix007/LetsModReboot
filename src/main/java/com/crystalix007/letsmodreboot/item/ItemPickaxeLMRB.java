@@ -10,12 +10,22 @@ import net.minecraft.item.ItemStack;
 
 public class ItemPickaxeLMRB extends ItemPickaxe
 {
+
+
     public ItemPickaxeLMRB(ToolMaterial toolMaterial)
     {
         super(toolMaterial);
         this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 	    this.setMaxStackSize(1);
     }
+
+	/*public ItemPickaxeLMRB(float damageVsEntity, ToolMaterial toolMaterial, Set mineableBlocks)
+	{
+		super(toolMaterial);
+		this.getClass().getSuperclass().getConstructor()
+		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+		this.setMaxStackSize(1);
+	}*/
 
     @Override
     public String getUnlocalizedName()
@@ -29,16 +39,16 @@ public class ItemPickaxeLMRB extends ItemPickaxe
         return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
+	protected String getUnwrappedUnlocalizedName(String unlocalizedName)
+	{
+		return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
+	}
+
     @Override
     @SideOnly(Side.CLIENT)
     public void registerIcons(IIconRegister iconRegister)
     {
         itemIcon = iconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
-    }
-
-    protected String getUnwrappedUnlocalizedName(String unlocalizedName)
-    {
-        return unlocalizedName.substring(unlocalizedName.indexOf(".") + 1);
     }
 
 

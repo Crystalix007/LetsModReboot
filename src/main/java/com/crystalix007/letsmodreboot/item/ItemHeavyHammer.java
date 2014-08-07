@@ -1,41 +1,32 @@
 package com.crystalix007.letsmodreboot.item;
 
 import com.crystalix007.letsmodreboot.init.ModItems;
-import net.minecraft.block.Block;
-import net.minecraft.entity.EntityLivingBase;
-import net.minecraft.entity.item.EntityItem;
-import net.minecraft.item.ItemStack;
-import net.minecraft.world.World;
 
 public class ItemHeavyHammer extends ItemPickaxeLMRB
 {
-	//private static final Set mineableBlocks = Sets.newHashSet(new Block[]{ModBlocks.spinel, ModBlocks.siliconNitride});
+	//private static final Block[] mineableBlocks = new Block[]{ModBlocks.spinel, ModBlocks.siliconNitride};
 
-	public ItemHeavyHammer(ToolMaterial toolMaterial)
+	public ItemHeavyHammer()
 	{
-		super(toolMaterial);
-		this.setHarvestLevel("pickaxe", 5);
+		//super(5, ModItems.siliconNitrideMaterial, "heavyHammer", mineableBlocks);
+		super(ModItems.siliconNitrideMaterial);
 		this.setUnlocalizedName("heavyHammer");
 	}
 
-	@Override
+	/*@Override
 	public boolean onBlockDestroyed(ItemStack itemStack, World world, Block block, int x, int y, int z, EntityLivingBase entityLivingBase)
 	{
-		if ((double)block.getBlockHardness(world, x, y, z) != 0.0D)
-		{
-			itemStack.damageItem(1, entityLivingBase);
-		}
-
 		//ClientProxy.printMessageToPlayer("Block  destroyed: " + block.getUnlocalizedName());
 
 		if ((block.getUnlocalizedName().equals("tile.letsmodreboot:spinel") || (block.getUnlocalizedName().equals("tile.letsmodreboot:siliconNitride"))) && !world.isRemote)
 			spawnDust(block.getUnlocalizedName(), world, x, y, z);
 
 		return true;
-	}
+	}*/
 
-	public boolean func_150897_b(Block block)
+	/*public boolean func_150897_b(Block block)
 	{
+		//LogHelper.info("Tried to destroy block with heavy hammer. Can destroy: " + String.valueOf((block.getUnlocalizedName().equals("tile.letsmodreboot:spinel")) || (block.getUnlocalizedName().equals("tile.letsmodreboot:siliconNitride"))));
 		return ((block.getUnlocalizedName().equals("tile.letsmodreboot:spinel")) || (block.getUnlocalizedName().equals("tile.letsmodreboot:siliconNitride")));
 	}
 
@@ -45,5 +36,5 @@ public class ItemHeavyHammer extends ItemPickaxeLMRB
 			world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(ModItems.spinelDust)));
 		else
 			world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(ModItems.siliconNitrideDust)));
-	}
+	}*/
 }

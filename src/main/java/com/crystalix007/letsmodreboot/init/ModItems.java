@@ -26,7 +26,7 @@ public class ModItems
     //Tools
     public static final ItemPickaxeLMRB spinelPickaxe = new ItemSpinelPickaxe(spinelMaterial);
     public static final ItemPickaxeLMRB siliconNitridePickaxe = new ItemSiliconNitridePickaxe(siliconNitrideMaterial);
-	public static final ItemPickaxeLMRB heavyHammer = new ItemHeavyHammer(siliconNitrideMaterial);
+	public static final ItemPickaxeLMRB heavyHammer = new ItemHeavyHammer();
     public static final Item itemNewBow = new ItemNewBow();
 
 	public static void init()

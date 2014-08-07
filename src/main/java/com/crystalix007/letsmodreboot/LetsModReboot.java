@@ -12,7 +12,6 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
-import net.minecraft.init.Items;
 import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
@@ -51,8 +50,6 @@ public class LetsModReboot
 	{
 		for (String oreName : OreDictionary.getOreNames())
 			LogHelper.info("Id: "+ OreDictionary.getOreID(oreName) + ", name: " + oreName);
-
-		LogHelper.info(Items.string.getUnlocalizedName());
 
 		LogHelper.info("Post-initialization complete");
 	}
