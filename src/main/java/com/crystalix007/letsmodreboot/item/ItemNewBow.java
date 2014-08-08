@@ -4,7 +4,6 @@ import com.crystalix007.letsmodreboot.creativetab.CreativeTabLMRB;
 import com.crystalix007.letsmodreboot.entity.EntityFlyingCarrot;
 import com.crystalix007.letsmodreboot.init.ModItems;
 import com.crystalix007.letsmodreboot.reference.Reference;
-import com.crystalix007.letsmodreboot.utility.LogHelper;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -43,7 +42,6 @@ public class ItemNewBow extends ItemBow
 
         for (int i = 0; i < this.iconArray.length; ++i)
         {
-            LogHelper.info("Registering icon: " + this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + "_" + bowPullIconNameArray[i]);
             this.iconArray[i] = iIconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + "_" + bowPullIconNameArray[i]);
         }
     }

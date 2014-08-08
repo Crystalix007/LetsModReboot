@@ -49,6 +49,11 @@ public abstract class EntityProjectileBase extends EntityArrow
 		this.shootingEntity = entityLivingBase;
 	}
 
+	public EntityProjectileBase(World world)
+	{
+		super(world);
+	}
+
 	public void setKnockbackStrength(int i)
 	{
 		this.knockbackStrength = i;
@@ -108,9 +113,6 @@ public abstract class EntityProjectileBase extends EntityArrow
 				this.inGround = true;
 			}
 		}
-
-		/*if (worldObj.isRemote)
-			worldObj.spawnParticle("hugeexplosion", posX, posY + 0.5f, posZ, 50.0D, 50.0D, 50.0D);*/
 
 		if (this.arrowShake > 0)
 		{

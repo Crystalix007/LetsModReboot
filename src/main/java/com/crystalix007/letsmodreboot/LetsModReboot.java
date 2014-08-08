@@ -1,6 +1,8 @@
 package com.crystalix007.letsmodreboot;
+
 import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.init.ModBlocks;
+import com.crystalix007.letsmodreboot.init.ModEntities;
 import com.crystalix007.letsmodreboot.init.ModItems;
 import com.crystalix007.letsmodreboot.init.Recipes;
 import com.crystalix007.letsmodreboot.proxy.IProxy;
@@ -41,6 +43,7 @@ public class LetsModReboot
 	public void init(FMLInitializationEvent event)  //Register GUIs, TileEntities, crafting recipes, general even handlers
 	{
 		Recipes.init();
+		ModEntities.init();
 
 		LogHelper.info("Initialization complete");
 	}
