@@ -20,26 +20,26 @@ import java.util.List;
 
 public abstract class EntityProjectileBase extends EntityArrow
 {
-	private boolean inGround = false;
-	private int x = -1;
-	private int y = -1;
-	private int z = -1;
-	private Block field_145790_g;
+	protected boolean inGround = false;
+	protected int x = -1;
+	protected int y = -1;
+	protected int z = -1;
+	protected Block field_145790_g;
 	public int canBePickedUp;
 	/** Seems to be some sort of timer for animating an arrow. */
 	public int arrowShake;
 	/** The owner of this arrow. */
 	public Entity shootingEntity;
-	private int ticksInGround;
-	private int ticksInAir;
-	private double damage = 2.0D;
-	private int inData;
-	private int knockbackStrength;
-	private float initialVelocity = 0;
+	protected int ticksInGround;
+	protected int ticksInAir;
+	protected double damage = 2.0D;
+	protected int inData;
+	protected int knockbackStrength;
+	protected float initialVelocity = 0;
+	protected Entity hitEntity = null;
 
 	public boolean shouldDropAmmo = false;
 	public ItemStack itemToUse = new ItemStack(Items.arrow);
-	public boolean explodeOnContact = false;
 	public int stayDelay = 20;
 
 	public EntityProjectileBase(World world, EntityLivingBase entityLivingBase, float velocity)
@@ -54,16 +54,19 @@ public abstract class EntityProjectileBase extends EntityArrow
 		this.knockbackStrength = i;
 	}
 
-	//Creates particle stream
-	public boolean getIsCritical()
-	{
-		return true;
-	}
+	abstract void onCollide();
 
 	public void onCollideWithPlayer(EntityPlayer entityPlayer)
 	{
-		if (!this.inGround && explodeOnContact)
-			this.worldObj.createExplosion(null, x, y, z, (this.initialVelocity * 2.f), true);
+		if (!this.inGround)
+		{
+			hitEntity = entityPlayer;
+
+			if (ticksExisted >= 1 && entityPlayer != shootingEntity)
+				onCollide();
+
+			hitEntity = null;
+		}
 		else if (!this.worldObj.isRemote && this.inGround && this.arrowShake <= 0)
 		{
 			boolean flag = this.canBePickedUp == 1 || this.canBePickedUp == 2 && entityPlayer.capabilities.isCreativeMode;
@@ -106,8 +109,8 @@ public abstract class EntityProjectileBase extends EntityArrow
 			}
 		}
 
-		if (worldObj.isRemote)
-			worldObj.spawnParticle("hugeexplosion", posX, posY + 0.5f, posZ, 50.0D, 50.0D, 50.0D);
+		/*if (worldObj.isRemote)
+			worldObj.spawnParticle("hugeexplosion", posX, posY + 0.5f, posZ, 50.0D, 50.0D, 50.0D);*/
 
 		if (this.arrowShake > 0)
 		{
@@ -122,8 +125,9 @@ public abstract class EntityProjectileBase extends EntityArrow
 
 			if (this.ticksInGround == stayDelay)
 			{
-				if (explodeOnContact)
-					this.worldObj.createExplosion(null, x, y, z, (this.initialVelocity * 2.f), true);
+				hitEntity = this;
+				onCollide();
+				hitEntity = null;
 				if (shouldDropAmmo)
 					this.worldObj.spawnEntityInWorld(new EntityItem(worldObj, posX, posY, posZ, itemToUse));
 				this.setDead();
@@ -195,8 +199,9 @@ public abstract class EntityProjectileBase extends EntityArrow
 			{
 				if (movingobjectposition.entityHit != null)
 				{
-					if (explodeOnContact)
-						worldObj.createExplosion(movingobjectposition.entityHit, movingobjectposition.entityHit.posX, movingobjectposition.entityHit.posY, movingobjectposition.entityHit.posZ, this.initialVelocity, true);
+					hitEntity = movingobjectposition.entityHit;
+					onCollide();
+					hitEntity = null;
 					f2 = MathHelper.sqrt_double(this.motionX * this.motionX + this.motionY * this.motionY + this.motionZ * this.motionZ);
 					int k = MathHelper.ceiling_double_int((double)f2 * this.damage);
 
