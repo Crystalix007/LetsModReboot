@@ -1,3 +1,9 @@
+#Keys
+keys.letsmodreboot.category=Let's Mod Reboot
+keys.letsmodreboot.charge=Charge
+keys.letsmodreboot.release=Release
+
+#Unusable Items
 item.letsmodreboot:mapleLeaf.name=Maple leaf
 item.letsmodreboot:newBow.name=Carrot Bomber
 item.letsmodreboot:carrotAmmo.name=Carrot Ammo
@@ -7,12 +13,15 @@ item.letsmodreboot:siliconNitrideDust.name=SiN dust
 item.letsmodreboot:spinelIngot.name=Spinel ingot
 item.letsmodreboot:siliconNitrideIngot.name=SiN ingot
 
+#Useable Items
 item.letsmodreboot:spinelPickaxe.name=Spinel pickaxe
 item.letsmodreboot:siliconNitridePickaxe.name=SiN pickaxe
 item.letsmodreboot:heavyHammer.name=Heavy hammer
 
+#Blocks
 tile.letsmodreboot:flag.name=Canadian flag
 tile.letsmodreboot:spinel.name=Spinel block
 tile.letsmodreboot:siliconNitride.name=SiN block
 
+#ItemGroups
 itemGroup.letsmodreboot=Let's Mod Reboot
