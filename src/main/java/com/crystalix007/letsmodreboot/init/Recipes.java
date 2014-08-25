@@ -8,8 +8,6 @@ import net.minecraftforge.oredict.ShapelessOreRecipe;
 
 public class Recipes {
 	public static void init() {
-		//GameRegistry.addShapedRecipe(new ItemStack(ModItems.mapleLeaf), " X ", "XOX", " O ", 'X', new ItemStack(Blocks.leaves), 'O', new ItemStack(Items.stick));
-		//GameRegistry.addShapelessRecipe(new ItemStack(ModBlocks.flag), new ItemStack(ModItems.mapleLeaf), new ItemStack(ModItems.mapleLeaf));
 		//Using ore dictionary to allow mod compatibility
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.mapleLeaf), " X ", "XOX", " O ", 'X', "treeLeaves", 'O', "stickWood"));
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.spinelPickaxe), "XXX", " | ", " | ", 'X', new ItemStack(ModItems.spinelIngot), '|', "stickWood"));
@@ -25,5 +23,6 @@ public class Recipes {
 		GameRegistry.addSmelting(new ItemStack(ModBlocks.spinel), new ItemStack(ModBlocks.siliconNitride), 0.75f);
 		GameRegistry.addSmelting(new ItemStack(ModItems.spinelDust), new ItemStack(ModItems.spinelIngot), 0.5f);
 		GameRegistry.addSmelting(new ItemStack(ModItems.siliconNitrideDust), new ItemStack(ModItems.siliconNitrideIngot), 0.75f);
+		GameRegistry.addSmelting(new ItemStack(Blocks.glass), new ItemStack(ModBlocks.invisiGlass), 0.f);
 	}
 }

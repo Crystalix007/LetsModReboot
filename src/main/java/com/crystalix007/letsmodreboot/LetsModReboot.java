@@ -2,10 +2,7 @@ package com.crystalix007.letsmodreboot;
 
 import com.crystalix007.letsmodreboot.client.handler.KeyInputEventHandler;
 import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
-import com.crystalix007.letsmodreboot.init.ModBlocks;
-import com.crystalix007.letsmodreboot.init.ModEntities;
-import com.crystalix007.letsmodreboot.init.ModItems;
-import com.crystalix007.letsmodreboot.init.Recipes;
+import com.crystalix007.letsmodreboot.init.*;
 import com.crystalix007.letsmodreboot.proxy.IProxy;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import com.crystalix007.letsmodreboot.utility.LogHelper;
@@ -15,6 +12,7 @@ import cpw.mods.fml.common.SidedProxy;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import cpw.mods.fml.common.event.FMLServerStartingEvent;
 import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
@@ -61,5 +59,10 @@ public class LetsModReboot
 			LogHelper.info("Id: "+ OreDictionary.getOreID(oreName) + ", name: " + oreName);
 
 		LogHelper.info("Post-initialization complete");
+	}
+
+	@Mod.EventHandler
+	public void serverLoad(FMLServerStartingEvent event){
+		ModCommands.init(event);
 	}
 }

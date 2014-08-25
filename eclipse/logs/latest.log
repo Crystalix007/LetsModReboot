@@ -1,10 +1,10 @@
-[10:53:56] [main/INFO]: Setting user: ForgeDevName
-[10:53:57] [Client thread/INFO]: LWJGL Version: 2.9.1
-[10:54:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[10:54:03] [Sound Library Loader/INFO]: Sound engine started
-[10:54:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:54:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:54:05] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityFlyingCarrot.png
+[12:20:55] [main/INFO]: Setting user: ForgeDevName
+[12:20:57] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:21:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[12:21:03] [Sound Library Loader/INFO]: Sound engine started
+[12:21:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:21:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:21:05] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityFlyingCarrot.png
 java.io.FileNotFoundException: LetsModReboot:entityFlyingCarrot.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:35) ~[SimpleTexture.class:?]
@@ -13,7 +13,7 @@ java.io.FileNotFoundException: LetsModReboot:entityFlyingCarrot.png
 	at com.crystalix007.letsmodreboot.render.RenderEntityProjectileBase.<init>(RenderEntityProjectileBase.java:28) [RenderEntityProjectileBase.class:?]
 	at com.crystalix007.letsmodreboot.render.RenderEntityFlyingCarrot.<init>(RenderEntityFlyingCarrot.java:9) [RenderEntityFlyingCarrot.class:?]
 	at com.crystalix007.letsmodreboot.init.ModEntities.init(ModEntities.java:14) [ModEntities.class:?]
-	at com.crystalix007.letsmodreboot.LetsModReboot.init(LetsModReboot.java:52) [LetsModReboot.class:?]
+	at com.crystalix007.letsmodreboot.LetsModReboot.init(LetsModReboot.java:50) [LetsModReboot.class:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
@@ -63,38 +63,138 @@ java.io.FileNotFoundException: LetsModReboot:entityFlyingCarrot.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[10:54:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[10:54:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[10:54:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[10:54:07] [Sound Library Loader/INFO]: Sound engine started
-[10:54:34] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[10:54:34] [Server thread/INFO]: Generating keypair
-[10:54:34] [Server thread/INFO]: Preparing start region for level 0
-[10:54:35] [Server thread/INFO]: Changing view distance to 3, from 10
-[10:54:35] [Server thread/INFO]: ForgeDevName[local:E:33b11f17] logged in with entity id 137 at (0.11277721187064518, 5.480710876331692, 0.30398788412707356)
-[10:54:35] [Server thread/INFO]: ForgeDevName joined the game
-[10:54:35] [Server thread/INFO]: Saving and pausing game...
-[10:54:35] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[10:54:35] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[10:54:35] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[10:54:41] [Server thread/INFO]: Saving and pausing game...
-[10:54:41] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[10:54:41] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[10:54:41] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[10:54:49] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
-[10:54:49] [Client thread/INFO]: [CHAT] Your game mode has been updated
-[10:55:55] [Server thread/INFO]: [ForgeDevName: Given [InvisiGlass block] * 1 to ForgeDevName]
-[10:55:55] [Client thread/INFO]: [CHAT] Given [InvisiGlass block] * 1 to ForgeDevName
-[10:55:57] [Server thread/INFO]: [ForgeDevName: Given [InvisiGlass block] * 64 to ForgeDevName]
-[10:55:57] [Client thread/INFO]: [CHAT] Given [InvisiGlass block] * 64 to ForgeDevName
-[10:57:02] [Server thread/INFO]: Saving and pausing game...
-[10:57:02] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[10:57:02] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[10:57:02] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[10:57:03] [Server thread/INFO]: Stopping server
-[10:57:03] [Server thread/INFO]: Saving players
-[10:57:03] [Server thread/INFO]: Saving worlds
-[10:57:03] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[10:57:03] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[10:57:03] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[10:57:09] [Client thread/INFO]: Stopping!
+[12:21:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[12:21:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:21:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:21:06] [Sound Library Loader/INFO]: Sound engine started
+[12:49:17] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:49:17] [Server thread/INFO]: Generating keypair
+[12:49:17] [Server thread/INFO]: Preparing start region for level 0
+[12:49:18] [Server thread/INFO]: Changing view distance to 3, from 10
+[12:49:18] [Server thread/INFO]: ForgeDevName[local:E:098f6556] logged in with entity id 60 at (-0.20511211178111388, 4.0, 2.9362508159304994)
+[12:49:18] [Server thread/INFO]: ForgeDevName joined the game
+[12:49:19] [Server thread/INFO]: [CHAT] Time: 205634
+[12:49:19] [Server thread/INFO]: [CHAT] ...: 7:37PM
+[12:49:21] [Server thread/INFO]: [CHAT] Time: 205666
+[12:49:21] [Server thread/INFO]: [CHAT] ...: 7:39PM
+[12:49:22] [Server thread/INFO]: [CHAT] Time: 205698
+[12:49:22] [Server thread/INFO]: [CHAT] ...: 7:41PM
+[12:49:24] [Server thread/INFO]: [CHAT] Time: 205730
+[12:49:24] [Server thread/INFO]: [CHAT] ...: 7:42PM
+[12:49:25] [Server thread/INFO]: [CHAT] Time: 205762
+[12:49:25] [Server thread/INFO]: [CHAT] ...: 7:44PM
+[12:49:27] [Server thread/INFO]: [CHAT] Time: 205794
+[12:49:27] [Server thread/INFO]: [CHAT] ...: 7:46PM
+[12:49:29] [Server thread/INFO]: [CHAT] Time: 205826
+[12:49:29] [Server thread/INFO]: [CHAT] ...: 7:48PM
+[12:49:30] [Server thread/INFO]: [CHAT] Time: 205858
+[12:49:30] [Server thread/INFO]: [CHAT] ...: 7:50PM
+[12:49:32] [Server thread/INFO]: [CHAT] Time: 205890
+[12:49:32] [Server thread/INFO]: [CHAT] ...: 7:52PM
+[12:49:33] [Server thread/INFO]: [CHAT] Time: 205922
+[12:49:33] [Server thread/INFO]: [CHAT] ...: 7:54PM
+[12:49:35] [Server thread/INFO]: [CHAT] Time: 205954
+[12:49:35] [Server thread/INFO]: [CHAT] ...: 7:56PM
+[12:49:37] [Server thread/INFO]: [CHAT] Time: 205986
+[12:49:37] [Server thread/INFO]: [CHAT] ...: 7:58PM
+[12:49:38] [Server thread/INFO]: [CHAT] Time: 206018
+[12:49:38] [Server thread/INFO]: [CHAT] ...: 8:01PM
+[12:49:40] [Server thread/INFO]: [CHAT] Time: 206050
+[12:49:40] [Server thread/INFO]: [CHAT] ...: 8:02PM
+[12:49:41] [Server thread/INFO]: [CHAT] Time: 206082
+[12:49:41] [Server thread/INFO]: [CHAT] ...: 8:04PM
+[12:49:43] [Server thread/INFO]: [CHAT] Time: 206114
+[12:49:43] [Server thread/INFO]: [CHAT] ...: 8:06PM
+[12:49:45] [Server thread/INFO]: [CHAT] Time: 206146
+[12:49:45] [Server thread/INFO]: [CHAT] ...: 8:08PM
+[12:49:46] [Server thread/INFO]: [CHAT] Time: 206178
+[12:49:46] [Server thread/INFO]: [CHAT] ...: 8:10PM
+[12:49:48] [Server thread/INFO]: [CHAT] Time: 206210
+[12:49:48] [Server thread/INFO]: [CHAT] ...: 8:12PM
+[12:49:49] [Server thread/INFO]: [CHAT] Time: 206242
+[12:49:49] [Server thread/INFO]: [CHAT] ...: 8:14PM
+[12:49:51] [Server thread/INFO]: [CHAT] Time: 206274
+[12:49:51] [Server thread/INFO]: [CHAT] ...: 8:16PM
+[12:49:53] [Server thread/INFO]: [CHAT] Time: 206306
+[12:49:53] [Server thread/INFO]: [CHAT] ...: 8:18PM
+[12:49:54] [Server thread/INFO]: [CHAT] Time: 206338
+[12:49:54] [Server thread/INFO]: [CHAT] ...: 8:19PM
+[12:49:56] [Server thread/INFO]: [CHAT] Time: 206370
+[12:49:56] [Server thread/INFO]: [CHAT] ...: 8:21PM
+[12:49:57] [Server thread/INFO]: [CHAT] Time: 206402
+[12:49:57] [Server thread/INFO]: [CHAT] ...: 8:23PM
+[12:49:59] [Server thread/INFO]: [CHAT] Time: 206434
+[12:49:59] [Server thread/INFO]: [CHAT] ...: 8:25PM
+[12:50:01] [Server thread/INFO]: [CHAT] Time: 206466
+[12:50:01] [Server thread/INFO]: [CHAT] ...: 8:27PM
+[12:50:02] [Server thread/INFO]: [CHAT] Time: 206498
+[12:50:02] [Server thread/INFO]: [CHAT] ...: 8:29PM
+[12:50:04] [Server thread/INFO]: [CHAT] Time: 206530
+[12:50:04] [Server thread/INFO]: [CHAT] ...: 8:31PM
+[12:50:05] [Server thread/INFO]: [CHAT] Time: 206562
+[12:50:05] [Server thread/INFO]: [CHAT] ...: 8:33PM
+[12:50:07] [Server thread/INFO]: [CHAT] Time: 206594
+[12:50:07] [Server thread/INFO]: [CHAT] ...: 8:34PM
+[12:50:09] [Server thread/INFO]: [CHAT] Time: 206626
+[12:50:09] [Server thread/INFO]: [CHAT] ...: 8:36PM
+[12:50:10] [Server thread/INFO]: [CHAT] Time: 206658
+[12:50:10] [Server thread/INFO]: [CHAT] ...: 8:38PM
+[12:50:12] [Server thread/INFO]: [CHAT] Time: 206690
+[12:50:12] [Server thread/INFO]: [CHAT] ...: 8:40PM
+[12:50:13] [Server thread/INFO]: [CHAT] Time: 206722
+[12:50:13] [Server thread/INFO]: [CHAT] ...: 8:42PM
+[12:50:15] [Server thread/INFO]: [CHAT] Time: 206754
+[12:50:15] [Server thread/INFO]: [CHAT] ...: 8:44PM
+[12:50:17] [Server thread/INFO]: [CHAT] Time: 206786
+[12:50:17] [Server thread/INFO]: [CHAT] ...: 8:46PM
+[12:50:18] [Server thread/INFO]: [CHAT] Time: 206818
+[12:50:18] [Server thread/INFO]: [CHAT] ...: 8:48PM
+[12:50:20] [Server thread/INFO]: [CHAT] Time: 206850
+[12:50:20] [Server thread/INFO]: [CHAT] ...: 8:50PM
+[12:50:21] [Server thread/INFO]: [CHAT] Time: 206882
+[12:50:21] [Server thread/INFO]: [CHAT] ...: 8:51PM
+[12:50:23] [Server thread/INFO]: [CHAT] Time: 206914
+[12:50:23] [Server thread/INFO]: [CHAT] ...: 8:53PM
+[12:50:25] [Server thread/INFO]: [CHAT] Time: 206946
+[12:50:25] [Server thread/INFO]: [CHAT] ...: 8:55PM
+[12:50:25] [Server thread/INFO]: Saving and pausing game...
+[12:50:25] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[12:50:25] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[12:50:25] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[12:50:26] [Server thread/INFO]: Stopping server
+[12:50:26] [Server thread/INFO]: Saving players
+[12:50:26] [Server thread/INFO]: Saving worlds
+[12:50:26] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[12:50:26] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[12:50:26] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[12:50:28] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:50:28] [Server thread/INFO]: Generating keypair
+[12:50:29] [Server thread/INFO]: Preparing start region for level 0
+[12:50:29] [Server thread/INFO]: Changing view distance to 3, from 10
+[12:50:30] [Server thread/INFO]: ForgeDevName[local:E:fd9b9f56] logged in with entity id 831 at (-1.8556820013525228, 5.0, 3.086221673989115)
+[12:50:30] [Server thread/INFO]: ForgeDevName joined the game
+[12:50:31] [Server thread/INFO]: [CHAT] Time: 206994
+[12:50:31] [Server thread/INFO]: [CHAT] ...: 8:58PM
+[12:50:32] [Server thread/INFO]: Saving and pausing game...
+[12:50:32] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[12:50:32] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[12:50:32] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[12:50:37] [Server thread/INFO]: [CHAT] Time: 207026
+[12:50:37] [Server thread/INFO]: [CHAT] ...: 9:01PM
+[12:50:39] [Server thread/INFO]: [CHAT] Time: 207058
+[12:50:39] [Server thread/INFO]: [CHAT] ...: 9:03PM
+[12:50:41] [Server thread/INFO]: [CHAT] Time: 207090
+[12:50:41] [Server thread/INFO]: [CHAT] ...: 9:05PM
+[12:50:42] [Server thread/INFO]: [CHAT] Time: 207122
+[12:50:42] [Server thread/INFO]: [CHAT] ...: 9:07PM
+[12:50:42] [Server thread/INFO]: Saving and pausing game...
+[12:50:42] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[12:50:42] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[12:50:42] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[12:50:43] [Server thread/INFO]: Stopping server
+[12:50:43] [Server thread/INFO]: Saving players
+[12:50:43] [Server thread/INFO]: Saving worlds
+[12:50:43] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[12:50:43] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[12:50:43] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[12:50:44] [Client thread/INFO]: Stopping!

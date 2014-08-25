@@ -14,6 +14,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB
 	{
 		super("invisiGlass");
 		this.setBlockName("invisiGlass");
+		this.lightOpacity = 0;
 	}
 
 	/*@Override //Makes it able to be walked through
