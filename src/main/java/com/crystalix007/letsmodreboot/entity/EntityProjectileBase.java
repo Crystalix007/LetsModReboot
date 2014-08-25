@@ -24,6 +24,11 @@ public abstract class EntityProjectileBase extends EntityArrow
 	protected int x = -1;
 	protected int y = -1;
 	protected int z = -1;
+
+	protected int prevX;
+	protected int prevY;
+	protected int prevZ;
+
 	protected Block field_145790_g;
 	public int canBePickedUp;
 	/** Seems to be some sort of timer for animating an arrow. */
@@ -45,6 +50,9 @@ public abstract class EntityProjectileBase extends EntityArrow
 	public EntityProjectileBase(World world, EntityLivingBase entityLivingBase, float velocity)
 	{
 		super(world, entityLivingBase, velocity);
+		prevX = x;
+		prevY = y;
+		prevZ = z;
 		initialVelocity = velocity;
 		this.shootingEntity = entityLivingBase;
 	}
@@ -318,10 +326,7 @@ public abstract class EntityProjectileBase extends EntityArrow
 			f2 = MathHelper.sqrt_double(this.motionX * this.motionX + this.motionZ * this.motionZ);
 			this.rotationYaw = (float)(Math.atan2(this.motionX, this.motionZ) * 180.0D / Math.PI);
 
-			for (this.rotationPitch = (float)(Math.atan2(this.motionY, (double)f2) * 180.0D / Math.PI); this.rotationPitch - this.prevRotationPitch < -180.0F; this.prevRotationPitch -= 360.0F)
-			{
-				;
-			}
+			for (this.rotationPitch = (float)(Math.atan2(this.motionY, (double)f2) * 180.0D / Math.PI); this.rotationPitch - this.prevRotationPitch < -180.0F; this.prevRotationPitch -= 360.0F);
 
 			while (this.rotationPitch - this.prevRotationPitch >= 180.0F)
 			{

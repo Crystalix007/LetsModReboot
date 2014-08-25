@@ -5,18 +5,19 @@ keys.letsmodreboot.release=Release
 
 #Unusable Items
 item.letsmodreboot:mapleLeaf.name=Maple leaf
-item.letsmodreboot:newBow.name=Carrot Bomber
-item.letsmodreboot:carrotAmmo.name=Carrot Ammo
 item.letsmodreboot:darkString.name=Dark String
 item.letsmodreboot:spinelDust.name=Spinel dust
 item.letsmodreboot:siliconNitrideDust.name=SiN dust
 item.letsmodreboot:spinelIngot.name=Spinel ingot
 item.letsmodreboot:siliconNitrideIngot.name=SiN ingot
+item.letsmodreboot:teleportArrow.name=Teleport ammo
+item.letsmodreboot:carrotAmmo.name=Carrot ammo
 
 #Useable Items
 item.letsmodreboot:spinelPickaxe.name=Spinel pickaxe
 item.letsmodreboot:siliconNitridePickaxe.name=SiN pickaxe
 item.letsmodreboot:heavyHammer.name=Heavy hammer
+item.letsmodreboot:newBow.name=Carrot Bomber
 
 #Blocks
 tile.letsmodreboot:flag.name=Canadian flag

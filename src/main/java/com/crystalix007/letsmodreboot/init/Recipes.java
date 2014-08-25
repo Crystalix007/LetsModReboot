@@ -18,6 +18,7 @@ public class Recipes {
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.flag), "stickWood", new ItemStack(ModItems.mapleLeaf)));
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.carrotAmmo), "gunpowder", "cropCarrot"));
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.darkString), "dyeBlack", "string"));
+		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.teleportArrow), "arrow", "enderpearl"));
 
 		GameRegistry.addSmelting(new ItemStack(Blocks.obsidian), new ItemStack(ModBlocks.spinel), 0.5f);
 		GameRegistry.addSmelting(new ItemStack(ModBlocks.spinel), new ItemStack(ModBlocks.siliconNitride), 0.75f);

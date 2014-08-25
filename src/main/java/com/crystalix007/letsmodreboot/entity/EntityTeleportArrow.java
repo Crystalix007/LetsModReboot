@@ -12,6 +12,6 @@ public class EntityTeleportArrow extends EntityProjectileBase
 
 	protected void onCollide()
 	{
-		shootingEntity.moveEntity(hitEntity.posX, hitEntity.posY, hitEntity.posZ);
+		shootingEntity.moveEntity(prevX - hitEntity.posX, prevY - hitEntity.posY, prevZ - hitEntity.posZ);
 	}
 }
