@@ -6,7 +6,7 @@ import net.minecraft.command.ICommandSender;
 
 public class CommandDetermineTime extends CommandLMRB
 {
-	CommandDetermineTime()
+	public CommandDetermineTime()
 	{
 		super("time");
 	}
