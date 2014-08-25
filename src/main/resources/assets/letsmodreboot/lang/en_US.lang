@@ -22,6 +22,7 @@ item.letsmodreboot:heavyHammer.name=Heavy hammer
 tile.letsmodreboot:flag.name=Canadian flag
 tile.letsmodreboot:spinel.name=Spinel block
 tile.letsmodreboot:siliconNitride.name=SiN block
+tile.letsmodreboot:invisiGlass.name=InvisiGlass block
 
 #ItemGroups
 itemGroup.letsmodreboot=Let's Mod Reboot

@@ -1,7 +1,6 @@
 package com.crystalix007.letsmodreboot.client.handler;
 
 import com.crystalix007.letsmodreboot.client.settings.Keybindings;
-import com.crystalix007.letsmodreboot.proxy.ClientProxy;
 import com.crystalix007.letsmodreboot.reference.Key;
 import com.crystalix007.letsmodreboot.utility.LogHelper;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
@@ -26,6 +25,6 @@ public class KeyInputEventHandler
 		Key keyPressed = getPressedKeybinding();
 		LogHelper.info(keyPressed);
 
-		ClientProxy.printMessageToPlayer(keyPressed.toString());
+		//ClientProxy.printMessageToPlayer(keyPressed.toString());
 	}
 }

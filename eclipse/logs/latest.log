@@ -1,10 +1,10 @@
-[20:44:57] [main/INFO]: Setting user: ForgeDevName
-[20:44:58] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:45:04] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[20:45:05] [Sound Library Loader/INFO]: Sound engine started
-[20:45:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:45:07] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:45:07] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityFlyingCarrot.png
+[10:53:56] [main/INFO]: Setting user: ForgeDevName
+[10:53:57] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:54:02] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[10:54:03] [Sound Library Loader/INFO]: Sound engine started
+[10:54:05] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:54:05] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:54:05] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityFlyingCarrot.png
 java.io.FileNotFoundException: LetsModReboot:entityFlyingCarrot.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:35) ~[SimpleTexture.class:?]
@@ -63,46 +63,38 @@ java.io.FileNotFoundException: LetsModReboot:entityFlyingCarrot.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[20:45:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[20:45:07] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:45:07] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:45:08] [Sound Library Loader/INFO]: Sound engine started
-[20:45:13] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:45:13] [Server thread/INFO]: Generating keypair
-[20:45:13] [Server thread/INFO]: Preparing start region for level 0
-[20:45:14] [Server thread/INFO]: Changing view distance to 3, from 10
-[20:45:14] [Server thread/INFO]: ForgeDevName[local:E:2eeb5e7f] logged in with entity id 487 at (344.8811914266124, 3.4807108763316923, -429.7300544983903)
-[20:45:14] [Server thread/INFO]: ForgeDevName joined the game
-[20:45:17] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:17] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:18] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:18] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:19] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:22] [Client thread/INFO]: [CHAT] RELEASE
-[20:45:23] [Client thread/INFO]: [CHAT] RELEASE
-[20:45:24] [Client thread/INFO]: [CHAT] CHARGE
-[20:45:24] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:25] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:25] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:30] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:34] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:34] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:34] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:38] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:39] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:39] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:44] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:45] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:45] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:46] [Client thread/INFO]: [CHAT] UNKNOWN
-[20:45:46] [Server thread/INFO]: Saving and pausing game...
-[20:45:46] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[20:45:46] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[20:45:46] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[20:45:46] [Server thread/INFO]: Stopping server
-[20:45:46] [Server thread/INFO]: Saving players
-[20:45:46] [Server thread/INFO]: Saving worlds
-[20:45:46] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[20:45:46] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[20:45:46] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[20:45:47] [Client thread/INFO]: Stopping!
+[10:54:05] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[10:54:06] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:54:06] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:54:07] [Sound Library Loader/INFO]: Sound engine started
+[10:54:34] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[10:54:34] [Server thread/INFO]: Generating keypair
+[10:54:34] [Server thread/INFO]: Preparing start region for level 0
+[10:54:35] [Server thread/INFO]: Changing view distance to 3, from 10
+[10:54:35] [Server thread/INFO]: ForgeDevName[local:E:33b11f17] logged in with entity id 137 at (0.11277721187064518, 5.480710876331692, 0.30398788412707356)
+[10:54:35] [Server thread/INFO]: ForgeDevName joined the game
+[10:54:35] [Server thread/INFO]: Saving and pausing game...
+[10:54:35] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[10:54:35] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[10:54:35] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[10:54:41] [Server thread/INFO]: Saving and pausing game...
+[10:54:41] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[10:54:41] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[10:54:41] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[10:54:49] [Server thread/INFO]: [ForgeDevName: Set own game mode to Survival Mode]
+[10:54:49] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[10:55:55] [Server thread/INFO]: [ForgeDevName: Given [InvisiGlass block] * 1 to ForgeDevName]
+[10:55:55] [Client thread/INFO]: [CHAT] Given [InvisiGlass block] * 1 to ForgeDevName
+[10:55:57] [Server thread/INFO]: [ForgeDevName: Given [InvisiGlass block] * 64 to ForgeDevName]
+[10:55:57] [Client thread/INFO]: [CHAT] Given [InvisiGlass block] * 64 to ForgeDevName
+[10:57:02] [Server thread/INFO]: Saving and pausing game...
+[10:57:02] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[10:57:02] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[10:57:02] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[10:57:03] [Server thread/INFO]: Stopping server
+[10:57:03] [Server thread/INFO]: Saving players
+[10:57:03] [Server thread/INFO]: Saving worlds
+[10:57:03] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[10:57:03] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[10:57:03] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[10:57:09] [Client thread/INFO]: Stopping!
