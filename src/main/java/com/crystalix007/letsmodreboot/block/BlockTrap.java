@@ -11,11 +11,15 @@ public class BlockTrap extends BlockGlassLMRB {
         this.setBlockName("trapBlock");
         this.lightOpacity = 0;
     }
-}
 
-@SideOnly(Side.CLIENT)
-
-public AxisAlignedBB getSelectedBoundingBoxFromPool(World world, int x, int y, int z)
-    {
+    @SideOnly(Side.CLIENT)
+    public AxisAlignedBB getSelectedBoundingBoxFromPool(World world, int x, int y, int z) {
         return AxisAlignedBB.getBoundingBox(0, 0, 0, 0, 0, 0);
     }
+
+    @Override //Makes it able to be walked through
+	public AxisAlignedBB getCollisionBoundingBoxFromPool(World world, int x, int y, int z)
+	{
+		return null;
+	}
+}
