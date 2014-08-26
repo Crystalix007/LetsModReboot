@@ -3,19 +3,17 @@
   <component name="ChangeListManager">
     <list default="true" id="7022c810-932f-46f1-9e02-ce94084deeaf" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-25-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-25-1.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-25-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-25-2.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-25-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-25-3.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-25-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-25-4.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-25-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-25-5.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-25-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-25-6.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-25-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-25-7.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-1.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-2.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-3.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-4.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-4.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-5.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-6.log.gz" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-7.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/level.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/level.dat_old" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.-1.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.0.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.0.0.mca" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/session.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM-1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM1/data/villages.dat" />
@@ -107,25 +105,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockInvisiGlass.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="BlockInvisiGlass.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="2516">
-              <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
+            <state vertical-scroll-proportion="0.8057143" vertical-offset="592" max-vertical-offset="2924">
+              <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
               <folding>
-                <element signature="e#2001#2002#0" expanded="true" />
-                <element signature="e#2053#2054#0" expanded="true" />
+                <element signature="e#2084#2085#0" expanded="true" />
+                <element signature="e#2136#2137#0" expanded="true" />
+                <element signature="e#2198#2199#0" expanded="true" />
+                <element signature="e#2227#2228#0" expanded="true" />
+                <element signature="e#2331#2332#0" expanded="true" />
+                <element signature="e#2360#2361#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockRedstoneOre.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/block/BlockRedstoneOre.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6314286" vertical-offset="1020" max-vertical-offset="6086">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -1841,7 +1833,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2241,17 +2233,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="2516">
-          <caret line="48" column="64" selection-start-line="48" selection-start-column="64" selection-end-line="48" selection-end-column="64" />
-          <folding>
-            <element signature="e#2001#2002#0" expanded="true" />
-            <element signature="e#2053#2054#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/item/ItemDye.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8670">
@@ -2262,9 +2243,24 @@
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/block/BlockRedstoneOre.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6314286" vertical-offset="1020" max-vertical-offset="6086">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43714285" vertical-offset="1224" max-vertical-offset="6086">
+          <caret line="59" column="63" selection-start-line="59" selection-start-column="63" selection-end-line="59" selection-end-column="63" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8057143" vertical-offset="592" max-vertical-offset="2924">
+          <caret line="45" column="31" selection-start-line="45" selection-start-column="31" selection-end-line="45" selection-end-column="31" />
+          <folding>
+            <element signature="e#2084#2085#0" expanded="true" />
+            <element signature="e#2136#2137#0" expanded="true" />
+            <element signature="e#2198#2199#0" expanded="true" />
+            <element signature="e#2227#2228#0" expanded="true" />
+            <element signature="e#2331#2332#0" expanded="true" />
+            <element signature="e#2360#2361#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

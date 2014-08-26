@@ -8,6 +8,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemDye;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
 import java.util.Random;
@@ -40,7 +41,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB
 		LogHelper.info("Current item: " + currentItem.getUnlocalizedName());
 		LogHelper.info("ItemDye: " + new ItemDye().getUnlocalizedName());
 
-		if (currentItem.getUnlocalizedName().equals(new ItemDye().getUnlocalizedName()))
+		if (currentItem.getUnlocalizedName().substring(0, currentItem.getUnlocalizedName().indexOf('.')).equals("item.dyePowder"))
 		{
 			if (world.isRemote)
 				ClientProxy.printMessageToPlayer("Using dye on block");
@@ -65,6 +66,18 @@ public class BlockInvisiGlass extends BlockGlassLMRB
 	public int getBlockColor()
 	{
 		return ((red * 65536) + (green * 256) + blue);
+	}
+
+	@SideOnly(Side.CLIENT)
+	public int getRenderColor(int i)
+	{
+		return getBlockColor();
+	}
+
+	@SideOnly(Side.CLIENT)
+	public int colorMultiplier(IBlockAccess iBlockAccess, int x, int y, int z)
+	{
+		return getBlockColor();
 	}
 
 	@Override
