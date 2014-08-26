@@ -1,6 +1,5 @@
 package com.crystalix007.letsmodreboot.entity;
 
-import com.crystalix007.letsmodreboot.proxy.ClientProxy;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.world.World;
 
@@ -20,6 +19,6 @@ public class EntityTeleportArrow extends EntityProjectileBase
 
 		shootingEntity.moveEntity(x, y, z);
 
-		ClientProxy.printMessageToPlayer("X: " + String.valueOf(x) + ", Y: " + String.valueOf(y) + ", Z: " + String.valueOf(z));
+		//ClientProxy.printMessageToPlayer("X: " + String.valueOf(x) + ", Y: " + String.valueOf(y) + ", Z: " + String.valueOf(z));
 	}
 }
