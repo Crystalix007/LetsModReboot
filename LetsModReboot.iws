@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d83b84fc-6a7b-4899-aceb-396d83abff5a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\DIM-1\data\villages.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\DIM-1\forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\DIM1\data\villages.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\DIM1\forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\data\villages.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\level.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\level.dat_mcr" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\level.dat_old" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\playerdata\040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.-1.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.-1.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.-1.1.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.-2.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.-2.1.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.0.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.0.-2.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.0.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.0.1.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.1.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\region\r.1.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\session.lock" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Copy of Test\stats\040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-1.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-1.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-2.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-2.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-3.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-3.log.gz" />
@@ -10,18 +32,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-5.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-5.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-6.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-6.log.gz" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/2014-08-26-7.log.gz" afterPath="$PROJECT_DIR$/eclipse/logs/2014-08-26-7.log.gz" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.0.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/region/r.0.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGlassLMRB.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGlassLMRB.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityTeleportArrow.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityTeleportArrow.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
@@ -53,11 +63,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="BlockInvisiGlass.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="BlockInvisiGlass.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33601287" vertical-offset="4075" max-vertical-offset="4862">
-              <caret line="130" column="108" selection-start-line="130" selection-start-column="108" selection-end-line="130" selection-end-column="108" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1797" max-vertical-offset="4794">
+              <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -65,11 +75,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockStainedGlass.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/block/BlockStainedGlass.java">
+      <file leaf-file-name="EntityTeleportArrow.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityTeleportArrow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="2686">
-              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.27331188" vertical-offset="170" max-vertical-offset="952">
+              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EntityProjectileBase.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityProjectileBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="3287" max-vertical-offset="11968">
+              <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandTeleport.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/command/server/CommandTeleport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="3196">
+              <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -78,18 +108,8 @@
       <file leaf-file-name="BlockGlassLMRB.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGlassLMRB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1559" max-vertical-offset="2176">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1554" max-vertical-offset="2176">
               <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BlockBreakable.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/block/BlockBreakable.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.107142" vertical-offset="1281" max-vertical-offset="2006">
-              <caret line="55" column="5" selection-start-line="36" selection-start-column="4" selection-end-line="55" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -692,9 +712,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModBlocks.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/LetsModReboot.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityInvisiGlass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityTeleportArrow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGlassLMRB.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityProjectileBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityTeleportArrow.java" />
       </list>
     </option>
   </component>
@@ -736,120 +757,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="LetsModReboot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LetsModReboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forgeSrc-1.7.10-10.13.0.1199.jar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LetsModReboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forgeSrc-1.7.10-10.13.0.1199.jar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LetsModReboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forgeSrc-1.7.10-10.13.0.1199.jar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LetsModReboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forgeSrc-1.7.10-10.13.0.1199.jar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="LetsModReboot" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="forgeSrc-1.7.10-10.13.0.1199.jar" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="net" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="minecraft" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="item" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="crafting" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -1569,7 +1476,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="block" />
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="server" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1594,6 +1531,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="com.crystalix007.letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.crystalix007.letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1826,7 +1781,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -1846,7 +1801,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1421875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3108108" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2009,22 +1964,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityProjectileBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39403972" vertical-offset="6630" max-vertical-offset="11968">
-          <caret line="224" column="21" selection-start-line="224" selection-start-column="21" selection-end-line="224" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityTeleportArrow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7317881" vertical-offset="0" max-vertical-offset="748">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/init/Blocks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.49337748" vertical-offset="5652" max-vertical-offset="6256">
@@ -2057,14 +1996,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGlassLMRB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1567" max-vertical-offset="2176">
-          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/block/BlockStainedGlass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="131" max-vertical-offset="2686">
@@ -2073,13 +2004,53 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGlassLMRB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1567" max-vertical-offset="2176">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityProjectileBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3287" max-vertical-offset="11968">
+          <caret line="131" column="28" selection-start-line="131" selection-start-column="28" selection-end-line="131" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33601287" vertical-offset="4075" max-vertical-offset="4862">
-          <caret line="130" column="108" selection-start-line="130" selection-start-column="108" selection-end-line="130" selection-end-column="108" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1797" max-vertical-offset="4794">
+          <caret line="65" column="12" selection-start-line="65" selection-start-column="12" selection-end-line="65" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/command/server/CommandTeleport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1632" max-vertical-offset="3196">
+          <caret line="64" column="21" selection-start-line="64" selection-start-column="21" selection-end-line="64" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/network/NetHandlerPlayServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33279744" vertical-offset="11591" max-vertical-offset="45220">
+          <caret line="442" column="16" selection-start-line="442" selection-start-column="16" selection-end-line="442" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityTeleportArrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27331188" vertical-offset="170" max-vertical-offset="952">
+          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

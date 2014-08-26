@@ -1,5 +1,6 @@
 package com.crystalix007.letsmodreboot.entity;
 
+import com.crystalix007.letsmodreboot.proxy.ClientProxy;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.world.World;
 
@@ -13,6 +14,12 @@ public class EntityTeleportArrow extends EntityProjectileBase
 	protected void onCollide()
 	{
 		//shootingEntity.moveEntity(prevX - hitEntity.posX, prevY - hitEntity.posY, prevZ - hitEntity.posZ);
-		shootingEntity.setPosition(x, y, z);
+		shootingEntity.lastTickPosX = x;
+		shootingEntity.lastTickPosY = y;
+		shootingEntity.lastTickPosZ = z;
+
+		shootingEntity.moveEntity(x, y, z);
+
+		ClientProxy.printMessageToPlayer("X: " + String.valueOf(x) + ", Y: " + String.valueOf(y) + ", Z: " + String.valueOf(z));
 	}
 }

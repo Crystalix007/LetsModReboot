@@ -10,6 +10,7 @@ import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
+import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.Facing;
@@ -62,16 +63,13 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 				if (!player.capabilities.isCreativeMode)
 					currentItem.stackSize--;
 			}
+			tile.writeToNBT(new NBTTagCompound());
+			world.markBlockForUpdate(x, y, z);
 		}
-
-		/*if (world.isRemote)
+		else
 		{
-			ClientProxy.printMessageToPlayer("Red: " + String.valueOf(tile.red));
-			ClientProxy.printMessageToPlayer("Green: " + String.valueOf(tile.green));
-			ClientProxy.printMessageToPlayer("Blue: " + String.valueOf(tile.blue));
-		}*/
-
-		world.markBlockForUpdate(x, y, z);
+			player.getCurrentEquippedItem().useItemRightClick(world, player);
+		}
 		return super.onBlockActivated(world, x, y, z, player, i, v, v1, v2);
 	}
 
