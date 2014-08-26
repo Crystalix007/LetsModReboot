@@ -48,6 +48,7 @@ public class LetsModReboot
 
 		Recipes.init();
 		ModEntities.init();
+		ModBlocks.registerTileEntities();
 
 		LogHelper.info("Initialization complete");
 	}

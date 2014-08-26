@@ -2,6 +2,7 @@ package com.crystalix007.letsmodreboot.init;
 
 import com.crystalix007.letsmodreboot.block.*;
 import com.crystalix007.letsmodreboot.reference.Reference;
+import com.crystalix007.letsmodreboot.tileentities.TileEntityInvisiGlass;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
@@ -21,4 +22,9 @@ public class ModBlocks
 		GameRegistry.registerBlock(invisiGlass, "invisiGlass");
         GameRegistry.registerBlock(trapBlock, "trapBlock");
     }
+
+	public static void registerTileEntities()
+	{
+		GameRegistry.registerTileEntity(TileEntityInvisiGlass.class, "tileInvisiGlass");
+	}
 }
