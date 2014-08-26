@@ -71,9 +71,9 @@ public class BlockGlassLMRB extends BlockBreakable
 	}
 
 	@SideOnly(Side.CLIENT)
-	public boolean shouldSideBeRendered(IBlockAccess iBlockAccess, int i, int i1, int i2, int i3)
+	public boolean shouldSideBeRendered(IBlockAccess iBlockAccess, int x, int y, int z, int side)
 	{
-		return super.shouldSideBeRendered(iBlockAccess, i, i1, i2, 1 - i3);
+		return super.shouldSideBeRendered(iBlockAccess, x, y, z, 1 - side);
 	}
 
 }

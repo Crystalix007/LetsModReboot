@@ -1,8 +1,10 @@
 package com.crystalix007.letsmodreboot.block;
 
+import com.crystalix007.letsmodreboot.init.ModBlocks;
 import com.crystalix007.letsmodreboot.tileentities.TileEntityInvisiGlass;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
@@ -10,6 +12,7 @@ import net.minecraft.init.Items;
 import net.minecraft.item.ItemStack;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
+import net.minecraft.util.Facing;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
@@ -116,5 +119,23 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Items.dye,tile.red / 20, 1)));
 		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Items.dye, tile.green / 20, 2)));
 		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Items.dye, tile.blue / 20, 4)));
+	}
+
+	@Override
+	@SideOnly(Side.CLIENT)
+	public boolean shouldSideBeRendered(IBlockAccess iBlockAccess, int x, int y, int z, int side)
+	{
+		Block block = iBlockAccess.getBlock(x, y, z);
+		Block block1 = iBlockAccess.getBlock(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]);
+
+		if (this == ModBlocks.invisiGlass && block.getUnlocalizedName().equals(block1.getUnlocalizedName()))
+		{
+			if (((BlockInvisiGlass)(iBlockAccess.getBlock(x, y, z))).getBlockColor(iBlockAccess, x, y, z) != ((BlockInvisiGlass)(block1)).getBlockColor(iBlockAccess, x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]))
+			{
+				return true;
+			}
+		}
+
+		return block != this && super.shouldSideBeRendered(iBlockAccess, x, y, z, side);
 	}
 }
