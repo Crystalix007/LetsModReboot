@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [10:40:24] [main/INFO]: Setting user: ForgeDevName
 [10:40:25] [Client thread/INFO]: LWJGL Version: 2.9.1
 [10:40:31] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
@@ -5,6 +6,86 @@
 [10:40:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
 [10:40:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
 [10:40:34] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityFlyingCarrot.png
+=======
+[10:47:31] [main/INFO]: No arguments specified, assuming client.
+[10:47:31] [main/INFO]: Extra: []
+[10:47:31] [main/INFO]: Running with arguments: [--userProperties, {}, --username, ForgeDevName, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --accessToken, {REDACTED}, --assetIndex, 1.7.10, --assetsDir, C:/Users/owales/Dropbox/.gradle/caches/minecraft/assets, --version, 1.7.10]
+[10:47:31] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:47:31] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[10:47:31] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[10:47:31] [main/INFO]: Forge Mod Loader version 7.10.25.1199 for Minecraft 1.7.10 loading
+[10:47:31] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.7.0_65, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.7.0_65\jre
+[10:47:31] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:47:31] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:47:31] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[10:47:31] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:47:31] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:47:31] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:47:31] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[10:47:32] [main/ERROR]: The minecraft jar file:/C:/Users/owales/Dropbox/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[10:47:32] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[10:47:32] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/owales/Dropbox/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[10:47:32] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[10:47:32] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:47:32] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[10:47:33] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
+[10:47:33] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
+[10:47:33] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:47:34] [main/INFO]: Setting user: ForgeDevName
+[10:47:35] [Client thread/INFO]: LWJGL Version: 2.9.1
+[10:47:36] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[10:47:36] [Client thread/INFO]: MinecraftForge v10.13.0.1199 Initialized
+[10:47:36] [Client thread/INFO]: Replaced 182 ore recipies
+[10:47:36] [Client thread/INFO]: Completed early MinecraftForge initialization
+[10:47:36] [Client thread/INFO]: Searching C:\Users\owales\Documents\GitHub\LetsModReboot\eclipse\mods for mods
+[10:47:38] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[10:47:39] [Client thread/WARN]: Zip file rt.jar failed to read properly, it will be ignored
+java.lang.NullPointerException
+	at cpw.mods.fml.common.discovery.asm.ASMModParser.isBaseMod(ASMModParser.java:130) ~[ASMModParser.class:?]
+	at cpw.mods.fml.common.ModContainerFactory.build(ModContainerFactory.java:34) ~[ModContainerFactory.class:?]
+	at cpw.mods.fml.common.discovery.JarDiscoverer.discover(JarDiscoverer.java:83) [JarDiscoverer.class:?]
+	at cpw.mods.fml.common.discovery.ContainerType.findMods(ContainerType.java:42) [ContainerType.class:?]
+	at cpw.mods.fml.common.discovery.ModCandidate.explore(ModCandidate.java:71) [ModCandidate.class:?]
+	at cpw.mods.fml.common.discovery.ModDiscoverer.identifyMods(ModDiscoverer.java:123) [ModDiscoverer.class:?]
+	at cpw.mods.fml.common.Loader.identifyMods(Loader.java:347) [Loader.class:?]
+	at cpw.mods.fml.common.Loader.loadMods(Loader.java:468) [Loader.class:?]
+	at cpw.mods.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:204) [FMLClientHandler.class:?]
+	at net.minecraft.client.Minecraft.startGame(Minecraft.java:532) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:941) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:164) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134) [launchwrapper-1.9.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.9.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+[10:47:40] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[10:47:40] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[10:47:40] [Client thread/INFO]: Processing ObjectHolder annotations
+[10:47:40] [Client thread/INFO]: Found 358 ObjectHolder annotations
+[10:47:40] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[10:47:40] [Client thread/INFO]: Pre-initialization complete
+[10:47:40] [Client thread/INFO]: Applying holder lookups
+[10:47:40] [Client thread/WARN]: Unable to lookup LetsModReboot:itemNewBow for public static net.minecraft.item.Item com.crystalix007.letsmodreboot.init.ModItems.itemNewBow. Is there something wrong with the registry?
+[10:47:40] [Client thread/INFO]: Holder lookups applied
+[10:47:41] [Sound Library Loader/INFO]: Sound engine started
+[10:47:42] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:47:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:47:42] [Client thread/INFO]: Reading file at: LetsModReboot:entityFlyingCarrot.png
+[10:47:42] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityFlyingCarrot.png
+>>>>>>> origin/development
 java.io.FileNotFoundException: LetsModReboot:entityFlyingCarrot.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:35) ~[SimpleTexture.class:?]
@@ -55,15 +136,20 @@ java.io.FileNotFoundException: LetsModReboot:entityFlyingCarrot.png
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at GradleStart.bounce(GradleStart.java:108) [start/:?]
-	at GradleStart.startClient(GradleStart.java:101) [start/:?]
-	at GradleStart.main(GradleStart.java:56) [start/:?]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+<<<<<<< HEAD
 [10:40:34] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityTeleportArrow.png
+=======
+[10:47:42] [Client thread/INFO]: Reading file at: LetsModReboot:entityTeleportArrow.png
+[10:47:42] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityTeleportArrow.png
+>>>>>>> origin/development
 java.io.FileNotFoundException: LetsModReboot:entityTeleportArrow.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:35) ~[SimpleTexture.class:?]
@@ -114,14 +200,15 @@ java.io.FileNotFoundException: LetsModReboot:entityTeleportArrow.png
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
-	at GradleStart.bounce(GradleStart.java:108) [start/:?]
-	at GradleStart.startClient(GradleStart.java:101) [start/:?]
-	at GradleStart.main(GradleStart.java:56) [start/:?]
+	at GradleStart.bounce(GradleStart.java:107) [start/:?]
+	at GradleStart.startClient(GradleStart.java:100) [start/:?]
+	at GradleStart.main(GradleStart.java:55) [start/:?]
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.7.0_65]
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) ~[?:1.7.0_65]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
+<<<<<<< HEAD
 [10:40:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
 [10:40:34] [Client thread/INFO]: Created: 256x256 textures/items-atlas
 [10:40:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
@@ -152,3 +239,265 @@ java.io.FileNotFoundException: LetsModReboot:entityTeleportArrow.png
 [10:42:49] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
 [10:42:49] [Server thread/INFO]: Saving chunks for level 'Test'/The End
 [10:42:49] [Client thread/INFO]: Stopping!
+=======
+[10:47:42] [Client thread/INFO]: Initialization complete
+[10:47:42] [Client thread/INFO]: Id: 0, name: logWood
+[10:47:42] [Client thread/INFO]: Id: 1, name: plankWood
+[10:47:42] [Client thread/INFO]: Id: 2, name: slabWood
+[10:47:42] [Client thread/INFO]: Id: 3, name: stairWood
+[10:47:42] [Client thread/INFO]: Id: 4, name: stickWood
+[10:47:42] [Client thread/INFO]: Id: 5, name: treeSapling
+[10:47:42] [Client thread/INFO]: Id: 6, name: treeLeaves
+[10:47:42] [Client thread/INFO]: Id: 7, name: oreGold
+[10:47:42] [Client thread/INFO]: Id: 8, name: oreIron
+[10:47:42] [Client thread/INFO]: Id: 9, name: oreLapis
+[10:47:42] [Client thread/INFO]: Id: 10, name: oreDiamond
+[10:47:42] [Client thread/INFO]: Id: 11, name: oreRedstone
+[10:47:42] [Client thread/INFO]: Id: 12, name: oreEmerald
+[10:47:42] [Client thread/INFO]: Id: 13, name: oreQuartz
+[10:47:42] [Client thread/INFO]: Id: 14, name: oreCoal
+[10:47:42] [Client thread/INFO]: Id: 15, name: blockGold
+[10:47:42] [Client thread/INFO]: Id: 16, name: blockIron
+[10:47:42] [Client thread/INFO]: Id: 17, name: blockLapis
+[10:47:42] [Client thread/INFO]: Id: 18, name: blockDiamond
+[10:47:42] [Client thread/INFO]: Id: 19, name: blockRedstone
+[10:47:42] [Client thread/INFO]: Id: 20, name: blockEmerald
+[10:47:42] [Client thread/INFO]: Id: 21, name: blockQuartz
+[10:47:42] [Client thread/INFO]: Id: 22, name: blockCoal
+[10:47:42] [Client thread/INFO]: Id: 23, name: blockGlassColorless
+[10:47:42] [Client thread/INFO]: Id: 24, name: blockGlass
+[10:47:42] [Client thread/INFO]: Id: 25, name: paneGlassColorless
+[10:47:42] [Client thread/INFO]: Id: 26, name: paneGlass
+[10:47:42] [Client thread/INFO]: Id: 27, name: ingotIron
+[10:47:42] [Client thread/INFO]: Id: 28, name: ingotGold
+[10:47:42] [Client thread/INFO]: Id: 29, name: ingotBrick
+[10:47:42] [Client thread/INFO]: Id: 30, name: ingotBrickNether
+[10:47:42] [Client thread/INFO]: Id: 31, name: nuggetGold
+[10:47:42] [Client thread/INFO]: Id: 32, name: gemDiamond
+[10:47:42] [Client thread/INFO]: Id: 33, name: gemEmerald
+[10:47:42] [Client thread/INFO]: Id: 34, name: gemQuartz
+[10:47:42] [Client thread/INFO]: Id: 35, name: dustRedstone
+[10:47:42] [Client thread/INFO]: Id: 36, name: dustGlowstone
+[10:47:42] [Client thread/INFO]: Id: 37, name: gemLapis
+[10:47:42] [Client thread/INFO]: Id: 38, name: slimeball
+[10:47:42] [Client thread/INFO]: Id: 39, name: glowstone
+[10:47:42] [Client thread/INFO]: Id: 40, name: cropWheat
+[10:47:42] [Client thread/INFO]: Id: 41, name: cropPotato
+[10:47:42] [Client thread/INFO]: Id: 42, name: cropCarrot
+[10:47:42] [Client thread/INFO]: Id: 43, name: stone
+[10:47:42] [Client thread/INFO]: Id: 44, name: cobblestone
+[10:47:42] [Client thread/INFO]: Id: 45, name: sandstone
+[10:47:42] [Client thread/INFO]: Id: 46, name: dye
+[10:47:42] [Client thread/INFO]: Id: 47, name: record
+[10:47:42] [Client thread/INFO]: Id: 48, name: dyeBlack
+[10:47:42] [Client thread/INFO]: Id: 49, name: blockGlassBlack
+[10:47:42] [Client thread/INFO]: Id: 50, name: paneGlassBlack
+[10:47:42] [Client thread/INFO]: Id: 51, name: dyeRed
+[10:47:42] [Client thread/INFO]: Id: 52, name: blockGlassRed
+[10:47:42] [Client thread/INFO]: Id: 53, name: paneGlassRed
+[10:47:42] [Client thread/INFO]: Id: 54, name: dyeGreen
+[10:47:42] [Client thread/INFO]: Id: 55, name: blockGlassGreen
+[10:47:42] [Client thread/INFO]: Id: 56, name: paneGlassGreen
+[10:47:42] [Client thread/INFO]: Id: 57, name: dyeBrown
+[10:47:42] [Client thread/INFO]: Id: 58, name: blockGlassBrown
+[10:47:42] [Client thread/INFO]: Id: 59, name: paneGlassBrown
+[10:47:42] [Client thread/INFO]: Id: 60, name: dyeBlue
+[10:47:42] [Client thread/INFO]: Id: 61, name: blockGlassBlue
+[10:47:42] [Client thread/INFO]: Id: 62, name: paneGlassBlue
+[10:47:42] [Client thread/INFO]: Id: 63, name: dyePurple
+[10:47:42] [Client thread/INFO]: Id: 64, name: blockGlassPurple
+[10:47:42] [Client thread/INFO]: Id: 65, name: paneGlassPurple
+[10:47:42] [Client thread/INFO]: Id: 66, name: dyeCyan
+[10:47:42] [Client thread/INFO]: Id: 67, name: blockGlassCyan
+[10:47:42] [Client thread/INFO]: Id: 68, name: paneGlassCyan
+[10:47:42] [Client thread/INFO]: Id: 69, name: dyeLightGray
+[10:47:42] [Client thread/INFO]: Id: 70, name: blockGlassLightGray
+[10:47:42] [Client thread/INFO]: Id: 71, name: paneGlassLightGray
+[10:47:42] [Client thread/INFO]: Id: 72, name: dyeGray
+[10:47:42] [Client thread/INFO]: Id: 73, name: blockGlassGray
+[10:47:42] [Client thread/INFO]: Id: 74, name: paneGlassGray
+[10:47:42] [Client thread/INFO]: Id: 75, name: dyePink
+[10:47:42] [Client thread/INFO]: Id: 76, name: blockGlassPink
+[10:47:42] [Client thread/INFO]: Id: 77, name: paneGlassPink
+[10:47:42] [Client thread/INFO]: Id: 78, name: dyeLime
+[10:47:42] [Client thread/INFO]: Id: 79, name: blockGlassLime
+[10:47:42] [Client thread/INFO]: Id: 80, name: paneGlassLime
+[10:47:42] [Client thread/INFO]: Id: 81, name: dyeYellow
+[10:47:42] [Client thread/INFO]: Id: 82, name: blockGlassYellow
+[10:47:42] [Client thread/INFO]: Id: 83, name: paneGlassYellow
+[10:47:42] [Client thread/INFO]: Id: 84, name: dyeLightBlue
+[10:47:42] [Client thread/INFO]: Id: 85, name: blockGlassLightBlue
+[10:47:42] [Client thread/INFO]: Id: 86, name: paneGlassLightBlue
+[10:47:42] [Client thread/INFO]: Id: 87, name: dyeMagenta
+[10:47:42] [Client thread/INFO]: Id: 88, name: blockGlassMagenta
+[10:47:42] [Client thread/INFO]: Id: 89, name: paneGlassMagenta
+[10:47:42] [Client thread/INFO]: Id: 90, name: dyeOrange
+[10:47:42] [Client thread/INFO]: Id: 91, name: blockGlassOrange
+[10:47:42] [Client thread/INFO]: Id: 92, name: paneGlassOrange
+[10:47:42] [Client thread/INFO]: Id: 93, name: dyeWhite
+[10:47:42] [Client thread/INFO]: Id: 94, name: blockGlassWhite
+[10:47:42] [Client thread/INFO]: Id: 95, name: paneGlassWhite
+[10:47:42] [Client thread/INFO]: Id: 96, name: string
+[10:47:42] [Client thread/INFO]: Id: 97, name: gunpowder
+[10:47:42] [Client thread/INFO]: Id: 98, name: arrow
+[10:47:42] [Client thread/INFO]: Id: 99, name: enderpearl
+[10:47:42] [Client thread/INFO]: Post-initialization complete
+[10:47:42] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[10:47:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[10:47:42] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[10:47:42] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[10:47:43] [Sound Library Loader/INFO]: Sound engine started
+[10:47:45] [Thread-8/WARN]: =============================================================
+[10:47:45] [Thread-8/WARN]: MOD HAS DIRECT REFERENCE System.exit() THIS IS NOT ALLOWED REROUTING TO FMLCommonHandler!
+[10:47:45] [Thread-8/WARN]: Offendor: com/jcraft/jogg/Buffer.report(Ljava/lang/String;)V
+[10:47:45] [Thread-8/WARN]: =============================================================
+[10:47:47] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[10:47:47] [Server thread/INFO]: Generating keypair
+[10:47:47] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[10:47:47] [Server thread/INFO]: Applying holder lookups
+[10:47:47] [Server thread/WARN]: Unable to lookup LetsModReboot:itemNewBow for public static net.minecraft.item.Item com.crystalix007.letsmodreboot.init.ModItems.itemNewBow. Is there something wrong with the registry?
+[10:47:47] [Server thread/INFO]: Holder lookups applied
+[10:47:47] [Server thread/INFO]: Loading dimension 0 (Test) (net.minecraft.server.integrated.IntegratedServer@84f028a)
+[10:47:47] [Server thread/INFO]: Loading dimension 1 (Test) (net.minecraft.server.integrated.IntegratedServer@84f028a)
+[10:47:47] [Server thread/INFO]: Loading dimension -1 (Test) (net.minecraft.server.integrated.IntegratedServer@84f028a)
+[10:47:47] [Server thread/INFO]: Preparing start region for level 0
+[10:47:48] [Server thread/INFO]: Changing view distance to 3, from 10
+[10:47:48] [Netty Client IO #0/INFO]: Server protocol version 1
+[10:47:48] [Netty IO #1/INFO]: Client protocol version 1
+[10:47:48] [Netty IO #1/INFO]: Client attempting to join with 4 mods : mcp@9.05,FML@7.10.25.1199,Forge@10.13.0.1199,LetsModReboot@1.7.10-1.0
+[10:47:48] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[10:47:48] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[10:47:48] [Server thread/INFO]: [Server thread] Server side modded connection established
+[10:47:48] [Client thread/INFO]: [Client thread] Client side modded connection established
+[10:47:48] [Server thread/INFO]: ForgeDevName[local:E:f82a0903] logged in with entity id 60 at (-8.546131123123617, 5.0, -0.5695141556432861)
+[10:47:48] [Server thread/INFO]: ForgeDevName joined the game
+[10:47:50] [Client thread/INFO]: UNKNOWN
+[10:47:51] [Client thread/INFO]: UNKNOWN
+[10:47:51] [Client thread/INFO]: UNKNOWN
+[10:47:52] [Client thread/INFO]: UNKNOWN
+[10:47:53] [Client thread/INFO]: UNKNOWN
+[10:47:53] [Client thread/INFO]: UNKNOWN
+[10:47:53] [Client thread/INFO]: UNKNOWN
+[10:47:55] [Client thread/INFO]: UNKNOWN
+[10:47:56] [Client thread/INFO]: UNKNOWN
+[10:47:56] [Client thread/INFO]: UNKNOWN
+[10:47:58] [Client thread/INFO]: UNKNOWN
+[10:47:58] [Client thread/INFO]: UNKNOWN
+[10:48:01] [Client thread/INFO]: UNKNOWN
+[10:48:03] [Client thread/INFO]: UNKNOWN
+[10:48:04] [Client thread/INFO]: UNKNOWN
+[10:48:04] [Client thread/INFO]: UNKNOWN
+[10:48:05] [Client thread/INFO]: UNKNOWN
+[10:48:05] [Client thread/INFO]: UNKNOWN
+[10:48:06] [Client thread/INFO]: UNKNOWN
+[10:48:06] [Client thread/INFO]: UNKNOWN
+[10:48:07] [Client thread/INFO]: UNKNOWN
+[10:48:07] [Client thread/INFO]: UNKNOWN
+[10:48:08] [Client thread/INFO]: UNKNOWN
+[10:48:08] [Client thread/INFO]: UNKNOWN
+[10:48:11] [Client thread/INFO]: UNKNOWN
+[10:48:12] [Client thread/INFO]: UNKNOWN
+[10:48:12] [Client thread/INFO]: UNKNOWN
+[10:48:13] [Client thread/INFO]: UNKNOWN
+[10:48:13] [Client thread/INFO]: UNKNOWN
+[10:48:14] [Client thread/INFO]: UNKNOWN
+[10:48:15] [Client thread/INFO]: UNKNOWN
+[10:48:16] [Client thread/INFO]: UNKNOWN
+[10:48:17] [Client thread/INFO]: UNKNOWN
+[10:48:18] [Client thread/INFO]: UNKNOWN
+[10:48:18] [Client thread/INFO]: UNKNOWN
+[10:48:19] [Client thread/INFO]: UNKNOWN
+[10:48:19] [Client thread/INFO]: UNKNOWN
+[10:48:20] [Client thread/INFO]: UNKNOWN
+[10:48:20] [Client thread/INFO]: UNKNOWN
+[10:48:21] [Client thread/INFO]: UNKNOWN
+[10:48:21] [Client thread/INFO]: UNKNOWN
+[10:48:24] [Client thread/INFO]: UNKNOWN
+[10:48:25] [Client thread/INFO]: UNKNOWN
+[10:48:27] [Client thread/INFO]: UNKNOWN
+[10:48:29] [Client thread/INFO]: UNKNOWN
+[10:48:32] [Client thread/INFO]: UNKNOWN
+[10:48:33] [Client thread/INFO]: UNKNOWN
+[10:48:33] [Client thread/INFO]: UNKNOWN
+[10:48:34] [Client thread/INFO]: UNKNOWN
+[10:48:34] [Client thread/INFO]: UNKNOWN
+[10:48:35] [Client thread/INFO]: UNKNOWN
+[10:48:36] [Client thread/INFO]: UNKNOWN
+[10:48:38] [Client thread/INFO]: UNKNOWN
+[10:48:39] [Client thread/INFO]: UNKNOWN
+[10:48:40] [Client thread/INFO]: UNKNOWN
+[10:48:40] [Client thread/INFO]: UNKNOWN
+[10:48:40] [Client thread/INFO]: UNKNOWN
+[10:48:41] [Client thread/INFO]: UNKNOWN
+[10:48:41] [Client thread/INFO]: UNKNOWN
+[10:48:42] [Client thread/INFO]: UNKNOWN
+[10:48:42] [Client thread/INFO]: UNKNOWN
+[10:48:43] [Client thread/INFO]: UNKNOWN
+[10:48:43] [Client thread/INFO]: UNKNOWN
+[10:48:44] [Client thread/INFO]: UNKNOWN
+[10:48:44] [Client thread/INFO]: UNKNOWN
+[10:48:45] [Client thread/INFO]: UNKNOWN
+[10:48:45] [Client thread/INFO]: UNKNOWN
+[10:48:46] [Client thread/INFO]: UNKNOWN
+[10:48:47] [Client thread/INFO]: UNKNOWN
+[10:48:48] [Client thread/INFO]: UNKNOWN
+[10:48:49] [Client thread/INFO]: UNKNOWN
+[10:48:50] [Client thread/INFO]: UNKNOWN
+[10:48:51] [Client thread/INFO]: UNKNOWN
+[10:48:52] [Client thread/INFO]: UNKNOWN
+[10:48:53] [Client thread/INFO]: UNKNOWN
+[10:48:54] [Client thread/INFO]: UNKNOWN
+[10:48:55] [Client thread/INFO]: UNKNOWN
+[10:48:55] [Client thread/INFO]: UNKNOWN
+[10:48:55] [Client thread/INFO]: UNKNOWN
+[10:48:55] [Client thread/INFO]: UNKNOWN
+[10:48:56] [Client thread/INFO]: UNKNOWN
+[10:48:56] [Client thread/INFO]: UNKNOWN
+[10:48:57] [Client thread/INFO]: UNKNOWN
+[10:48:58] [Client thread/INFO]: UNKNOWN
+[10:48:58] [Client thread/INFO]: UNKNOWN
+[10:48:58] [Client thread/INFO]: UNKNOWN
+[10:48:58] [Client thread/INFO]: UNKNOWN
+[10:48:59] [Client thread/INFO]: UNKNOWN
+[10:49:00] [Client thread/INFO]: UNKNOWN
+[10:49:00] [Client thread/INFO]: UNKNOWN
+[10:49:01] [Client thread/INFO]: UNKNOWN
+[10:49:01] [Client thread/INFO]: UNKNOWN
+[10:49:02] [Client thread/INFO]: UNKNOWN
+[10:49:02] [Client thread/INFO]: UNKNOWN
+[10:49:02] [Client thread/INFO]: UNKNOWN
+[10:49:03] [Client thread/INFO]: UNKNOWN
+[10:49:03] [Client thread/INFO]: UNKNOWN
+[10:49:03] [Client thread/INFO]: UNKNOWN
+[10:49:04] [Client thread/INFO]: UNKNOWN
+[10:49:04] [Client thread/INFO]: UNKNOWN
+[10:49:05] [Client thread/INFO]: UNKNOWN
+[10:49:05] [Client thread/INFO]: UNKNOWN
+[10:49:06] [Client thread/INFO]: UNKNOWN
+[10:49:06] [Client thread/INFO]: UNKNOWN
+[10:49:07] [Client thread/INFO]: UNKNOWN
+[10:49:07] [Client thread/INFO]: UNKNOWN
+[10:49:08] [Client thread/INFO]: UNKNOWN
+[10:49:08] [Client thread/INFO]: UNKNOWN
+[10:49:09] [Client thread/INFO]: UNKNOWN
+[10:49:12] [Client thread/INFO]: UNKNOWN
+[10:49:12] [Client thread/INFO]: UNKNOWN
+[10:49:12] [Client thread/INFO]: UNKNOWN
+[10:49:12] [Server thread/INFO]: Saving and pausing game...
+[10:49:12] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[10:49:12] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[10:49:12] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[10:49:13] [Server thread/INFO]: Stopping server
+[10:49:13] [Server thread/INFO]: Saving players
+[10:49:13] [Server thread/INFO]: Saving worlds
+[10:49:13] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[10:49:13] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[10:49:13] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[10:49:13] [Server thread/INFO]: Unloading dimension 0
+[10:49:13] [Server thread/INFO]: Unloading dimension -1
+[10:49:13] [Server thread/INFO]: Unloading dimension 1
+[10:49:13] [Server thread/INFO]: Applying holder lookups
+[10:49:13] [Server thread/WARN]: Unable to lookup LetsModReboot:itemNewBow for public static net.minecraft.item.Item com.crystalix007.letsmodreboot.init.ModItems.itemNewBow. Is there something wrong with the registry?
+[10:49:13] [Server thread/INFO]: Holder lookups applied
+[10:49:14] [Client thread/INFO]: Stopping!
+>>>>>>> origin/development

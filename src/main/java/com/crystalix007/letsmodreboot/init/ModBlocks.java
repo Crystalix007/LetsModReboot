@@ -11,6 +11,7 @@ public class ModBlocks
 	public static final BlockLMRB spinel = new BlockSpinel();
 	public static final BlockLMRB siliconNitride = new BlockSiliconNitride();
 	public static final BlockGlassLMRB invisiGlass = new BlockInvisiGlass();
+    public static final BlockGlassLMRB trapBlock = new BlockTrap();
 
 	public static void init()
 	{
@@ -18,5 +19,6 @@ public class ModBlocks
 		GameRegistry.registerBlock(spinel, "spinel");
 		GameRegistry.registerBlock(siliconNitride, "siliconNitride");
 		GameRegistry.registerBlock(invisiGlass, "invisiGlass");
+        GameRegistry.registerBlock(trapBlock, "trapBlock");
     }
 }
