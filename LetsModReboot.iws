@@ -21,7 +21,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/DIM1/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/data/villages.dat" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Copy of Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/Copy of Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockTrap.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockTrap.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
     </list>
     <ignored path="LetsModReboot.iws" />
@@ -81,10 +81,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="trapBlock.png" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="trapBlock.png" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/blocks/trapBlock.png">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BlockTrap.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockTrap.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.2547684" vertical-offset="0" max-vertical-offset="734">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -727,9 +739,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityProjectileBase.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityTeleportArrow.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockTrap.java" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModBlocks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockTrap.java" />
       </list>
     </option>
   </component>
@@ -1823,7 +1835,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2181,14 +2193,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.309375" vertical-offset="196" max-vertical-offset="1207">
-          <caret line="39" column="66" selection-start-line="39" selection-start-column="66" selection-end-line="39" selection-end-column="66" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/reference/Names.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.159375" vertical-offset="0" max-vertical-offset="960">
@@ -2237,17 +2241,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockTrap.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/blocks/trapBlock.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16212533" vertical-offset="0" max-vertical-offset="734">
-          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="400" max-vertical-offset="1207">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="78" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/blocks/trapBlock.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockTrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2547684" vertical-offset="0" max-vertical-offset="734">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
   </component>
