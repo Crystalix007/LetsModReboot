@@ -41,7 +41,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB
 		LogHelper.info("Current item: " + currentItem.getUnlocalizedName());
 		LogHelper.info("ItemDye: " + new ItemDye().getUnlocalizedName());
 
-		if (currentItem.getUnlocalizedName().substring(0, currentItem.getUnlocalizedName().indexOf('.')).equals("item.dyePowder"))
+		if (currentItem.getUnlocalizedName().contains("dye"))
 		{
 			if (world.isRemote)
 				ClientProxy.printMessageToPlayer("Using dye on block");
@@ -59,13 +59,15 @@ public class BlockInvisiGlass extends BlockGlassLMRB
 			ClientProxy.printMessageToPlayer("Green: " + String.valueOf(green));
 			ClientProxy.printMessageToPlayer("Blue: " + String.valueOf(blue));
 		}
+
+		world.markBlockForUpdate(x, y, z);
 		return super.onBlockActivated(world, x, y, z, player, i, v, v1, v2);
 	}
 
 	@SideOnly(Side.CLIENT)
 	public int getBlockColor()
 	{
-		return ((red * 65536) + (green * 256) + blue);
+		return ((65535 * red) + (256 * green) + blue);
 	}
 
 	@SideOnly(Side.CLIENT)

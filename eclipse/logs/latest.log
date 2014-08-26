@@ -1,10 +1,10 @@
-[11:24:23] [main/INFO]: Setting user: ForgeDevName
-[11:24:24] [Client thread/INFO]: LWJGL Version: 2.9.1
-[11:24:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[11:24:31] [Sound Library Loader/INFO]: Sound engine started
-[11:24:33] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[11:24:33] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[11:24:33] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityFlyingCarrot.png
+[12:51:08] [main/INFO]: Setting user: ForgeDevName
+[12:51:09] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:51:14] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[12:51:15] [Sound Library Loader/INFO]: Sound engine started
+[12:51:17] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:51:18] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:51:18] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityFlyingCarrot.png
 java.io.FileNotFoundException: LetsModReboot:entityFlyingCarrot.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:35) ~[SimpleTexture.class:?]
@@ -63,7 +63,7 @@ java.io.FileNotFoundException: LetsModReboot:entityFlyingCarrot.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[11:24:33] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityTeleportArrow.png
+[12:51:18] [Client thread/WARN]: Failed to load texture: LetsModReboot:entityTeleportArrow.png
 java.io.FileNotFoundException: LetsModReboot:entityTeleportArrow.png
 	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:71) ~[SimpleReloadableResourceManager.class:?]
 	at net.minecraft.client.renderer.texture.SimpleTexture.loadTexture(SimpleTexture.java:35) ~[SimpleTexture.class:?]
@@ -122,83 +122,68 @@ java.io.FileNotFoundException: LetsModReboot:entityTeleportArrow.png
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.7.0_65]
 	at java.lang.reflect.Method.invoke(Method.java:606) ~[?:1.7.0_65]
 	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134) [idea_rt.jar:?]
-[11:24:33] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
-[11:24:33] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[11:24:34] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[11:24:34] [Sound Library Loader/INFO]: Sound engine started
-[11:25:12] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[11:25:12] [Server thread/INFO]: Generating keypair
-[11:25:12] [Server thread/INFO]: Preparing start region for level 0
-[11:25:13] [Server thread/INFO]: Changing view distance to 3, from 10
-[11:25:13] [Server thread/ERROR]: Couldn't parse statistics file .\saves\Copy of Test\stats\040a63f0-e153-3f49-84a8-b60ca564e69f.json
-com.google.gson.JsonSyntaxException: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10
-	at com.google.gson.JsonParser.parse(JsonParser.java:65) ~[JsonParser.class:?]
-	at com.google.gson.JsonParser.parse(JsonParser.java:45) ~[JsonParser.class:?]
-	at net.minecraft.stats.StatisticsFile.func_150881_a(StatisticsFile.java:104) ~[StatisticsFile.class:?]
-	at net.minecraft.stats.StatisticsFile.func_150882_a(StatisticsFile.java:52) [StatisticsFile.class:?]
-	at net.minecraft.server.management.ServerConfigurationManager.func_152602_a(ServerConfigurationManager.java:1160) [ServerConfigurationManager.class:?]
-	at net.minecraft.entity.player.EntityPlayerMP.<init>(EntityPlayerMP.java:171) [EntityPlayerMP.class:?]
-	at net.minecraft.server.management.ServerConfigurationManager.createPlayerForUser(ServerConfigurationManager.java:434) [ServerConfigurationManager.class:?]
-	at net.minecraft.server.network.NetHandlerLoginServer.func_147326_c(NetHandlerLoginServer.java:105) [NetHandlerLoginServer.class:?]
-	at net.minecraft.server.network.NetHandlerLoginServer.onNetworkTick(NetHandlerLoginServer.java:64) [NetHandlerLoginServer.class:?]
-	at net.minecraft.network.NetworkManager.processReceivedPackets(NetworkManager.java:250) [NetworkManager.class:?]
-	at net.minecraft.network.NetworkSystem.networkTick(NetworkSystem.java:182) [NetworkSystem.class:?]
-	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:736) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:624) [MinecraftServer.class:?]
-	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118) [IntegratedServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:495) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:762) [MinecraftServer$2.class:?]
-Caused by: com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 10
-	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1505) ~[JsonReader.class:?]
-	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1386) ~[JsonReader.class:?]
-	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:531) ~[JsonReader.class:?]
-	at com.google.gson.stream.JsonReader.peek(JsonReader.java:414) ~[JsonReader.class:?]
-	at com.google.gson.JsonParser.parse(JsonParser.java:60) ~[JsonParser.class:?]
-	... 15 more
-[11:25:13] [Server thread/INFO]: ForgeDevName[local:E:f32fe600] logged in with entity id 60 at (-8.13496104998566, 4.0, -3.141251681055019)
-[11:25:13] [Server thread/INFO]: ForgeDevName joined the game
-[11:25:18] [Client thread/INFO]: [CHAT] Red: 0
-[11:25:18] [Client thread/INFO]: [CHAT] Green: 0
-[11:25:18] [Client thread/INFO]: [CHAT] Blue: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Red: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Green: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Blue: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Red: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Green: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Blue: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Red: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Green: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Blue: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Red: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Green: 0
-[11:25:19] [Client thread/INFO]: [CHAT] Blue: 0
-[11:25:20] [Client thread/INFO]: [CHAT] Red: 0
-[11:25:20] [Client thread/INFO]: [CHAT] Green: 0
-[11:25:20] [Client thread/INFO]: [CHAT] Blue: 0
-[11:25:21] [Client thread/INFO]: [CHAT] Red: 0
-[11:25:21] [Client thread/INFO]: [CHAT] Green: 0
-[11:25:21] [Client thread/INFO]: [CHAT] Blue: 0
-[11:27:02] [Server thread/INFO]: ForgeDevName has just earned the achievement [Taking Inventory]
-[11:27:02] [Client thread/INFO]: [CHAT] ForgeDevName has just earned the achievement [Taking Inventory]
-[11:28:24] [Server thread/INFO]: [ForgeDevName: Teleported ForgeDevName to 0.5,10.5,0.5]
-[11:28:24] [Client thread/INFO]: [CHAT] Teleported ForgeDevName to 0.5,10.5,0.5
-[11:28:50] [Client thread/INFO]: [CHAT] Red: 0
-[11:28:50] [Client thread/INFO]: [CHAT] Green: 0
-[11:28:50] [Client thread/INFO]: [CHAT] Blue: 0
-[11:28:51] [Client thread/INFO]: [CHAT] Red: 0
-[11:28:51] [Client thread/INFO]: [CHAT] Green: 0
-[11:28:51] [Client thread/INFO]: [CHAT] Blue: 0
-[11:28:54] [Client thread/INFO]: [CHAT] Red: 0
-[11:28:54] [Client thread/INFO]: [CHAT] Green: 0
-[11:28:54] [Client thread/INFO]: [CHAT] Blue: 0
-[11:30:23] [Server thread/INFO]: Saving and pausing game...
-[11:30:23] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[11:30:23] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[11:30:23] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[11:30:23] [Server thread/INFO]: Stopping server
-[11:30:23] [Server thread/INFO]: Saving players
-[11:30:23] [Server thread/INFO]: Saving worlds
-[11:30:23] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
-[11:30:23] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
-[11:30:23] [Server thread/INFO]: Saving chunks for level 'Test'/The End
-[11:30:24] [Client thread/INFO]: Stopping!
+[12:51:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Lets Mod Reboot
+[12:51:18] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[12:51:18] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:51:19] [Sound Library Loader/INFO]: Sound engine started
+[12:51:31] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:51:31] [Server thread/INFO]: Generating keypair
+[12:51:32] [Server thread/INFO]: Preparing start region for level 0
+[12:51:32] [Server thread/INFO]: Changing view distance to 3, from 10
+[12:51:33] [Server thread/INFO]: ForgeDevName[local:E:88ec7d08] logged in with entity id 60 at (-3.721755131897276, 6.0, -2.443763027201431)
+[12:51:33] [Server thread/INFO]: ForgeDevName joined the game
+[12:51:37] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:37] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:37] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:37] [Client thread/INFO]: [CHAT] Blue: 20
+[12:51:38] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:38] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:38] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:38] [Client thread/INFO]: [CHAT] Blue: 60
+[12:51:38] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:38] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:38] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:38] [Client thread/INFO]: [CHAT] Blue: 100
+[12:51:38] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:38] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:38] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:38] [Client thread/INFO]: [CHAT] Blue: 140
+[12:51:38] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:38] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:38] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:38] [Client thread/INFO]: [CHAT] Blue: 180
+[12:51:39] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:39] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:39] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:39] [Client thread/INFO]: [CHAT] Blue: 220
+[12:51:39] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:39] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:39] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:39] [Client thread/INFO]: [CHAT] Blue: 240
+[12:51:39] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:39] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:39] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:39] [Client thread/INFO]: [CHAT] Blue: 240
+[12:51:39] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:39] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:39] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:39] [Client thread/INFO]: [CHAT] Blue: 240
+[12:51:40] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:40] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:40] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:40] [Client thread/INFO]: [CHAT] Blue: 240
+[12:51:40] [Client thread/INFO]: [CHAT] Using dye on block
+[12:51:40] [Client thread/INFO]: [CHAT] Red: 0
+[12:51:40] [Client thread/INFO]: [CHAT] Green: 0
+[12:51:40] [Client thread/INFO]: [CHAT] Blue: 240
+[12:51:47] [Server thread/INFO]: Saving and pausing game...
+[12:51:47] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[12:51:47] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[12:51:47] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[12:51:47] [Server thread/INFO]: Stopping server
+[12:51:47] [Server thread/INFO]: Saving players
+[12:51:47] [Server thread/INFO]: Saving worlds
+[12:51:47] [Server thread/INFO]: Saving chunks for level 'Test'/Overworld
+[12:51:47] [Server thread/INFO]: Saving chunks for level 'Test'/Nether
+[12:51:47] [Server thread/INFO]: Saving chunks for level 'Test'/The End
+[12:51:48] [Client thread/INFO]: Stopping!
