@@ -5,9 +5,17 @@ import net.minecraft.tileentity.TileEntity;
 
 public class TileEntityInvisiGlass extends TileEntity
 {
-	public short red = 0;
-	public short green = 0;
-	public short blue = 0;
+	public short red;
+	public short green;
+	public short blue;
+
+	public TileEntityInvisiGlass()
+	{
+		super();
+		red = 0;
+		green = 0;
+		blue = 0;
+	}
 
 	@Override
 	public void writeToNBT(NBTTagCompound compound)

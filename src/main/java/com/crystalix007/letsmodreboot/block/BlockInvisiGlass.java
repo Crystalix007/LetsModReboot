@@ -80,12 +80,6 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		return ((65536 * tile.red) + (256 * tile.green) + tile.blue);
 	}
 
-	/*@SideOnly(Side.CLIENT)
-	public int getRenderColor(int i)
-	{
-		return getBlockColor();
-	}*/
-
 	@SideOnly(Side.CLIENT)
 	public int colorMultiplier(IBlockAccess iBlockAccess, int x, int y, int z)
 	{
@@ -106,6 +100,17 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 	@Override
 	public TileEntity createNewTileEntity(World world, int i) {
 		return new TileEntityInvisiGlass();
+	}
+
+	public boolean hasTileEntity(int metadata)
+	{
+		return true;
+	}
+
+	public void onBlockAdded(World world, int x, int y, int z)
+	{
+		super.onBlockAdded(world, x, y, z);
+		world.setTileEntity(x, y, z, createNewTileEntity(world, 0));
 	}
 
 	public void onBlockHarvested(World world, int x, int y, int z, int meta, EntityPlayer entityPlayer)
