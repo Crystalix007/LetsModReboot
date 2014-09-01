@@ -16,8 +16,6 @@ public class ModBlocks
 	public static final BlockGlassLMRB invisiGlass = new BlockInvisiGlass();
     public static final BlockGlassLMRB trapBlock = new BlockTrap();
 
-	public static RenderInvisiGlass baseBlockRenderer = new RenderInvisiGlass();
-
 	public static void init()
 	{
 		GameRegistry.registerBlock(flag, "flag");
@@ -25,7 +23,6 @@ public class ModBlocks
 		GameRegistry.registerBlock(siliconNitride, "siliconNitride");
 		GameRegistry.registerBlock(invisiGlass, "invisiGlass");
         GameRegistry.registerBlock(trapBlock, "trapBlock");
-		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityInvisiGlass.class, baseBlockRenderer);
     }
 
 	public static void registerTileEntities()
