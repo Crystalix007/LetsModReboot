@@ -8,6 +8,7 @@ public class TileEntityInvisiGlass extends TileEntity
 	public short red;
 	public short green;
 	public short blue;
+	public short alpha;
 
 	public TileEntityInvisiGlass()
 	{
@@ -15,6 +16,7 @@ public class TileEntityInvisiGlass extends TileEntity
 		red = 0;
 		green = 0;
 		blue = 0;
+		alpha = 128;
 	}
 
 	@Override

@@ -3,8 +3,8 @@ package com.crystalix007.letsmodreboot.init;
 import com.crystalix007.letsmodreboot.LetsModReboot;
 import com.crystalix007.letsmodreboot.entity.EntityFlyingCarrot;
 import com.crystalix007.letsmodreboot.entity.EntityTeleportArrow;
-import com.crystalix007.letsmodreboot.render.RenderEntityFlyingCarrot;
-import com.crystalix007.letsmodreboot.render.RenderEntityTeleportArrow;
+import com.crystalix007.letsmodreboot.client.render.RenderEntityFlyingCarrot;
+import com.crystalix007.letsmodreboot.client.render.RenderEntityTeleportArrow;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.registry.EntityRegistry;
 

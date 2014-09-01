@@ -6,6 +6,7 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.init.Items;
@@ -14,6 +15,7 @@ import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.util.Facing;
+import net.minecraft.util.MathHelper;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
 
@@ -107,6 +109,13 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		return true;
 	}
 
+	@Override
+	public void onBlockPlacedBy(World world, int x, int y, int z, EntityLivingBase entityLivingBase, ItemStack itemStack) {
+		super.onBlockPlacedBy(world, x, y, z, entityLivingBase, itemStack);
+		int dir = MathHelper.floor_double((double) ((entityLivingBase.rotationYaw * 4F) / 360F) + 0.5D) & 3;
+		world.setBlockMetadataWithNotify(x, y, z, dir, 0);
+	}
+
 	public void onBlockAdded(World world, int x, int y, int z)
 	{
 		super.onBlockAdded(world, x, y, z);
@@ -140,5 +149,11 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		}
 
 		return block != this && super.shouldSideBeRendered(iBlockAccess, x, y, z, side);
+	}
+
+	@Override
+	public int getRenderType()
+	{
+		return -1;
 	}
 }

@@ -19,6 +19,11 @@ public class ClientProxy extends CommonProxy
 		ClientRegistry.registerKeyBinding(Keybindings.release);
 	}
 
+	public void registerRenderers()
+	{
+
+	}
+
 	public static void printMessageToPlayer(String msg) {
 		Minecraft.getMinecraft().thePlayer.addChatMessage(new ChatComponentTranslation(msg));
 	}
