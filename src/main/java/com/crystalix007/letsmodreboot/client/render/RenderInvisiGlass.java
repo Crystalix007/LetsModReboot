@@ -35,7 +35,7 @@ public class RenderInvisiGlass extends TileEntitySpecialRenderer {
 		int l = world.getLightBrightnessForSkyBlocks(x, y, z, 0);
 		int l1 = l % 65536;
 		int l2 = l / 65536;
-		tessellator.setColorRGBA_F(tileEntityInvisiGlass.red / 255.f, tileEntityInvisiGlass.green / 255.f, tileEntityInvisiGlass.blue / 255.f, tileEntityInvisiGlass.alpha / 255.f);
+		GL11.glColor4ub(((byte) tileEntityInvisiGlass.red), ((byte) tileEntityInvisiGlass.green), ((byte) tileEntityInvisiGlass.blue), ((byte) tileEntityInvisiGlass.alpha));
 		OpenGlHelper.setLightmapTextureCoords(OpenGlHelper.lightmapTexUnit, (float) l1, (float) l2);
 
 		GL11.glPushMatrix();
