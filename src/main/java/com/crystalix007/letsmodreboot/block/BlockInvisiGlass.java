@@ -150,4 +150,10 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 
 		return block != this && super.shouldSideBeRendered(iBlockAccess, x, y, z, side);
 	}
+
+	@Override
+	public int getRenderType()
+	{
+		return -1;
+	}
 }
