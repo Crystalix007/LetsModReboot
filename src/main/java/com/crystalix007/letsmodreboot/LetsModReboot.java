@@ -1,6 +1,7 @@
 package com.crystalix007.letsmodreboot;
 
-import com.crystalix007.letsmodreboot.client.handler.KeyInputEventHandler;
+import com.crystalix007.letsmodreboot.client.handler.KeyInputHandler;
+import com.crystalix007.letsmodreboot.event.EventHookContainerClass;
 import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.init.*;
 import com.crystalix007.letsmodreboot.proxy.IProxy;
@@ -13,6 +14,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLServerStartingEvent;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.oredict.OreDictionary;
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
@@ -42,9 +44,10 @@ public class LetsModReboot
 	}
 
 	@Mod.EventHandler
-	public void init(FMLInitializationEvent event)  //Register GUIs, TileEntities, crafting recipes, general even handlers
+	public void init(FMLInitializationEvent event)  //Register GUIs, TileEntities, crafting recipes, general, even handlers
 	{
-		FMLCommonHandler.instance().bus().register(new KeyInputEventHandler());
+		FMLCommonHandler.instance().bus().register(new KeyInputHandler());
+		MinecraftForge.EVENT_BUS.register(new EventHookContainerClass());
 
 		Recipes.init();
 		ModEntities.init();

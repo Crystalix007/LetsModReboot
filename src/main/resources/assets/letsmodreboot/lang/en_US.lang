@@ -12,6 +12,7 @@ item.letsmodreboot:spinelIngot.name=Spinel ingot
 item.letsmodreboot:siliconNitrideIngot.name=SiN ingot
 item.letsmodreboot:teleportArrow.name=Teleport ammo
 item.letsmodreboot:carrotAmmo.name=Carrot ammo
+item.letsmodreboot:debugTool.name=Debugging tool
 
 #Useable Items
 item.letsmodreboot:spinelPickaxe.name=Spinel pickaxe
@@ -25,6 +26,8 @@ tile.letsmodreboot:spinel.name=Spinel block
 tile.letsmodreboot:siliconNitride.name=SiN block
 tile.letsmodreboot:invisiGlass.name=InvisiGlass block
 tile.letsmodreboot:trapBlock.name=Trap
+tile.letsmodreboot:refBlock.name=Reference block
+tile.letsmodreboot:blockFrame.name=Frame block
 
 #ItemGroups
 itemGroup.letsmodreboot=Let's Mod Reboot

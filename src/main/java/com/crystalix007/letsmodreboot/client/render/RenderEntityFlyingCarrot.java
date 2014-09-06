@@ -7,6 +7,6 @@ public class RenderEntityFlyingCarrot extends RenderEntityProjectileBase
 {
 	public RenderEntityFlyingCarrot() {
 		super("entityFlyingCarrot");
-		arrowTextures = new ResourceLocation(Reference.MOD_ID.toLowerCase(), "textures/entities/" + thisName + ".png");
+		arrowTextures = new ResourceLocation(Reference.MOD_ID.toLowerCase(), "textures/entities/" + thisName);
 	}
 }

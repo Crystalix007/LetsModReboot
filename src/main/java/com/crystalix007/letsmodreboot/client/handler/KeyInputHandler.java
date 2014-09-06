@@ -2,13 +2,12 @@ package com.crystalix007.letsmodreboot.client.handler;
 
 import com.crystalix007.letsmodreboot.client.settings.Keybindings;
 import com.crystalix007.letsmodreboot.reference.Key;
-import com.crystalix007.letsmodreboot.utility.LogHelper;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import cpw.mods.fml.common.gameevent.InputEvent;
 
-public class KeyInputEventHandler
+public class KeyInputHandler
 {
-	private static Key getPressedKeybinding()
+	public static Key getPressedKeybinding()
 	{
 		if (Keybindings.charge.isPressed())
 			return Key.CHARGE;
@@ -20,11 +19,8 @@ public class KeyInputEventHandler
 	}
 
 	@SubscribeEvent
-	public void handleKeyInputEvent(InputEvent.KeyInputEvent event)
+	public void onKeyInput(InputEvent.KeyInputEvent event)
 	{
 		Key keyPressed = getPressedKeybinding();
-		LogHelper.info(keyPressed);
-
-		//ClientProxy.printMessageToPlayer(keyPressed.toString());
 	}
 }

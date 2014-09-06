@@ -21,6 +21,15 @@ public class EntityFlyingCarrot extends EntityProjectileBase {
 		this.stayDelay = 2;
 	}
 
+	public void onUpdate()
+	{
+		super.onUpdate();
+		if (!isBurning())
+		{
+			setFire(100);
+		}
+	}
+
 	@Override
 	void onCollide() {
 		worldObj.createExplosion(hitEntity, hitEntity.posX, hitEntity.posY, hitEntity.posZ, initialVelocity * 2.0f, true);

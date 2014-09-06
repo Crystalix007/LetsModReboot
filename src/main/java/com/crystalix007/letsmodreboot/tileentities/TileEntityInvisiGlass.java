@@ -5,10 +5,12 @@ import net.minecraft.tileentity.TileEntity;
 
 public class TileEntityInvisiGlass extends TileEntity
 {
-	public short red;
-	public short green;
-	public short blue;
-	public short alpha;
+	public byte red;
+	public byte green;
+	public byte blue;
+	public float alpha;
+	public float currentAlpha;
+	public boolean debug = false;
 
 	public TileEntityInvisiGlass()
 	{
@@ -16,7 +18,8 @@ public class TileEntityInvisiGlass extends TileEntity
 		red = 0;
 		green = 0;
 		blue = 0;
-		alpha = 128;
+		alpha = 0.5f;
+		currentAlpha = alpha;
 	}
 
 	@Override
@@ -24,9 +27,11 @@ public class TileEntityInvisiGlass extends TileEntity
 	{
 		super.writeToNBT(compound);
 
-		compound.setByte("red", (byte)(red - 128));
-		compound.setByte("green", (byte)(green - 128));
-		compound.setByte("blue", (byte)(blue - 128));
+		compound.setByte("red", red);
+		compound.setByte("green", green);
+		compound.setByte("blue", blue);
+		compound.setFloat("alpha", alpha);
+		compound.setFloat("currentAlpha", currentAlpha);
 	}
 
 	@Override
@@ -34,8 +39,16 @@ public class TileEntityInvisiGlass extends TileEntity
 	{
 		super.readFromNBT(compound);
 
-		red = (byte)(compound.getByte("red") + 128);
-		green = (byte)(compound.getByte("green") + 128);
-		blue = (byte)(compound.getByte("blue") + 128);
+		red = compound.getByte("red");
+		green = compound.getByte("green");
+		blue = compound.getByte("blue");
+		alpha = compound.getFloat("alpha");
+		currentAlpha = compound.getFloat("currentFloat");
+	}
+
+	@Override
+	public boolean shouldRenderInPass(int pass)
+	{
+		return true;
 	}
 }
