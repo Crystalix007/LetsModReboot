@@ -1,51 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83b84fc-6a7b-4899-aceb-396d83abff5a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockFrame.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockReference.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/event/EventHookContainerClass.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemDebugTool.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/handler/KeyInputHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/material/MaterialHidden.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/material/MaterialSoft.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModMaterials.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderFrameBlock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityFrame.java" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\src\main\java\com\crystalix007\letsmodreboot\client\handler\KeyInputEventHandler.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/playerdata/040a63f0-e153-3f49-84a8-b60ca564e69f.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/blocks/Thumbs.db" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/blocks/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/items/Thumbs.db" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/items/Thumbs.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/blocks/invisiGlass.png" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/blocks/invisiGlass.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/level.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/level.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/level.dat_old" afterPath="$PROJECT_DIR$/eclipse/saves/Test/level.dat_old" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/region/r.-1.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test/region/r.-1.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/region/r.-1.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test/region/r.-1.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.-1.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.-1.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.0.mca" afterPath="$PROJECT_DIR$/eclipse/saves/Test/region/r.0.0.mca" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/session.lock" afterPath="$PROJECT_DIR$/eclipse/saves/Test/session.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/DIM-1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/DIM-1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/DIM1/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/DIM1/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/data/villages.dat" afterPath="$PROJECT_DIR$/eclipse/saves/Test/data/villages.dat" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/saves/Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="$PROJECT_DIR$/eclipse/saves/Test/stats/040a63f0-e153-3f49-84a8-b60ca564e69f.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGlassLMRB.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGlassLMRB.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockTrap.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockTrap.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/proxy/ClientProxy.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/proxy/ClientProxy.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityFlyingCarrot.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/entity/EntityFlyingCarrot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/LetsModReboot.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/LetsModReboot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModBlocks.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModItems.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/Recipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/Recipes.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEntityFlyingCarrot.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEntityFlyingCarrot.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEntityProjectileBase.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEntityProjectileBase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderInvisiGlass.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderInvisiGlass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityInvisiGlass.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityInvisiGlass.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/logs/latest.log" afterPath="$PROJECT_DIR$/eclipse/logs/latest.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/options.txt" afterPath="$PROJECT_DIR$/eclipse/options.txt" />
-    </list>
+    <list default="true" id="d83b84fc-6a7b-4899-aceb-396d83abff5a" name="Default" comment="" />
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -82,16 +38,6 @@
                 <element signature="e#6614#6615#0" expanded="true" />
                 <element signature="e#6633#6634#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Material.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/block/material/Material.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="2550" max-vertical-offset="6460">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -837,7 +783,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="PackagesPane" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -2394,7 +2340,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -2477,13 +2423,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraftforge/common/ForgeHooks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2769486" vertical-offset="8401" max-vertical-offset="14144">
-          <caret line="306" column="33" selection-start-line="306" selection-start-column="26" selection-end-line="306" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar!/net/minecraft/block/BlockVine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="1.1326699" vertical-offset="12985" max-vertical-offset="13906">
@@ -2906,6 +2845,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="10642">
           <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.61538464" vertical-offset="0" max-vertical-offset="816">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
       </provider>
