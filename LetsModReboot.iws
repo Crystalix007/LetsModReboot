@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d83b84fc-6a7b-4899-aceb-396d83abff5a" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iml" afterPath="$PROJECT_DIR$/LetsModReboot.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.ipr" afterPath="$PROJECT_DIR$/LetsModReboot.ipr" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-    </list>
+    <list default="true" id="d83b84fc-6a7b-4899-aceb-396d83abff5a" name="Default" comment="" />
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -445,7 +440,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="1407515402789" />
+        <entry key="$PROJECT_DIR$" value="1410020613115" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -460,8 +455,8 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1199/forgeSrc-1.7.10-10.13.0.1199.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.9/116f2aad5b0c68353ebed66cd463517db6522f7e/launchwrapper-1.9.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/4.1/1c218d5a0b8b932a1528b74069aa6973dcfcea74/asm-debug-all-4.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/4.1/dd6ba5c392d4102458494e29f54f70ac534ec2a2/asm-debug-all-4.1.jar" />
@@ -548,7 +543,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/3323cda3e396543df0ef5d024d83a88ae0a240ef/ForgeGradle-1.2-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/bb0becd1a86befbf058d4907edc3cb411b60381e/ForgeGradle-1.2-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/RetroGuard/3.6.6/ffd69fcab06b928cf76144f08b7209ccf0656b6d/RetroGuard-3.6.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/235993117036d44d126f76db9ea2202ee4884682/opencsv-2.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar" />
@@ -2334,7 +2329,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -2899,6 +2894,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
+          <last-edited>Gradle: akka-actor_2.11-2.3.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
