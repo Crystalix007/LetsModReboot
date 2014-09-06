@@ -19,6 +19,7 @@ public class ModItems
 	public static final ItemLMRB siliconNitrideIngot = new ItemSiliconNitrideIngot();
 	public static final ItemLMRB spinelIngot = new ItemSpinelIngot();
 	public static final ItemLMRB teleportArrow = new ItemTeleportArrow();
+	public static final ItemLMRB debugTool = new ItemDebugTool();
 
     //Tool materials
     public static Item.ToolMaterial spinelMaterial = EnumHelper.addToolMaterial("spinelMaterial", 4, 3000, 12, 7, 0);
@@ -43,6 +44,7 @@ public class ModItems
 		GameRegistry.registerItem(siliconNitrideIngot, "siliconNitrideIngot");
 		GameRegistry.registerItem(spinelIngot, "spinelIngot");
 		GameRegistry.registerItem(teleportArrow, "teleportArrow");
+		GameRegistry.registerItem(debugTool, "debugTool");
 
         GameRegistry.registerItem(spinelPickaxe, "spinelPickaxe");
         GameRegistry.registerItem(siliconNitridePickaxe, "siliconNitridePickaxe");

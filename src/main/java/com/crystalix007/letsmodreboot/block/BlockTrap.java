@@ -6,7 +6,8 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.World;
 
 public class BlockTrap extends BlockGlassLMRB {
-    public BlockTrap() {
+    public BlockTrap()
+    {
         super("trapBlock");
         this.setBlockName("trapBlock");
         this.lightOpacity = 0;

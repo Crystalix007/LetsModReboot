@@ -1,6 +1,7 @@
 package com.crystalix007.letsmodreboot.block;
 
 import com.crystalix007.letsmodreboot.creativetab.CreativeTabLMRB;
+import com.crystalix007.letsmodreboot.material.MaterialHidden;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -15,7 +16,15 @@ public class BlockGlassLMRB extends BlockBreakable
 {
 	public BlockGlassLMRB(String name)
 	{
-		super(name, Material.glass, false);
+		super(name, new MaterialHidden(), false);
+		this.setBlockName("refBlock");
+		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+	}
+
+	public BlockGlassLMRB(String name, Material material)
+	{
+		super(name, material, false);
+		this.setBlockName("refBlock");
 		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
 	}
 

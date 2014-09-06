@@ -14,6 +14,7 @@ public class Recipes {
         GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.siliconNitridePickaxe), "XXX", " | ", " | ", 'X', new ItemStack(ModItems.siliconNitrideIngot), '|', "stickWood"));
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.itemNewBow), "s/ ", "s /", "s/ ", 's', ModItems.darkString, '/', new ItemStack(ModItems.siliconNitrideIngot)));
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.heavyHammer), "###", "#|#", " | ", '#', new ItemStack(ModBlocks.siliconNitride), '|', "stickWood"));
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.frameBlock), "###", "#/#", "###", '#', "ingotIron", '/', "stickWood"));
 
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.flag), "stickWood", new ItemStack(ModItems.mapleLeaf)));
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.carrotAmmo), "gunpowder", "cropCarrot"));
