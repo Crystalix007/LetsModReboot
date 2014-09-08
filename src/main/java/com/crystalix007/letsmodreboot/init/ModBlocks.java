@@ -33,7 +33,7 @@ public class ModBlocks
 		GameRegistry.registerBlock(refBlock, "refBlock");
 		GameRegistry.registerBlock(frameBlock, "frameBlock");
 
-		/*ClientRegistry.bindTileEntitySpecialRenderer(TileEntityInvisiGlass.class, baseBlockRenderer);*/
+		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityInvisiGlass.class, baseBlockRenderer);
 		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFrame.class, frameBlockRenderer);
     }
 

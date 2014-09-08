@@ -10,7 +10,6 @@ public class TileEntityInvisiGlass extends TileEntity
 	public byte blue;
 	public float alpha;
 	public float currentAlpha;
-	public boolean debug = false;
 
 	public TileEntityInvisiGlass()
 	{

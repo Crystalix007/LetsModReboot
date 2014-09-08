@@ -1,9 +1,11 @@
 package com.crystalix007.letsmodreboot.item;
 
 import com.crystalix007.letsmodreboot.block.BlockInvisiGlass;
+import com.crystalix007.letsmodreboot.client.render.RenderInvisiGlass;
 import com.crystalix007.letsmodreboot.init.ModBlocks;
 import com.crystalix007.letsmodreboot.proxy.ClientProxy;
 import com.crystalix007.letsmodreboot.tileentities.TileEntityInvisiGlass;
+import com.crystalix007.letsmodreboot.utility.BlockCoord;
 import net.minecraft.block.Block;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
@@ -28,12 +30,16 @@ public class ItemDebugTool extends ItemLMRB {
 
 		if (block instanceof BlockInvisiGlass)
 		{
+			RenderInvisiGlass.blockToDebug = new BlockCoord(x, y, z);
+
 			TileEntityInvisiGlass tile = ((TileEntityInvisiGlass) world.getTileEntity(x, y, z));
 			world.markBlockForUpdate(x, y, z);
-			tile.debug = true;
+
 			ClientProxy.printMessageToPlayer("RGBA: " + String.valueOf(tile.red) + ", " + String.valueOf(tile.green) + ", " + String.valueOf(tile.blue) + ", " + String.valueOf(tile.alpha));
+
 			for (int i = 0; i <= 5; i++)
 				ClientProxy.printMessageToPlayer("Should render side " + String.valueOf(i) + ": " + String.valueOf(ModBlocks.invisiGlass.shouldSideBeRendered(world, x, y, z, i)));
+
 			used = true;
 		}
 		return used;

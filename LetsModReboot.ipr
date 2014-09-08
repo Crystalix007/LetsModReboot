@@ -198,6 +198,7 @@
   <component name="ProjectDictionaryState">
     <dictionary name="Michael">
       <words>
+        <w>coord</w>
         <w>crystalix</w>
         <w>ender</w>
         <w>invisi</w>
@@ -207,6 +208,7 @@
         <w>pickaxe</w>
         <w>spinel</w>
         <w>teleport</w>
+        <w>tessellator</w>
         <w>unlocalized</w>
       </words>
     </dictionary>

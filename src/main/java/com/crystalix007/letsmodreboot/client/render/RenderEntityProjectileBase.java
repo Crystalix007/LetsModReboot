@@ -35,7 +35,6 @@ public class RenderEntityProjectileBase extends Render
 
 	public void doRender(EntityArrow entityArrow, double v, double v1, double v2, float Float, float Float2)
 	{
-		LogHelper.info("Custom renderer run");
 		this.bindEntityTexture(entityArrow);
 		GL11.glPushMatrix();
 		GL11.glTranslatef((float)v, (float)v1, (float)v2);
