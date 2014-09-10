@@ -1,0 +1,141 @@
+---- Minecraft Crash Report ----
+// Hey, that tickles! Hehehe!
+
+Time: 07/09/14 14:42
+Description: Rendering Block Entity
+
+java.lang.NullPointerException: Rendering Block Entity
+	at com.crystalix007.letsmodreboot.block.BlockInvisiGlass.getBlockColor(BlockInvisiGlass.java:130)
+	at com.crystalix007.letsmodreboot.block.BlockInvisiGlass.colorMultiplier(BlockInvisiGlass.java:142)
+	at net.minecraft.client.renderer.RenderBlocks.renderStandardBlock(RenderBlocks.java:4458)
+	at com.crystalix007.letsmodreboot.client.render.RenderInvisiGlass$ElementDisplay.compileList(RenderInvisiGlass.java:163)
+	at com.crystalix007.letsmodreboot.client.render.RenderInvisiGlass$ElementDisplay.getDisplayList(RenderInvisiGlass.java:140)
+	at com.crystalix007.letsmodreboot.client.render.RenderInvisiGlass$ElementDisplay.access$100(RenderInvisiGlass.java:124)
+	at com.crystalix007.letsmodreboot.client.render.RenderInvisiGlass.renderTileEntityAt(RenderInvisiGlass.java:305)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.renderTileEntityAt(TileEntityRendererDispatcher.java:141)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.renderTileEntity(TileEntityRendererDispatcher.java:126)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:545)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1308)
+	at net.minecraft.client.renderer.EntityRenderer.updateCameraAndRender(EntityRenderer.java:1099)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1066)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:961)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at GradleStart.bounce(GradleStart.java:107)
+	at GradleStart.startClient(GradleStart.java:100)
+	at GradleStart.main(GradleStart.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at com.crystalix007.letsmodreboot.block.BlockInvisiGlass.getBlockColor(BlockInvisiGlass.java:130)
+	at com.crystalix007.letsmodreboot.block.BlockInvisiGlass.colorMultiplier(BlockInvisiGlass.java:142)
+	at net.minecraft.client.renderer.RenderBlocks.renderStandardBlock(RenderBlocks.java:4458)
+	at com.crystalix007.letsmodreboot.client.render.RenderInvisiGlass$ElementDisplay.compileList(RenderInvisiGlass.java:163)
+	at com.crystalix007.letsmodreboot.client.render.RenderInvisiGlass$ElementDisplay.getDisplayList(RenderInvisiGlass.java:140)
+	at com.crystalix007.letsmodreboot.client.render.RenderInvisiGlass$ElementDisplay.access$100(RenderInvisiGlass.java:124)
+	at com.crystalix007.letsmodreboot.client.render.RenderInvisiGlass.renderTileEntityAt(RenderInvisiGlass.java:305)
+
+-- Block Entity Details --
+Details:
+	Name: tileInvisiGlass // com.crystalix007.letsmodreboot.tileentities.TileEntityInvisiGlass
+	Block type: ID #168 (tile.letsmodreboot:invisiGlass // com.crystalix007.letsmodreboot.block.BlockInvisiGlass)
+	Block data value: 0 / 0x0 / 0b0000
+	Block location: World: (264,4,-306), Chunk: (at 8,0,14 in 16,-20; contains blocks 256,0,-320 to 271,255,-305), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Actual block type: ID #168 (tile.letsmodreboot:invisiGlass // com.crystalix007.letsmodreboot.block.BlockInvisiGlass)
+	Actual block data value: 0 / 0x0 / 0b0000
+Stacktrace:
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.renderTileEntityAt(TileEntityRendererDispatcher.java:141)
+	at net.minecraft.client.renderer.tileentity.TileEntityRendererDispatcher.renderTileEntity(TileEntityRendererDispatcher.java:126)
+	at net.minecraft.client.renderer.RenderGlobal.renderEntities(RenderGlobal.java:545)
+	at net.minecraft.client.renderer.EntityRenderer.renderWorld(EntityRenderer.java:1308)
+
+-- Affected level --
+Details:
+	Level name: MpServer
+	All players: 1 total; [EntityClientPlayerMP['ForgeDevName'/177, l='MpServer', x=283.53, y=5.62, z=-319.30]]
+	Chunk stats: MultiplayerChunkCache: 49, 49
+	Level seed: 0
+	Level generator: ID 01 - flat, ver 0. Features enabled: false
+	Level generator options: 
+	Level spawn location: World: (284,4,-311), Chunk: (at 12,0,9 in 17,-20; contains blocks 272,0,-320 to 287,255,-305), Region: (0,-1; contains chunks 0,-32 to 31,-1, blocks 0,0,-512 to 511,255,-1)
+	Level time: 111127 game time, 22574 day time
+	Level dimension: 0
+	Level storage version: 0x00000 - Unknown?
+	Level weather: Rain time: 0 (now: false), thunder time: 0 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: false
+	Forced entities: 13 total; [EntitySheep['Sheep'/102, l='MpServer', x=250.28, y=4.00, z=-283.31], EntitySheep['Sheep'/100, l='MpServer', x=251.84, y=4.00, z=-362.72], EntitySheep['Sheep'/101, l='MpServer', x=255.88, y=4.00, z=-289.22], EntitySheep['Sheep'/109, l='MpServer', x=283.13, y=4.00, z=-365.84], EntityClientPlayerMP['ForgeDevName'/177, l='MpServer', x=283.53, y=5.62, z=-319.30], EntityChicken['Chicken'/127, l='MpServer', x=329.43, y=4.00, z=-280.47], EntityHorse['Donkey'/93, l='MpServer', x=236.50, y=4.00, z=-257.25], EntityPig['Pig'/126, l='MpServer', x=329.85, y=4.00, z=-310.69], EntityHorse['Horse'/92, l='MpServer', x=228.81, y=4.00, z=-279.16], EntityPig['Pig'/125, l='MpServer', x=334.03, y=4.00, z=-350.97], EntitySheep['Sheep'/124, l='MpServer', x=324.78, y=4.00, z=-355.56], EntitySheep['Sheep'/94, l='MpServer', x=230.34, y=4.00, z=-267.22], EntityHorse['Donkey'/91, l='MpServer', x=225.75, y=4.00, z=-293.66]]
+	Retry entities: 0 total; []
+	Server brand: fml,forge
+	Server type: Integrated singleplayer server
+Stacktrace:
+	at net.minecraft.client.multiplayer.WorldClient.addWorldInfoToCrashReport(WorldClient.java:417)
+	at net.minecraft.client.Minecraft.addGraphicsAndWorldToCrashReport(Minecraft.java:2567)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:983)
+	at net.minecraft.client.main.Main.main(Main.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:134)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at GradleStart.bounce(GradleStart.java:107)
+	at GradleStart.startClient(GradleStart.java:100)
+	at GradleStart.main(GradleStart.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:134)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 7 (amd64) version 6.1
+	Java Version: 1.7.0_65, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 833796576 bytes (795 MB) / 1038876672 bytes (990 MB) up to 1038876672 bytes (990 MB)
+	JVM Flags: 3 total; -Xincgc -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP v9.05 FML v7.10.25.1208 Minecraft Forge 10.13.0.1208 4 mods loaded, 4 mods active
+	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	FML{7.10.25.1208} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.0.1208.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Forge{10.13.0.1208} [Minecraft Forge] (forgeSrc-1.7.10-10.13.0.1208.jar) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	LetsModReboot{1.7.10-1.0} [Lets Mod Reboot] (main) Unloaded->Constructed->Pre-initialized->Initialized->Post-initialized->Available->Available->Available->Available
+	Launched Version: 1.7.10
+	LWJGL: 2.9.1
+	OpenGL: AMD Radeon HD 6800 Series GL version 4.3.12618 Compatibility Profile Context 13.251.0.0, ATI Technologies Inc.
+	GL Caps: Using GL 1.3 multitexturing.
+Using framebuffer objects because OpenGL 3.0 is supported and separate blending is supported.
+Anisotropic filtering is supported and maximum anisotropy is 16.
+Shaders are available because OpenGL 2.1 is supported.
+
+	Is Modded: Definitely; Client brand changed to 'fml,forge'
+	Type: Client (map_client.txt)
+	Resource Packs: []
+	Current Language: English (US)
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Anisotropic Filtering: Off (1)

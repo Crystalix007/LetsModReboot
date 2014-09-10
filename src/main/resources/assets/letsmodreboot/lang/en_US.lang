@@ -12,13 +12,14 @@ item.letsmodreboot:spinelIngot.name=Spinel ingot
 item.letsmodreboot:siliconNitrideIngot.name=SiN ingot
 item.letsmodreboot:teleportArrow.name=Teleport ammo
 item.letsmodreboot:carrotAmmo.name=Carrot ammo
-item.letsmodreboot:debugTool.name=Debugging tool
 
 #Useable Items
 item.letsmodreboot:spinelPickaxe.name=Spinel pickaxe
 item.letsmodreboot:siliconNitridePickaxe.name=SiN pickaxe
 item.letsmodreboot:heavyHammer.name=Heavy hammer
 item.letsmodreboot:newBow.name=Carrot Bomber
+item.letsmodreboot:debugTool.name=Debugging tool
+item.letsmodreboot:enderStaff.name=Ender staff
 
 #Blocks
 tile.letsmodreboot:flag.name=Canadian flag
