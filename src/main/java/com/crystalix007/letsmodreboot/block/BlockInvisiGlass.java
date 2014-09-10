@@ -3,7 +3,6 @@ package com.crystalix007.letsmodreboot.block;
 import com.crystalix007.letsmodreboot.init.ModBlocks;
 import com.crystalix007.letsmodreboot.init.ModMaterials;
 import com.crystalix007.letsmodreboot.proxy.ClientProxy;
-import com.crystalix007.letsmodreboot.reference.Reference;
 import com.crystalix007.letsmodreboot.tileentities.TileEntityInvisiGlass;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -29,7 +28,7 @@ import java.util.List;
 import java.util.Random;
 
 public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvider {
-	public static IIcon alpha0, alpha1, alpha2, alpha3, alpha4, alpha5;
+	protected IIcon[] icons = new IIcon[6]; //0 - 5
 
 	public BlockInvisiGlass() {
 		super("invisiGlass", ModMaterials.materialSoft);
@@ -41,13 +40,10 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 	@Override
 	@SideOnly(Side.CLIENT)
 	public void registerBlockIcons(IIconRegister iconRegister) {
-		blockIcon = iconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1));
-		alpha0 = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "invisiGlass_0");
-		alpha1 = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "invisiGlass_1");
-		alpha2 = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "invisiGlass_2");
-		alpha3 = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "invisiGlass_3");
-		alpha4 = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "invisiGlass_4");
-		alpha5 = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "invisiGlass_5");
+		super.registerBlockIcons(iconRegister);
+
+		for (int i = 0; i <= 5; i++)
+			icons[i] = iconRegister.registerIcon(this.getUnlocalizedName().substring(this.getUnlocalizedName().indexOf(".") + 1) + "_" + String.valueOf(i));
 	}
 
 	@SideOnly(Side.CLIENT)
@@ -67,22 +63,10 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 
 	@SideOnly(Side.CLIENT)
 	public IIcon getIcon(int side, int meta) {
-		switch (meta) {
-			/*case 0:
-				return alpha0;
-			case 1:
-				return alpha1;
-			case 2:
-				return alpha2;
-			case 3:
-				return alpha3;
-			case 4:
-				return alpha4;
-			case 5:
-				return alpha5;*/
-			default:
-				return blockIcon;
-		}
+		if (meta <= 5)
+			return icons[meta];
+		else
+			return blockIcon;
 	}
 
 	public boolean onBlockActivated(World world, int x, int y, int z, EntityPlayer player, int i, float v, float v1, float v2) {
@@ -94,9 +78,9 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		TileEntityInvisiGlass tile = (TileEntityInvisiGlass) world.getTileEntity(x, y, z);
 
 		if (currentItem.getUnlocalizedName().contains("dye")) {
-			if (currentItem.getItemDamage() == 0 && tile.alpha < 0.9f && tile.getBlockMetadata() < 5) {
+			if (currentItem.getItemDamage() == 0 && tile.alpha < 0.9f && world.getBlockMetadata(x, y, z) < 5) {
 				tile.alpha += 0.2f;
-				tile.blockMetadata++;
+				world.setBlockMetadataWithNotify(x, y, z, world.getBlockMetadata(x, y, z) + 1, 1);
 				used = true;
 			}
 
@@ -112,9 +96,9 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 				tile.blue += 20;
 				used = true;
 			}
-			if (currentItem.getItemDamage() == 15 && tile.alpha > 0.1f && tile.getBlockMetadata() > 0) {
+			if (currentItem.getItemDamage() == 15 && tile.alpha > 0.1f && world.getBlockMetadata(x, y, z) > 0) {
 				tile.alpha -= 0.2f;
-				tile.blockMetadata--;
+				world.setBlockMetadataWithNotify(x, y, z, world.getBlockMetadata(x, y, z) - 1, 1);
 				used = true;
 			}
 			if (!player.capabilities.isCreativeMode && used)
@@ -212,7 +196,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 
 		if (this == ModBlocks.invisiGlass)
 		{
-			if (world.getBlock(x, y, z).colorMultiplier(world, x, y, z) != world.getBlock(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]).colorMultiplier(world, x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]))
+			if (world.getBlock(x, y, z).colorMultiplier(world, x, y, z) != world.getBlock(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]).colorMultiplier(world, x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]) || world.getBlockMetadata(x, y, z) != world.getBlockMetadata(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]))
 			{
 				return true;
 			}
@@ -226,15 +210,9 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		return block == this ? false : super.shouldSideBeRendered(world, x, y, z, side);
 	}
 
-	@Override
-	public void onNeighborBlockChange(World world, int x, int y, int z, Block block) {
-		world.markBlockForUpdate(x, y, z);
-		world.markBlockRangeForRenderUpdate(x, y, z, x, y, z);
-		ClientProxy.printMessageToPlayer("Rendering block again");
+	@SideOnly(Side.CLIENT)
+	public int getRenderBlockPass()
+	{
+		return 1;
 	}
-
-	/*@Override
-	public int getRenderType() {
-		return -1;
-	}*/
 }

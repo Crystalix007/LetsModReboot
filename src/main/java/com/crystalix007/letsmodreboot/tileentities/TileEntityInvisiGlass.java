@@ -9,7 +9,6 @@ public class TileEntityInvisiGlass extends TileEntity
 	public byte green;
 	public byte blue;
 	public float alpha;
-	public float currentAlpha;
 
 	public TileEntityInvisiGlass()
 	{
@@ -18,7 +17,6 @@ public class TileEntityInvisiGlass extends TileEntity
 		green = 0;
 		blue = 0;
 		alpha = 0.5f;
-		currentAlpha = alpha;
 	}
 
 	@Override
@@ -30,7 +28,6 @@ public class TileEntityInvisiGlass extends TileEntity
 		compound.setByte("green", green);
 		compound.setByte("blue", blue);
 		compound.setFloat("alpha", alpha);
-		compound.setFloat("currentAlpha", currentAlpha);
 	}
 
 	@Override
@@ -42,7 +39,6 @@ public class TileEntityInvisiGlass extends TileEntity
 		green = compound.getByte("green");
 		blue = compound.getByte("blue");
 		alpha = compound.getFloat("alpha");
-		currentAlpha = compound.getFloat("currentFloat");
 	}
 
 	@Override

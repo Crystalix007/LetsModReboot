@@ -36,6 +36,11 @@ public class FaceRendererHelper
 		return this.renderStandardBlockWithColorMultiplier(block, x, y, z, red, green, blue);
 	}
 
+	public int damageDropped(int meta)
+	{
+		return meta;
+	}
+
 	public boolean renderStandardBlockWithColorMultiplier(Block block, int x, int y, int z, float red, float green, float blue)
 	{
 		boolean flag = false;

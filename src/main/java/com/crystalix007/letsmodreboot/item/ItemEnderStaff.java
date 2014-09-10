@@ -3,6 +3,7 @@ package com.crystalix007.letsmodreboot.item;
 import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.utility.BlockCoord;
 import com.crystalix007.letsmodreboot.utility.VectorHelper;
+import net.minecraft.block.BlockAir;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MovingObjectPosition;
@@ -101,8 +102,14 @@ public class ItemEnderStaff extends ItemLMRB
 
 	private boolean doBlink(EntityPlayer player, BlockCoord coord)
 	{
-		player.setPositionAndUpdate(coord.x, coord.y, coord.z);
-		player.swingItem();
-		return true;
+		World world = player.worldObj;
+
+		if  (world.getBlock(coord.x, coord.y, coord.z) instanceof BlockAir) {
+			player.setPositionAndUpdate(coord.x, coord.y, coord.z);
+			player.swingItem();
+			return true;
+		}
+		else
+			return false;
 	}
 }
