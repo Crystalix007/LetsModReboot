@@ -30,6 +30,7 @@ public class ModItems
     public static final ItemPickaxeLMRB siliconNitridePickaxe = new ItemSiliconNitridePickaxe(siliconNitrideMaterial);
 	public static final ItemPickaxeLMRB heavyHammer = new ItemHeavyHammer();
     public static final Item itemNewBow = new ItemNewBow();
+	public static final ItemLMRB enderStaff = new ItemEnderStaff();
 
 	public static void init()
 	{
@@ -44,11 +45,12 @@ public class ModItems
 		GameRegistry.registerItem(siliconNitrideIngot, "siliconNitrideIngot");
 		GameRegistry.registerItem(spinelIngot, "spinelIngot");
 		GameRegistry.registerItem(teleportArrow, "teleportArrow");
-		GameRegistry.registerItem(debugTool, "debugTool");
 
         GameRegistry.registerItem(spinelPickaxe, "spinelPickaxe");
         GameRegistry.registerItem(siliconNitridePickaxe, "siliconNitridePickaxe");
 		GameRegistry.registerItem(heavyHammer, "heavyHammer");
+		GameRegistry.registerItem(debugTool, "debugTool");
+		GameRegistry.registerItem(enderStaff, "enderStaff");
 
         GameRegistry.registerItem(itemNewBow, "newBow");
 	}

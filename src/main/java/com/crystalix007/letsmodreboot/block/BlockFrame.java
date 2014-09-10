@@ -1,6 +1,8 @@
 package com.crystalix007.letsmodreboot.block;
 
 import com.crystalix007.letsmodreboot.tileentities.TileEntityFrame;
+import net.minecraft.block.Block;
+import net.minecraft.block.BlockAir;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.tileentity.TileEntity;
@@ -63,6 +65,45 @@ public class BlockFrame extends BlockLMRB implements ITileEntityProvider
 		float pixel = 1.f / 16.f;
 		float min = 5.f * pixel;
 		float max = 1.f - min;
-		return AxisAlignedBB.getBoundingBox(x + min, y, z + min, x + max, y + 1, z + max);
+		float minX = min, minY = min, minZ = min;
+		float maxX = max, maxY = 1, maxZ = max;
+		Block block;
+
+		block = world.getBlock(x - 1, y, z);
+
+		if (!(block instanceof BlockAir))
+		{
+			minX = 0;
+		}
+
+		block = world.getBlock(x + 1, y, z);
+
+		if (!(block instanceof BlockAir))
+		{
+			maxX = 1;
+		}
+
+		block = world.getBlock(x, y - 1, z);
+
+		if (!(block instanceof BlockAir))
+		{
+			minY = 0;
+		}
+
+		block = world.getBlock(x, y, z - 1);
+
+		if (!(block instanceof BlockAir))
+		{
+			minZ = 0;
+		}
+
+		block = world.getBlock(x, y, z + 1);
+
+		if (!(block instanceof BlockAir))
+		{
+			maxZ = 1;
+		}
+
+		return AxisAlignedBB.getBoundingBox(x + minX, y + minY, z + minZ, x + maxX, y + maxY, z + maxZ);
 	}
 }

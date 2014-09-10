@@ -26,4 +26,10 @@ public class MaterialHidden extends Material
 	{
 		return false;
 	}
+
+	@Override
+	public int getMaterialMobility()
+	{
+		return 0;
+	}
 }

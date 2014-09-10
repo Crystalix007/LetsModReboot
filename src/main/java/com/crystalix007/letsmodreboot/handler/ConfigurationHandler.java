@@ -1,6 +1,7 @@
 package com.crystalix007.letsmodreboot.handler;
 
 import com.crystalix007.letsmodreboot.reference.Reference;
+import com.crystalix007.letsmodreboot.utility.LogHelper;
 import cpw.mods.fml.client.event.ConfigChangedEvent;
 import cpw.mods.fml.common.eventhandler.SubscribeEvent;
 import net.minecraftforge.common.config.Configuration;
@@ -12,6 +13,7 @@ public class ConfigurationHandler
 	public static Configuration configuration;
 	public static boolean testValue = false;
     public static boolean alphaFeatures = true;
+	public static int teleportDist = 5;
 
 	public static void init(File configFile)
 	{
@@ -39,10 +41,12 @@ public class ConfigurationHandler
 			//Read in properties from configuration file
 			testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example config value");
             alphaFeatures = configuration.getBoolean("alphaFeatures", Configuration.CATEGORY_GENERAL, true, "Should alpha features be used");
+			teleportDist = configuration.getInt("teleportDistance", Configuration.CATEGORY_GENERAL, 5, 1, 15, "Distance the EnderStaff teleports");
 		}
 		catch (Exception e)
 		{
 			//Log the exception
+			LogHelper.info(Reference.MOD_NAME + " : " + "Exception occurred reading config file: " + e.getMessage());
 		}
 		finally {
 			//Save configuration file

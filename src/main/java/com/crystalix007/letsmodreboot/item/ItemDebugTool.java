@@ -30,10 +30,12 @@ public class ItemDebugTool extends ItemLMRB {
 		{
 			TileEntityInvisiGlass tile = ((TileEntityInvisiGlass) world.getTileEntity(x, y, z));
 			world.markBlockForUpdate(x, y, z);
-			tile.debug = true;
+
 			ClientProxy.printMessageToPlayer("RGBA: " + String.valueOf(tile.red) + ", " + String.valueOf(tile.green) + ", " + String.valueOf(tile.blue) + ", " + String.valueOf(tile.alpha));
+
 			for (int i = 0; i <= 5; i++)
 				ClientProxy.printMessageToPlayer("Should render side " + String.valueOf(i) + ": " + String.valueOf(ModBlocks.invisiGlass.shouldSideBeRendered(world, x, y, z, i)));
+
 			used = true;
 		}
 		return used;

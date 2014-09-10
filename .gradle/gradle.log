@@ -10,12 +10,8 @@ The assetDir is deprecated!  Use runDir instead! runDir set to eclipse/assets/..
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava
-:compileJavawarning: [options] bootstrap class path not set in conjunction with -source 1.6
-Note: C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\build\sources\java\com\crystalix007\letsmodreboot\client\gui\ModGuiConfig.java uses unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-1 warning
-
+:sourceMainJava UP-TO-DATE
+:compileJava UP-TO-DATE
 :processResources
 :classes
 :jar
@@ -36,4 +32,4 @@ Note: Recompile with -Xlint:unchecked for details.
 
 BUILD SUCCESSFUL
 
-Total time: 45.233 secs
+Total time: 12.924 secs
