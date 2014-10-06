@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c9213f-a5ca-4b03-99ad-f59f083c55d4" name="Default" comment="">
-<<<<<<< HEAD
-=======
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/particle/enderFX.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockDirectionalLMRB.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGenerator.java" />
@@ -15,7 +13,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemGenerator.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemWindmill.java" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModOreDictionary.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEffectHelper.java" />
       <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-07-28_19.38.28-client.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-07-30_20.58.08-client.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-07-30_21.07.56-client.txt" afterPath="" />
@@ -112,210 +109,6 @@
       <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_17.34.25-client.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_18.51.02-client.txt" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-10_17.21.38-client.txt" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-30-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-30-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-24-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-24-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-24-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-24-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-1.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-2.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-3.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-4.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-5.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-6.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-7.log.gz" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-client-1.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-client-2.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-client-3.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-client-latest.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-junk-earlystartup.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\latest.log" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\NEI\client.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\NEI\local\Test\NEI.cfg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\NEI\local\Test\NEI.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test-20140804-152506.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test-20140804-154720.zip" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\DIM-1\data\villages.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\DIM-1\forcedchunks.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\DIM1\data\villages.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\DIM1\forcedchunks.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\NEI\banneditems.cfg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\NEI\players\ForgeDevName.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\NEI\server.cfg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\data\villages.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\forcedchunks.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\level.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\level.dat_mcr" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\level.dat_old" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\playerdata\040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.-1.-1.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.-1.-2.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.-2.-1.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.-2.-2.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.0.-1.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.0.-2.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.0.0.mca" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\session.lock" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\stats\040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\screenshots\2014-08-04_19.12.32.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\screenshots\2014-08-06_10.59.41.png" afterPath="" />
       <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\stencil1.png" afterPath="" />
@@ -337,7 +130,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/Recipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/Recipes.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/reference/Reference.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityInvisiGlass.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityInvisiGlass.java" />
->>>>>>> origin/development
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/NEI/client.cfg" afterPath="$PROJECT_DIR$/eclipse/config/NEI/client.cfg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" />
@@ -370,14 +162,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-<<<<<<< HEAD
-      <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2346">
-              <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-              <folding />
-=======
       <file leaf-file-name="ItemEnderStaff.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemEnderStaff.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -391,8 +175,8 @@
       <file leaf-file-name="RenderEffectHelper.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEffectHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.52517164" vertical-offset="0" max-vertical-offset="874">
-              <caret line="35" column="14" selection-start-line="35" selection-start-column="12" selection-end-line="38" selection-end-column="132" />
+            <state vertical-scroll-proportion="0.6060606" vertical-offset="0" max-vertical-offset="714">
+              <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -446,24 +230,15 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1037">
               <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding />
->>>>>>> origin/development
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
-      <file leaf-file-name="mcmod.info" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.49594814" vertical-offset="0" max-vertical-offset="816">
-              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-=======
       <file leaf-file-name="ModOreDictionary.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModOreDictionary.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="442">
               <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
->>>>>>> origin/development
               <folding />
             </state>
           </provider>
@@ -794,11 +569,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-<<<<<<< HEAD
-        <entry key="$PROJECT_DIR$" value="1410373064312" />
-=======
         <entry key="$PROJECT_DIR$" value="1412105614868" />
->>>>>>> origin/development
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -902,11 +673,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" />
-<<<<<<< HEAD
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/a38808efb4998d7ed95f62793832a77b145fd7d5/ForgeGradle-1.2-SNAPSHOT.jar" />
-=======
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/7f18720aab4fb824b3eaee41d491bd3a2e0fd677/ForgeGradle-1.2-SNAPSHOT.jar" />
->>>>>>> origin/development
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/RetroGuard/3.6.6/ffd69fcab06b928cf76144f08b7209ccf0656b6d/RetroGuard-3.6.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/235993117036d44d126f76db9ea2202ee4884682/opencsv-2.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar" />
@@ -1082,8 +849,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-<<<<<<< HEAD
-=======
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/effect/EntityLMRBFX.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/effect/EntityEnderFX.java" />
@@ -1101,7 +866,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvResetter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockWindmill.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModBlocks.java" />
->>>>>>> origin/development
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/handler/ConfigurationHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/command/CommandLMRB.java" />
@@ -1177,13 +941,6 @@
       <sortByType />
     </navigator>
     <panes>
-<<<<<<< HEAD
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-=======
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1377,7 +1134,6 @@
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
->>>>>>> origin/development
             <PATH_ELEMENT>
               <option name="myItemId" value="letsmodreboot" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -1442,8 +1198,6 @@
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-<<<<<<< HEAD
-=======
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -2212,7 +1966,6 @@
               <option name="myItemId" value="init" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
             </PATH_ELEMENT>
->>>>>>> origin/development
           </PATH>
         </subPane>
       </pane>
@@ -2232,16 +1985,6 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="dynamic.classpath" value="false" />
-<<<<<<< HEAD
-  </component>
-  <component name="RunManager" selected="Application.Minecraft Client">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-=======
     <property name="options.lastSelected" value="appearance" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -2259,7 +2002,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
->>>>>>> origin/development
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
@@ -2399,45 +2141,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-<<<<<<< HEAD
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-=======
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32947367" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
->>>>>>> origin/development
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-=======
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -2452,7 +2167,6 @@
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
->>>>>>> origin/development
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -2473,26 +2187,15 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-<<<<<<< HEAD
-    <breakpoint-manager />
-=======
     <breakpoint-manager>
       <option name="time" value="1" />
     </breakpoint-manager>
->>>>>>> origin/development
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2346">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-          <folding />
-=======
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/effect/EntityLMRBFX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.39028475" vertical-offset="107" max-vertical-offset="2992">
@@ -2843,16 +2546,11 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
->>>>>>> origin/development
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemEnderStaff.java">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state vertical-scroll-proportion="0.49594814" vertical-offset="0" max-vertical-offset="816">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-=======
         <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2618">
           <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
           <folding />
@@ -2861,9 +2559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEffectHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52517164" vertical-offset="0" max-vertical-offset="874">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="12" selection-end-line="38" selection-end-column="132" />
->>>>>>> origin/development
+        <state vertical-scroll-proportion="0.6060606" vertical-offset="0" max-vertical-offset="714">
+          <caret line="28" column="33" selection-start-line="28" selection-start-column="33" selection-end-line="28" selection-end-column="33" />
           <folding />
         </state>
       </provider>
