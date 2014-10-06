@@ -3,23 +3,24 @@ package com.crystalix007.letsmodreboot.init;
 import com.crystalix007.letsmodreboot.item.*;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
-import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraftforge.common.util.EnumHelper;
-import net.minecraftforge.oredict.OreDictionary;
 
 @GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
 {
 	public static final ItemLMRB mapleLeaf = new ItemMapleLeaf();
     public static final ItemLMRB carrotAmmo = new ItemCarrotAmmo();
-	public static final Item darkString = new ItemDarkString();
 	public static final ItemLMRB spinelDust = new ItemSpinelDust();
 	public static final ItemLMRB siliconNitrideDust = new ItemSiliconNitrideDust();
 	public static final ItemLMRB siliconNitrideIngot = new ItemSiliconNitrideIngot();
 	public static final ItemLMRB spinelIngot = new ItemSpinelIngot();
 	public static final ItemLMRB teleportArrow = new ItemTeleportArrow();
 	public static final ItemLMRB debugTool = new ItemDebugTool();
+	public static final ItemLMRB itemGenerator = new ItemGenerator();
+	public static final ItemLMRB itemWindmill = new ItemWindmill();
+
+	public static final Item darkString = new ItemDarkString();
 
     //Tool materials
     public static Item.ToolMaterial spinelMaterial = EnumHelper.addToolMaterial("spinelMaterial", 4, 3000, 12, 7, 0);
@@ -34,9 +35,6 @@ public class ModItems
 
 	public static void init()
 	{
-		OreDictionary.registerOre("string", Items.string);
-		OreDictionary.registerOre("gunpowder", Items.gunpowder);
-
 		GameRegistry.registerItem(mapleLeaf, "mapleLeaf");
         GameRegistry.registerItem(carrotAmmo, "carrotAmmo");
 		GameRegistry.registerItem(darkString, "darkString");

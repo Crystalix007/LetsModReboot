@@ -16,6 +16,9 @@ public class ModBlocks
 	public static final BlockLMRB spinel = new BlockSpinel();
 	public static final BlockLMRB siliconNitride = new BlockSiliconNitride();
 	public static final BlockLMRB frameBlock = new BlockFrame();
+	public static final BlockLMRB generator = new BlockGenerator();
+	public static final BlockLMRB invResetter = new BlockInvResetter();
+	public static final BlockLMRB windmillBlock = new BlockWindmill();
 	public static final BlockGlassLMRB invisiGlass = new BlockInvisiGlass();
     public static final BlockGlassLMRB trapBlock = new BlockTrap();
 	public static final BlockGlassLMRB refBlock = new BlockReference();
@@ -31,6 +34,8 @@ public class ModBlocks
         GameRegistry.registerBlock(trapBlock, "trapBlock");
 		GameRegistry.registerBlock(refBlock, "refBlock");
 		GameRegistry.registerBlock(frameBlock, "frameBlock");
+		GameRegistry.registerBlock(invResetter, "invResetterBlock");
+		//GameRegistry.registerBlock(windmillBlock, "windmillBlock");
 
 		ClientRegistry.bindTileEntitySpecialRenderer(TileEntityFrame.class, frameBlockRenderer);
     }

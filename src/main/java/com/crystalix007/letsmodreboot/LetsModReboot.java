@@ -39,6 +39,8 @@ public class LetsModReboot
 		ModItems.init();
 		//Init blocks
 		ModBlocks.init();
+		//Init OreDictionary stuff
+		ModOreDictionary.init();
 
 		LogHelper.info("Pre-initialization complete");
 	}

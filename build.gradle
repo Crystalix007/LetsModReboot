@@ -22,7 +22,7 @@ group= "com.crystalix007.letsmodreboot" // http://maven.apache.org/guides/mini/g
 archivesBaseName = "LetsModReboot"
 
 minecraft {
-    version = "1.7.10-10.13.0.1208"
+    version = "1.7.10-10.13.1.1217"
     assetDir = "eclipse/assets"
 }
 

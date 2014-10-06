@@ -1,9 +1,12 @@
 package com.crystalix007.letsmodreboot.item;
 
+import com.crystalix007.letsmodreboot.client.render.RenderEffectHelper;
+import com.crystalix007.letsmodreboot.effect.EntityEnderFX;
 import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.utility.BlockCoord;
 import com.crystalix007.letsmodreboot.utility.VectorHelper;
 import net.minecraft.block.BlockAir;
+import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 import net.minecraft.util.MovingObjectPosition;
@@ -14,11 +17,19 @@ import javax.vecmath.Vector3d;
 
 public class ItemEnderStaff extends ItemLMRB
 {
+	protected ItemStack emptyItem = null;
+	protected static int maxDamage;
+
 	public ItemEnderStaff()
 	{
 		super();
 		setUnlocalizedName("enderStaff");
+
 		setMaxStackSize(1);
+		setMaxDamage(256);
+		maxDamage = getMaxDamage();
+
+		setNoRepair();
 	}
 
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player)
@@ -47,7 +58,14 @@ public class ItemEnderStaff extends ItemLMRB
 					sample.add(eye);
 					sample.y -= playerHeight;
 
+					if (canTravelTo(player, sample.x, sample.y, sample.z)) {
+						RenderEffectHelper.spreadEffects(new EntityEnderFX(world, player.posX, player.posY, player.posZ), player.posX, player.posZ, 4, 5);
+						itemStack.damageItem(1, player);
+						player.fallDistance = 0;
+					}
+
 					if (doBlinkAround(player, sample)) {
+						RenderEffectHelper.spreadEffects(new EntityEnderFX(world, player.posX, player.posY, player.posZ), player.posX, player.posZ, 4, 5);
 						return itemStack;
 					}
 				}
@@ -64,6 +82,8 @@ public class ItemEnderStaff extends ItemLMRB
 					sample.y -= playerHeight;
 
 					if (doBlinkAround(player, sample)) {
+						player.swingItem();
+						itemStack.damageItem(1, player);
 						return itemStack;
 					}
 					teleDistance++;
@@ -79,6 +99,8 @@ public class ItemEnderStaff extends ItemLMRB
 					sample.y -= playerHeight;
 
 					if (doBlinkAround(player, sample)) {
+						player.swingItem();
+						itemStack.damageItem(1, player);
 						return itemStack;
 					}
 					sampleDistance--;
@@ -104,12 +126,36 @@ public class ItemEnderStaff extends ItemLMRB
 	{
 		World world = player.worldObj;
 
-		if  (world.getBlock(coord.x, coord.y, coord.z) instanceof BlockAir) {
+		if  (canTravelTo(player, coord.x, coord.y, coord.z)) {
 			player.setPositionAndUpdate(coord.x, coord.y, coord.z);
 			player.swingItem();
 			return true;
 		}
 		else
 			return false;
+	}
+
+	public boolean canTravelTo(Entity entity, double x, double y, double z)
+	{
+		int i = (int)(Math.round(x));
+		int j = (int)(Math.round(y));
+		int k = (int)(Math.round(z));
+
+		return canTravelTo(entity, i, j, k);
+	}
+
+	public boolean canTravelTo(Entity entity, int x, int y, int z)
+	{
+		World world = entity.worldObj;
+
+		for (int i = y; i <= y + (entity.getEyeHeight() - entity.yOffset); i++)
+		{
+			if (!(world.getBlock(x, i, z) instanceof BlockAir))
+			{
+				return false;
+			}
+		}
+
+		return true;
 	}
 }

@@ -8,12 +8,15 @@ import net.minecraftforge.common.config.Configuration;
 
 import java.io.File;
 
+import static net.minecraftforge.common.config.Configuration.CATEGORY_GENERAL;
+
 public class ConfigurationHandler
 {
 	public static Configuration configuration;
-	public static boolean testValue = false;
-    public static boolean alphaFeatures = true;
+
+	//Config values
 	public static int teleportDist = 5;
+	public static boolean removeInvOfCreative = false;
 
 	public static void init(File configFile)
 	{
@@ -30,30 +33,29 @@ public class ConfigurationHandler
 		{
 			loadConfiguration();
 		}
+		configuration.save();
 	}
 
 	private static void loadConfiguration()
 	{
-		try {   //Exceptions can be thrown
-			//Load configuration file
+		try {
+			//Load config file
 			configuration.load();
 
-			//Read in properties from configuration file
-			testValue = configuration.getBoolean("configValue", Configuration.CATEGORY_GENERAL, false, "This is an example config value");
-            alphaFeatures = configuration.getBoolean("alphaFeatures", Configuration.CATEGORY_GENERAL, true, "Should alpha features be used");
-			teleportDist = configuration.getInt("teleportDistance", Configuration.CATEGORY_GENERAL, 5, 1, 15, "Distance the EnderStaff teleports");
+			teleportDist = configuration.getInt("TeleportDistance", CATEGORY_GENERAL, 5, 1, 15, "Distance the EnderStaff teleports");
+			removeInvOfCreative = configuration.getBoolean("RemoveCreativeInv", CATEGORY_GENERAL, false, "Whether a creative player should have their inventory cleared");
+			LogHelper.info("Should remove inv: " + String.valueOf(removeInvOfCreative));
 		}
 		catch (Exception e)
 		{
-			//Log the exception
-			LogHelper.info(Reference.MOD_NAME + " : " + "Exception occurred reading config file: " + e.getMessage());
+			LogHelper.error(e.getMessage());
 		}
 		finally {
-			//Save configuration file
+			//If the config has been modified
 			if (configuration.hasChanged())
+			{
 				configuration.save();
+			}
 		}
-
-		System.out.println("LetsModReboot: " + testValue);
 	}
 }

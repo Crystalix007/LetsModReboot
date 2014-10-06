@@ -1,5 +1,6 @@
 package com.crystalix007.letsmodreboot.init;
 
+import com.crystalix007.letsmodreboot.recipes.EnderStaffRecipe;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.ItemStack;
@@ -16,10 +17,19 @@ public class Recipes {
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.heavyHammer), "###", "#|#", " | ", '#', new ItemStack(ModBlocks.siliconNitride), '|', "stickWood"));
 		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModBlocks.frameBlock), "###", "#/#", "###", '#', "ingotIron", '/', "stickWood"));
 
+		//Adding positionless recipe of teleport staff
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.enderStaff), "O  ", " | ", "   ", 'O', "enderEye", '|', "stickWood"));
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.enderStaff), " O ", "  |", "   ", 'O', "enderEye", '|', "stickWood"));
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.enderStaff), "   ", "O  ", " | ", 'O', "enderEye", '|', "stickWood"));
+		GameRegistry.addRecipe(new ShapedOreRecipe(new ItemStack(ModItems.enderStaff), "   ", " O ", "  |", 'O', "enderEye", '|', "stickWood"));
+
+		//Repair recipe for the ender staff
+		GameRegistry.addRecipe(new EnderStaffRecipe());
+
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModBlocks.flag), "stickWood", new ItemStack(ModItems.mapleLeaf)));
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.carrotAmmo), "gunpowder", "cropCarrot"));
 		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.darkString), "dyeBlack", "string"));
-		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.teleportArrow), "arrow", "enderpearl"));
+		GameRegistry.addRecipe(new ShapelessOreRecipe(new ItemStack(ModItems.teleportArrow), "arrow", "enderPearl"));
 
 		GameRegistry.addSmelting(new ItemStack(Blocks.obsidian), new ItemStack(ModBlocks.spinel), 0.5f);
 		GameRegistry.addSmelting(new ItemStack(ModBlocks.spinel), new ItemStack(ModBlocks.siliconNitride), 0.75f);

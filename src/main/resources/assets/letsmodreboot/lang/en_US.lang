@@ -26,9 +26,10 @@ tile.letsmodreboot:flag.name=Canadian flag
 tile.letsmodreboot:spinel.name=Spinel block
 tile.letsmodreboot:siliconNitride.name=SiN block
 tile.letsmodreboot:invisiGlass.name=InvisiGlass block
-tile.letsmodreboot:trapBlock.name=Trap
+tile.letsmodreboot:trapBlock.name=Trap block
 tile.letsmodreboot:refBlock.name=Reference block
 tile.letsmodreboot:blockFrame.name=Frame block
+tile.letsmodreboot:invResetterBlock.name=Inventory resetter block
 
 #ItemGroups
 itemGroup.letsmodreboot=Let's Mod Reboot

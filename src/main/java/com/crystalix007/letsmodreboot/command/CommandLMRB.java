@@ -21,7 +21,7 @@ public abstract class CommandLMRB implements ICommand
 
 	@Override
 	public String getCommandUsage(ICommandSender iCommandSender) {
-		return "\\" + commandName;
+		return "/" + commandName;
 	}
 
 	@Override
