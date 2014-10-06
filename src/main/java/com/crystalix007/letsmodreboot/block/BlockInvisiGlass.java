@@ -14,6 +14,7 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.entity.item.EntityItem;
 import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.init.Blocks;
 import net.minecraft.init.Items;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemStack;
@@ -23,6 +24,7 @@ import net.minecraft.util.Facing;
 import net.minecraft.util.IIcon;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.world.World;
+import net.minecraftforge.oredict.OreDictionary;
 
 import java.util.List;
 import java.util.Random;
@@ -101,12 +103,25 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 				world.setBlockMetadataWithNotify(x, y, z, world.getBlockMetadata(x, y, z) - 1, 1);
 				used = true;
 			}
-			if (!player.capabilities.isCreativeMode && used)
-				currentItem.stackSize--;
 			world.markBlockForUpdate(x, y, z);
-		} else {
+		}
+		else {
+			List<ItemStack> obsidiBlocks = OreDictionary.getOres("blockObsidian");
+
+			for (ItemStack oreDictStack : obsidiBlocks)
+			{
+				if (currentItem.equals(oreDictStack))
+				{
+					tile.hardness += 20.f;
+					used = true;
+				}
+			}
+
 			player.getCurrentEquippedItem().useItemRightClick(world, player);
 		}
+
+		if (!player.capabilities.isCreativeMode && used)
+			currentItem.stackSize--;
 
 		return used;
 	}
@@ -149,6 +164,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		return new TileEntityInvisiGlass();
 	}
 
+	@Override
 	public boolean hasTileEntity(int metadata) {
 		return true;
 	}
@@ -158,11 +174,13 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		super.onBlockPlacedBy(world, x, y, z, entityLivingBase, itemStack);
 	}
 
+	@Override
 	public void onBlockAdded(World world, int x, int y, int z) {
 		super.onBlockAdded(world, x, y, z);
 		world.setTileEntity(x, y, z, createNewTileEntity(world, 0));
 	}
 
+	@Override
 	public void onBlockHarvested(World world, int x, int y, int z, int meta, EntityPlayer entityPlayer) {
 		if (entityPlayer.capabilities.isCreativeMode)
 			return;
@@ -171,6 +189,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Items.dye, tile.red / 20, 1)));
 		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Items.dye, tile.green / 20, 2)));
 		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Items.dye, tile.blue / 20, 4)));
+		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Blocks.obsidian, (int)(tile.hardness / 50.f))));
 	}
 
 	@Override

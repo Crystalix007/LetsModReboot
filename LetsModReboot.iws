@@ -2,8 +2,352 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45c9213f-a5ca-4b03-99ad-f59f083c55d4" name="Default" comment="">
+<<<<<<< HEAD
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/particle/enderFX.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockDirectionalLMRB.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvResetter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockWindmill.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/recipes/EnderStaffRecipe.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/effect/EntityEnderFX.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/effect/EntityLMRBFX.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemWindmill.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModOreDictionary.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEffectHelper.java" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-07-28_19.38.28-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-07-30_20.58.08-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-07-30_21.07.56-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-07-31_12.35.28-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-01_17.58.14-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-05_12.39.37-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-05_12.40.24-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-05_13.31.21-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-05_13.33.02-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-05_13.36.26-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-05_13.43.01-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-05_14.44.44-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-06_11.56.13-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-06_11.56.14-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-07_14.53.18-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-07_15.54.23-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-07_15.58.38-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-07_16.57.04-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_12.54.21-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_15.47.08-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_15.47.30-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_15.50.53-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_15.54.53-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_15.56.44-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_15.57.27-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_15.59.00-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_16.01.03-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_16.01.51-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_16.04.48-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_16.10.17-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_16.14.15-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_16.17.00-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_16.39.15-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_16.39.50-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_16.43.52-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_17.46.31-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_17.47.55-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_17.50.45-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_17.52.18-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_17.53.38-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_17.54.06-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-08_17.56.40-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-25_10.42.08-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_10.05.47-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_10.07.22-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_14.27.46-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_14.39.28-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_15.25.31-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_15.26.32-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_15.27.40-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_15.37.03-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_15.57.32-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_16.53.50-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_18.22.04-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_18.33.58-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_19.04.16-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_19.04.16-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_19.24.03-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_19.25.04-server.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_19.25.05-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-26_20.40.54-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-08-27_11.17.27-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-03_08.43.22-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-03_08.45.03-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-03_09.00.15-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-03_18.13.09-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-03_18.22.28-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-03_18.25.12-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-03_18.31.53-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-04_16.39.10-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-04_16.54.05-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-04_16.57.32-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-04_17.01.41-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-04_17.56.41-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-05_11.30.13-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-05_11.31.07-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-05_11.39.46-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-05_12.55.39-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-05_12.59.57-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-05_14.24.37-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-05_14.25.42-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-05_14.27.12-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_14.34.14-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_14.35.52-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_14.42.59-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_14.46.07-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_14.49.52-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_14.52.30-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_14.55.58-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_14.58.17-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_15.00.10-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_15.02.17-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_15.09.24-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_17.34.25-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-07_18.51.02-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\crash-reports\crash-2014-09-10_17.21.38-client.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-28-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-30-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-30-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-07-31-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-01-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-02-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-03-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-04-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-05-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-06-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-07-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-08-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-24-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-24-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-24-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-24-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-25-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-26-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-27-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-28-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-08-29-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-01-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-02-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-03-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-04-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-05-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-06-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-07-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-08-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-1.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-2.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-3.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-4.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-5.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-6.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\2014-09-10-7.log.gz" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-client-1.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-client-2.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-client-3.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-client-latest.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\fml-junk-earlystartup.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\logs\latest.log" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\NEI\client.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\NEI\local\Test\NEI.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\NEI\local\Test\NEI.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test-20140804-152506.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test-20140804-154720.zip" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\DIM-1\data\villages.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\DIM-1\forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\DIM1\data\villages.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\DIM1\forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\NEI\banneditems.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\NEI\players\ForgeDevName.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\NEI\server.cfg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\data\villages.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\forcedchunks.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\level.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\level.dat_mcr" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\level.dat_old" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\playerdata\040a63f0-e153-3f49-84a8-b60ca564e69f.dat" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.-1.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.-1.-2.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.-2.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.-2.-2.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.0.-1.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.0.-2.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\region\r.0.0.mca" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\session.lock" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\saves\Test\stats\040a63f0-e153-3f49-84a8-b60ca564e69f.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\screenshots\2014-08-04_19.12.32.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\screenshots\2014-08-06_10.59.41.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\stencil1.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\stencil2.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\eclipse\stencil3.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/blocks/Thumbs.db" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/textures/blocks/Thumbs.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/CodeChickenLib.cfg" afterPath="$PROJECT_DIR$/eclipse/config/CodeChickenLib.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/command/CommandLMRB.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/command/CommandLMRB.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/handler/ConfigurationHandler.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/handler/ConfigurationHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemEnderStaff.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemEnderStaff.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/LetsModReboot.cfg" afterPath="$PROJECT_DIR$/eclipse/config/LetsModReboot.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iml" afterPath="$PROJECT_DIR$/LetsModReboot.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.ipr" afterPath="$PROJECT_DIR$/LetsModReboot.ipr" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LetsModReboot.iws" afterPath="$PROJECT_DIR$/LetsModReboot.iws" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/LetsModReboot.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/LetsModReboot.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModBlocks.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModBlocks.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModItems.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModItems.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/Recipes.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/Recipes.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/reference/Reference.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/reference/Reference.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityInvisiGlass.java" afterPath="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityInvisiGlass.java" />
+>>>>>>> origin/development
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mcmod.info" afterPath="$PROJECT_DIR$/src/main/resources/mcmod.info" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/NEI/client.cfg" afterPath="$PROJECT_DIR$/eclipse/config/NEI/client.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" afterPath="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/config/forge.cfg" afterPath="$PROJECT_DIR$/eclipse/config/forge.cfg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#block#Block.txt" afterPath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#block#Block.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#client#gui#inventory#GuiContainer.txt" afterPath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#client#gui#inventory#GuiContainer.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#client#gui#inventory#GuiContainerCreative.txt" afterPath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#client#gui#inventory#GuiContainerCreative.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#nbt#NBTTagCompound.txt" afterPath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#nbt#NBTTagCompound.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#nbt#NBTTagList.txt" afterPath="$PROJECT_DIR$/eclipse/asm/ccl_modular/net#minecraft#nbt#NBTTagList.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eclipse/options.txt" afterPath="$PROJECT_DIR$/eclipse/options.txt" />
     </list>
     <ignored path="LetsModReboot.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,21 +370,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="build.gradle" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2346">
               <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
               <folding />
+=======
+      <file leaf-file-name="ItemEnderStaff.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemEnderStaff.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2618">
+              <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="RenderEffectHelper.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEffectHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.52517164" vertical-offset="0" max-vertical-offset="874">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="12" selection-end-line="38" selection-end-column="132" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EnderStaffRecipe.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/recipes/EnderStaffRecipe.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerEvent.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/cpw/mods/fml/common/gameevent/PlayerEvent.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1360">
+              <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LetsModReboot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/LetsModReboot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="850" max-vertical-offset="1343">
+              <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Recipes.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/Recipes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="765">
+              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ModItems.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModItems.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="391" max-vertical-offset="1037">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+>>>>>>> origin/development
+            </state>
+          </provider>
+        </entry>
+      </file>
+<<<<<<< HEAD
       <file leaf-file-name="mcmod.info" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.49594814" vertical-offset="0" max-vertical-offset="816">
               <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+=======
+      <file leaf-file-name="ModOreDictionary.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModOreDictionary.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="442">
+              <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+>>>>>>> origin/development
               <folding />
             </state>
           </provider>
@@ -130,6 +553,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="getVersionJson" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="applyBinPatches" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -198,6 +625,10 @@
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="extractMcpData" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="cleanEclipseProject" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
@@ -220,6 +651,10 @@
                 <option name="name" value="reobf" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
+                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
+                <option name="name" value="recompMinecraft" />
+              </ExternalTaskPojo>
+              <ExternalTaskPojo>
                 <option name="description" value="Compiles Java source 'main:java'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="compileJava" />
@@ -228,10 +663,6 @@
                 <option name="description" value="Generates all Eclipse files." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="eclipse" />
-              </ExternalTaskPojo>
-              <ExternalTaskPojo>
-                <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
-                <option name="name" value="recompMinecraft" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
                 <option name="description" value="Assembles and tests this project." />
@@ -363,7 +794,11 @@
     </option>
     <option name="modificationStamps">
       <map>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="1410373064312" />
+=======
+        <entry key="$PROJECT_DIR$" value="1412105614868" />
+>>>>>>> origin/development
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -378,11 +813,20 @@
                       <ExternalModuleBuildClasspathPojo>
                         <option name="entries">
                           <list>
-                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.9/116f2aad5b0c68353ebed66cd463517db6522f7e/launchwrapper-1.9.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/4.1/1c218d5a0b8b932a1528b74069aa6973dcfcea74/asm-debug-all-4.1-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/4.1/dd6ba5c392d4102458494e29f54f70ac534ec2a2/asm-debug-all-4.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/65cba03c4f6207f2885f88206fcf52c53f8d111b/httpclient-4.3.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a6dc5db8a12928e583bd3f23e72d3ab611ecd58f/gson-2.2.4-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/4809f38359edeea9487f747e09aa58ec8d3a54c5/httpcore-4.3.2-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraft/launchwrapper/1.11/9c0592c6e1e9ea296a70948081bd4cc84dda1289/launchwrapper-1.11.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/1.3.9/40719ea6961c0cb6afaeb6a921eaa1f6afd4cfdf/jsr305-1.3.9.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f0f24f6666c1a15c7e202e91610476bd4ce59368/asm-debug-all-5.0.3-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/5.0.3/f9e364ae2a66ce2a543012a4668856e84e5dab74/asm-debug-all-5.0.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/9dbceb71c4fd943b4eb4607847261075a989d47f/akka-actor_2.11-2.3.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe.akka/akka-actor_2.11/2.3.3/ed62e9fc709ca0f2ff1a3220daa8b70a2870078e/akka-actor_2.11-2.3.3.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.2.1/bdacf4f82ce9b29cd474bfde2e91eeb0ca623d28/config-1.2.1-sources.jar" />
@@ -405,15 +849,9 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.5/3cf4c3c1a6f565419bfd53a0e564d6fb128deeea/jopt-simple-4.5-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.jopt-simple/jopt-simple/4.5/6065cc95c661255349c1d0756657be17c29a4fd3/jopt-simple-4.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/lzma/lzma/0.0.1/521616dc7487b42bef0e803bd2fa3faf668101d7/lzma-0.0.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.3.1/f78f5a841b1cf9d50c3382acdbeb7d3078e454d6/realms-1.3.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/realms/1.3.5/807ae355ee63583becd7ea60e76aab1532bb42e/realms-1.3.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/3caea4421428752206c7a94c3e3097f0c47f1bb8/commons-compress-1.8.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-compress/1.8.1/a698750c16740fd5b3871425f4cb3bbaa87f529d/commons-compress-1.8.1.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/65cba03c4f6207f2885f88206fcf52c53f8d111b/httpclient-4.3.3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.3.3/18f4247ff4572a074444572cee34647c43e7c9c7/httpclient-4.3.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/28bb0405fddaf04f15058fbfbe01fe2780d7d3b6/commons-logging-1.1.3-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.1.3/f6f66e966c70a83ffbdb6f17a0919eaf7c8aca7f/commons-logging-1.1.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/4809f38359edeea9487f747e09aa58ec8d3a54c5/httpcore-4.3.2-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.3.2/31fbbff1ddbf98f3aa7377c94d33b0447c646b6e/httpcore-4.3.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/java3d/vecmath/1.3.1/a0ae4f51da409fa0c20fa0ca59e6bbc9413ae71d/vecmath-1.3.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/109c5be93362e6e651e417c51d1863477a22969c/trove4j-3.0.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.trove4j/trove4j/3.0.3/42ccaf4761f0dfdfa805c9e340d99a755907e2dd/trove4j-3.0.3.jar" />
@@ -433,8 +871,6 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.jinput/jinput/2.0.5/39c7796b469a600f72380316f6b1f11db6c2c7c4/jinput-2.0.5.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/d18678a00b216863206a1bb6190507e02a32971b/jutils-1.0.0-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.jutils/jutils/1.0.0/e12fe1fda814bd348c1579329c86943d2cd3c6a6/jutils-1.0.0.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a6dc5db8a12928e583bd3f23e72d3ab611ecd58f/gson-2.2.4-sources.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.2.4/a60a5e993c98c864010053cb901b7eab25306568/gson-2.2.4.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.mojang/authlib/1.5.16/ef1582b11fd0943d069cdcb72e99008ac209a283/authlib-1.5.16.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/c6682b8a47ddd9f29108838aed0dc8e0ffdedf68/log4j-api-2.0-beta9-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.logging.log4j/log4j-api/2.0-beta9/1dd66e68cccd907880229f9e2de1314bd13ff785/log4j-api-2.0-beta9.jar" />
@@ -466,7 +902,11 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/17.0/9c6ef172e8de35fd8d4d8783e4821e57cdef7445/guava-17.0.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/d2a489573c0ed2c4942b3660decad5d65087b406/commons-lang3-3.3.2-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.3.2/90a3822c38ec8c996e84c16a3477ef632cbc87a3/commons-lang3-3.3.2.jar" />
+<<<<<<< HEAD
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/a38808efb4998d7ed95f62793832a77b145fd7d5/ForgeGradle-1.2-SNAPSHOT.jar" />
+=======
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.gradle/ForgeGradle/1.2-SNAPSHOT/7f18720aab4fb824b3eaee41d491bd3a2e0fd677/ForgeGradle-1.2-SNAPSHOT.jar" />
+>>>>>>> origin/development
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/RetroGuard/3.6.6/ffd69fcab06b928cf76144f08b7209ccf0656b6d/RetroGuard-3.6.6.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/235993117036d44d126f76db9ea2202ee4884682/opencsv-2.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.sf.opencsv/opencsv/2.3/c23708cdb9e80a144db433e23344a788a1fd6599/opencsv-2.3.jar" />
@@ -478,6 +918,8 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.abrarsyed.jastyle/jAstyle/1.2/642eada5efeb315295e21a5aea384b68dd191e5f/jAstyle-1.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cloudbees/diff4j/1.1/e01e5168c15a325a548be3a0d18af5eac6f6343f/diff4j-1.1-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.cloudbees/diff4j/1.1/645329c0d4ebbea5f73758929c6e63bab9e77204/diff4j-1.1.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/4.1/1c218d5a0b8b932a1528b74069aa6973dcfcea74/asm-debug-all-4.1-sources.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ow2.asm/asm-debug-all/4.1/dd6ba5c392d4102458494e29f54f70ac534ec2a2/asm-debug-all-4.1.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/trove/trove/1.0.2/112b40581ab9a4d3de4636d49985a7f686d181c8/trove-1.0.2.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tony19/named-regexp/0.2.3/74e99674da3dcbd04e30fc62e164073b4d95e8b9/named-regexp-0.2.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.tony19/named-regexp/0.2.3/370846bf3837952d981deb8f91e81da8c65b09e1/named-regexp-0.2.3.jar" />
@@ -487,7 +929,7 @@
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.minecraftforge.srg2source/Srg2Source/3.2-SNAPSHOT/4d225796713213c1b03067bca63681f4d44362ae/Srg2Source-3.2-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/884b613cfc42948ad5d4cf507286ffe19592ebed/httpmime-4.3.3-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpmime/4.3.3/e02368d7b56c0c376f227378a4f77de62864d020/httpmime-4.3.3.jar" />
-                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/mcinjector/3.2-SNAPSHOT/12692e2251b7392ea6eaa0d4a9c4cba601d4c056/mcinjector-3.2-SNAPSHOT.jar" />
+                            <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.oceanlabs.mcp/mcinjector/3.2-SNAPSHOT/125f63a65e12bd2f2be1ff0fdf6cb717954a84c2/mcinjector-3.2-SNAPSHOT.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/261a0e844fe30de1c30372135275fa0b299bdee4/localizer-1.12-sources.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jvnet.localizer/localizer/1.12/6d456886a035b2c3f758059da1f91a823eaa4a62/localizer-1.12.jar" />
                             <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/1.4/48753e43ff29409fbbeadfb36186cbe27e41b179/commons-io-1.4-sources.jar" />
@@ -640,8 +1082,37 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/build.gradle" />
+<<<<<<< HEAD
+=======
         <option value="$PROJECT_DIR$/src/main/resources/mcmod.info" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/effect/EntityLMRBFX.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/effect/EntityEnderFX.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemLMRB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/letsmodreboot/lang/en_US.lang" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockDirectionalLMRB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/reference/Reference.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemWindmill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/gui/GuiFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityInvisiGlass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModItems.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvResetter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockWindmill.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModBlocks.java" />
+>>>>>>> origin/development
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/handler/ConfigurationHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/command/CommandLMRB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModOreDictionary.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/handler/CraftingHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/Recipes.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/recipes/CraftingHandler.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/LetsModReboot.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemEnderStaff.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/recipes/EnderStaffRecipe.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEffectHelper.java" />
       </list>
     </option>
   </component>
@@ -650,6 +1121,35 @@
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1096" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Class metrics</id>
+          </State>
+          <State>
+            <id>Encapsulation issues</id>
+          </State>
+          <State>
+            <id>Groovy</id>
+          </State>
+          <State>
+            <id>Maven</id>
+          </State>
+          <State>
+            <id>Threading issues</id>
+          </State>
+          <State>
+            <id>Threading issuesGroovy</id>
+          </State>
+        </expanded-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -677,8 +1177,13 @@
       <sortByType />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+=======
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -694,7 +1199,7 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LetsModReboot" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -704,19 +1209,19 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LetsModReboot" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -726,19 +1231,992 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="LetsModReboot" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="particle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="items" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+>>>>>>> origin/development
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="textures" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blocks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sounds" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utility" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tileentities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="reference" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="recipes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="proxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="material" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="event" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entity" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="effect" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="creativetab" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="command" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="client" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="handler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="block" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="net" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="minecraft" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="item" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="crafting" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.crystalix007.letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="LetsModReboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.crystalix007.letsmodreboot" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="init" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageElementNode" />
+            </PATH_ELEMENT>
+>>>>>>> origin/development
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -754,6 +2232,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="dynamic.classpath" value="false" />
+<<<<<<< HEAD
   </component>
   <component name="RunManager" selected="Application.Minecraft Client">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -762,12 +2241,44 @@
       <option name="PROGRAM_PARAMETERS" />
       <method />
     </configuration>
+=======
+    <property name="options.lastSelected" value="appearance" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.crystalix007.letsmodreboot.item" />
+      <recent name="com.crystalix007.letsmodreboot.block" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Michael\Documents\Projects\Minecraft\1.7\LetsModReboot\src\main\resources\assets\letsmodreboot\textures\items" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Minecraft Client">
+>>>>>>> origin/development
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
       <option name="SERVER_MODE" value="false" />
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -795,19 +2306,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -903,6 +2401,7 @@
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
+<<<<<<< HEAD
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -915,8 +2414,19 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/development
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -927,6 +2437,22 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26770833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36421052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette " active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947367" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+>>>>>>> origin/development
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -947,25 +2473,397 @@
     </option>
   </component>
   <component name="XDebuggerManager">
+<<<<<<< HEAD
     <breakpoint-manager />
+=======
+    <breakpoint-manager>
+      <option name="time" value="1" />
+    </breakpoint-manager>
+>>>>>>> origin/development
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2346">
           <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/effect/EntityLMRBFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.39028475" vertical-offset="107" max-vertical-offset="2992">
+          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/entity/Entity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="10239" max-vertical-offset="88774">
+          <caret line="370" column="16" selection-start-line="370" selection-start-column="16" selection-end-line="370" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/client/particle/EntityFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8710217" vertical-offset="345" max-vertical-offset="7514">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/effect/EntityEnderFX.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="6" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.7.0_65/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3327869" vertical-offset="6733" max-vertical-offset="15674">
+          <caret line="227" column="6" selection-start-line="227" selection-start-column="6" selection-end-line="227" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/tileentity/TileEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44723618" vertical-offset="991" max-vertical-offset="12818">
+          <caret line="57" column="28" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/cpw/mods/fml/common/registry/GameRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.0335008" vertical-offset="7349" max-vertical-offset="12546">
+          <caret line="264" column="5" selection-start-line="264" selection-start-column="5" selection-end-line="264" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/utility/EntityTeleporter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34170854" vertical-offset="0" max-vertical-offset="597">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/tileentity/TileEntityHopper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8664494" vertical-offset="8568" max-vertical-offset="21828">
+          <caret line="85" column="0" selection-start-line="85" selection-start-column="0" selection-end-line="85" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/block/BlockHopper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6528" max-vertical-offset="9146">
+          <caret line="235" column="39" selection-start-line="235" selection-start-column="39" selection-end-line="235" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/command/CommandClearInventory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1020" max-vertical-offset="2312">
+          <caret line="38" column="9" selection-start-line="38" selection-start-column="9" selection-end-line="38" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/event/EventHookContainerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63176894" vertical-offset="24" max-vertical-offset="986">
+          <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/utility/VectorHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1972">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/reference/Reference.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06137184" vertical-offset="0" max-vertical-offset="578">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemLMRB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.058925476" vertical-offset="102" max-vertical-offset="1428">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemWindmill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21841542" vertical-offset="0" max-vertical-offset="934">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraftforge/common/config/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.734836" vertical-offset="46176" max-vertical-offset="56474">
+          <caret line="1194" column="0" selection-start-line="1194" selection-start-column="0" selection-end-line="1194" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/block/BlockObsidian.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14561027" vertical-offset="0" max-vertical-offset="934">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/block/Block.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-105.32143" vertical-offset="5381" max-vertical-offset="80070">
+          <caret line="337" column="83" selection-start-line="337" selection-start-column="78" selection-end-line="337" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraftforge/oredict/OreDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.111834966" vertical-offset="11321" max-vertical-offset="18768">
+          <caret line="376" column="40" selection-start-line="376" selection-start-column="40" selection-end-line="376" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.0.1208/forgeSrc-1.7.10-10.13.0.1208-sources.jar!/net/minecraft/entity/player/InventoryPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33275563" vertical-offset="20480" max-vertical-offset="27472">
+          <caret line="629" column="15" selection-start-line="629" selection-start-column="15" selection-end-line="629" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockWindmill.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.50508475" vertical-offset="8" max-vertical-offset="612">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvisiGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.35875216" vertical-offset="2445" max-vertical-offset="6834">
+          <caret line="107" column="14" selection-start-line="107" selection-start-column="14" selection-end-line="107" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemNewBow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.058925476" vertical-offset="102" max-vertical-offset="6630">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/block/BlockInvResetter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46101695" vertical-offset="0" max-vertical-offset="1564">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModBlocks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7118644" vertical-offset="600" max-vertical-offset="1564">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/tileentities/TileEntityInvisiGlass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.477966" vertical-offset="0" max-vertical-offset="1836">
+          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mcmod.info">
       <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7418182" vertical-offset="0" max-vertical-offset="816">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.29533115" vertical-offset="408" max-vertical-offset="2346">
+          <caret line="20" column="11" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/handler/ConfigurationHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.2605863" vertical-offset="0" max-vertical-offset="1593">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/gui/GuiFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2987152" vertical-offset="0" max-vertical-offset="934">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/gui/ModGuiConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32963374" vertical-offset="0" max-vertical-offset="901">
+          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/command/CommandLMRB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49046794" vertical-offset="263" max-vertical-offset="840">
+          <caret line="40" column="67" selection-start-line="40" selection-start-column="67" selection-end-line="40" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/net/minecraft/item/ItemTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="172" max-vertical-offset="2312">
+          <caret line="30" column="41" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/command/CommandDetermineTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7071057" vertical-offset="0" max-vertical-offset="577">
+          <caret line="29" column="54" selection-start-line="29" selection-start-column="54" selection-end-line="29" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/net/minecraft/item/ItemSword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="2482">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="30" selection-end-line="80" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/net/minecraft/init/Bootstrap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5303293" vertical-offset="68" max-vertical-offset="7225">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/net/minecraft/item/crafting/ShapedRecipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0069325" vertical-offset="1803" max-vertical-offset="2380">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/net/minecraft/item/crafting/RecipesTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66312057" vertical-offset="51" max-vertical-offset="663">
+          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/net/minecraft/item/ItemStack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6566999" vertical-offset="155" max-vertical-offset="17776">
+          <caret line="79" column="11" selection-start-line="79" selection-start-column="11" selection-end-line="79" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModItems.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="969">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/cpw/mods/fml/common/gameevent/PlayerEvent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="261" max-vertical-offset="1536">
+          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/net/minecraft/init/Items.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.15332581" vertical-offset="204" max-vertical-offset="3128">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/net/minecraft/item/Item.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3893" max-vertical-offset="26826">
+          <caret line="229" column="124" selection-start-line="229" selection-start-column="119" selection-end-line="229" selection-end-column="124" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/ModOreDictionary.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="13" column="50" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.10-10.13.1.1217/forgeSrc-1.7.10-10.13.1.1217-sources.jar!/net/minecraft/item/crafting/IRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.074235804" vertical-offset="0" max-vertical-offset="916">
+          <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/init/Recipes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="800">
+          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/LetsModReboot.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="1054">
+          <caret line="50" column="74" selection-start-line="50" selection-start-column="74" selection-end-line="50" selection-end-column="74" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/recipes/EnderStaffRecipe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+>>>>>>> origin/development
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/item/ItemEnderStaff.java">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="0.49594814" vertical-offset="0" max-vertical-offset="816">
           <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+=======
+        <state vertical-scroll-proportion="0.0" vertical-offset="425" max-vertical-offset="2618">
+          <caret line="67" column="51" selection-start-line="67" selection-start-column="51" selection-end-line="67" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/crystalix007/letsmodreboot/client/render/RenderEffectHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.52517164" vertical-offset="0" max-vertical-offset="874">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="12" selection-end-line="38" selection-end-column="132" />
+>>>>>>> origin/development
           <folding />
         </state>
       </provider>

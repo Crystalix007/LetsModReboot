@@ -1,8 +1,5 @@
 package com.crystalix007.letsmodreboot.reference;
 
-/**
- * Created by Michael on 30/07/2014.
- */
 public class Reference
 {
 	public static final String MOD_ID = "LetsModReboot";
