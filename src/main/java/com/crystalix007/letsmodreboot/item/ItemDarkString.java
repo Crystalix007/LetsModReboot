@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.item;
 
-import com.crystalix007.letsmodreboot.creativetab.CreativeTabLMRB;
+import com.crystalix007.letsmodreboot.creativetab.CreativeTabsLMRB;
 import com.crystalix007.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -16,7 +16,7 @@ public class ItemDarkString extends ItemReed
 		super(Blocks.tripwire);
 		this.setUnlocalizedName("darkString");
 		this.setMaxStackSize(16);
-		this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+		this.setCreativeTab(CreativeTabsLMRB.LMRB_TAB);
 	}
 
 	@Override

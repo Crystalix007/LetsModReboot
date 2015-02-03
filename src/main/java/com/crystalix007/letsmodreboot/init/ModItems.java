@@ -44,6 +44,9 @@ public class ModItems
 		GameRegistry.registerItem(spinelIngot, "spinelIngot");
 		GameRegistry.registerItem(teleportArrow, "teleportArrow");
 
+		GameRegistry.registerItem(itemGenerator, "generator");
+		GameRegistry.registerItem(itemWindmill, "windmill");
+
         GameRegistry.registerItem(spinelPickaxe, "spinelPickaxe");
         GameRegistry.registerItem(siliconNitridePickaxe, "siliconNitridePickaxe");
 		GameRegistry.registerItem(heavyHammer, "heavyHammer");

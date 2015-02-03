@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.item;
 
-import com.crystalix007.letsmodreboot.creativetab.CreativeTabLMRB;
+import com.crystalix007.letsmodreboot.creativetab.CreativeTabsLMRB;
 import com.crystalix007.letsmodreboot.entity.EntityFlyingCarrot;
 import com.crystalix007.letsmodreboot.init.ModItems;
 import com.crystalix007.letsmodreboot.reference.Reference;
@@ -30,7 +30,7 @@ public class ItemNewBow extends ItemBow
         super();
         this.setUnlocalizedName("newBow");
         this.setMaxStackSize(1);
-        this.setCreativeTab(CreativeTabLMRB.LMRB_TAB);
+        this.setCreativeTab(CreativeTabsLMRB.LMRB_TAB);
     }
 
     @Override
@@ -157,7 +157,7 @@ public class ItemNewBow extends ItemBow
 				f = 1.0F;
 			}
 
-			EntityFlyingCarrot entityarrow = new EntityFlyingCarrot(world, entityPlayer, f * 2.0F);
+			EntityFlyingCarrot entityarrow = new EntityFlyingCarrot(world, entityPlayer, f * 5.0F);
 			//EntityArrow entityarrow = new EntityArrow(world, entityPlayer, f * 2.0F);
 
 			if (f == 1.0F)

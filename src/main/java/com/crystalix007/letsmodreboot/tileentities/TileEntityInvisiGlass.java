@@ -25,7 +25,6 @@ public class TileEntityInvisiGlass extends TileEntity
 	public void writeToNBT(NBTTagCompound compound)
 	{
 		super.writeToNBT(compound);
-
 		compound.setByte("red", red);
 		compound.setByte("green", green);
 		compound.setByte("blue", blue);
@@ -37,7 +36,6 @@ public class TileEntityInvisiGlass extends TileEntity
 	public void readFromNBT(NBTTagCompound compound)
 	{
 		super.readFromNBT(compound);
-
 		red = compound.getByte("red");
 		green = compound.getByte("green");
 		blue = compound.getByte("blue");

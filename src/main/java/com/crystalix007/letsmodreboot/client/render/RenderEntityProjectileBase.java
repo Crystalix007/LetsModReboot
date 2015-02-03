@@ -21,7 +21,7 @@ public class RenderEntityProjectileBase extends Render
 	public RenderEntityProjectileBase(String name)
 	{
 		thisName = name;
-		arrowTextures = new ResourceLocation(Reference.MOD_ID, "textures/entities/" + name);
+		arrowTextures = new ResourceLocation(Reference.MOD_ID.toLowerCase(), "textures/entities/" + name);
 		LogHelper.info("Reading file at: " + arrowTextures.toString());
 		//bindEntityTexture(EntityFlyingCarrot.class);
 		//bindTexture(arrowTextures);

@@ -20,8 +20,11 @@ item.letsmodreboot:heavyHammer.name=Heavy hammer
 item.letsmodreboot:newBow.name=Carrot Bomber
 item.letsmodreboot:debugTool.name=Debugging tool
 item.letsmodreboot:enderStaff.name=Ender staff
+item.letsmodreboot:itemGenerator.name=Generator
+item.letsmodreboot:itemWindmill.name=Windmill
 
 #Blocks
+tile.letsmodreboot:blockBioDetergent.name=Bio Detergent
 tile.letsmodreboot:flag.name=Canadian flag
 tile.letsmodreboot:spinel.name=Spinel block
 tile.letsmodreboot:siliconNitride.name=SiN block
@@ -30,6 +33,16 @@ tile.letsmodreboot:trapBlock.name=Trap block
 tile.letsmodreboot:refBlock.name=Reference block
 tile.letsmodreboot:blockFrame.name=Frame block
 tile.letsmodreboot:invResetterBlock.name=Inventory resetter block
+tile.letsmodreboot:windmillBaseBlock.name=Windmill base
+tile.letsmodreboot:windmillBlock.name=Windmill
+tile.letsmodreboot:blockFertilizer.name=Fertilizer block
+tile.letsmodreboot:blockAntigrav.name=Antigrav block
+tile.letsmodreboot:blockEntityAccelerator.name=Entity Accelerator
+tile.letsmodreboot:blockRamp.name=Ramp
+tile.letsmodreboot:blockNuclearWaste.name=Nuclear Waste
+tile.letsmodreboot:blockLockdown.name=Lockdown Block
+tile.letsmodreboot:blockEasyWalk.name=EasyWalk
 
 #ItemGroups
 itemGroup.letsmodreboot=Let's Mod Reboot
+itemGroup.letsmodreboot:mechanical=Mechanical Let's Mod Reboot

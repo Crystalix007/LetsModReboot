@@ -1,6 +1,5 @@
 package com.crystalix007.letsmodreboot.item;
 
-import com.crystalix007.letsmodreboot.client.render.RenderEffectHelper;
 import com.crystalix007.letsmodreboot.effect.EntityEnderFX;
 import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
 import com.crystalix007.letsmodreboot.utility.BlockCoord;
@@ -32,6 +31,7 @@ public class ItemEnderStaff extends ItemLMRB
 		setNoRepair();
 	}
 
+	@Override
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player)
 	{
 		if (player.isSneaking()) {
@@ -59,13 +59,13 @@ public class ItemEnderStaff extends ItemLMRB
 					sample.y -= playerHeight;
 
 					if (canTravelTo(player, sample.x, sample.y, sample.z)) {
-						RenderEffectHelper.spreadEffects(new EntityEnderFX(world, player.posX, player.posY, player.posZ), player.posX, player.posZ, 4, 5);
+						EntityEnderFX.spreadEffects(world, player.posX, player.posY, player.posZ, 4, 2);
 						itemStack.damageItem(1, player);
 						player.fallDistance = 0;
 					}
 
 					if (doBlinkAround(player, sample)) {
-						RenderEffectHelper.spreadEffects(new EntityEnderFX(world, player.posX, player.posY, player.posZ), player.posX, player.posZ, 4, 5);
+						EntityEnderFX.spreadEffects(world, player.posX, player.posY, player.posZ, 4, 2);
 						return itemStack;
 					}
 				}

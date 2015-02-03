@@ -6,21 +6,19 @@ import net.minecraft.util.AxisAlignedBB;
 import net.minecraft.world.World;
 
 public class BlockTrap extends BlockGlassLMRB {
-    public BlockTrap()
-    {
-        super("trapBlock");
-        this.setBlockName("trapBlock");
-        this.lightOpacity = 0;
-    }
+	public BlockTrap() {
+		super("trapBlock");
+		this.setBlockName("trapBlock");
+		this.lightOpacity = 0;
+	}
 
-    @SideOnly(Side.CLIENT)
-    public AxisAlignedBB getSelectedBoundingBoxFromPool(World world, int x, int y, int z) {
-        return AxisAlignedBB.getBoundingBox(0, 0, 0, 0, 0, 0);
-    }
+	@SideOnly(Side.CLIENT)
+	public AxisAlignedBB getSelectedBoundingBoxFromPool(World world, int x, int y, int z) {
+		return AxisAlignedBB.getBoundingBox(0, 0, 0, 0, 0, 0);
+	}
 
-    @Override //Makes it able to be walked through
-	public AxisAlignedBB getCollisionBoundingBoxFromPool(World world, int x, int y, int z)
-	{
+	@Override //Makes it able to be walked through
+	public AxisAlignedBB getCollisionBoundingBoxFromPool(World world, int x, int y, int z) {
 		return null;
 	}
 }

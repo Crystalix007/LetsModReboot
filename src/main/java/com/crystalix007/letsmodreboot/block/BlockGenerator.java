@@ -1,10 +1,11 @@
 package com.crystalix007.letsmodreboot.block;
 
-public class BlockGenerator extends BlockLMRB
-{
-	public BlockGenerator()
-	{
+import com.crystalix007.letsmodreboot.creativetab.CreativeTabsLMRB;
+
+public class BlockGenerator extends BlockLMRB {
+	public BlockGenerator() {
 		super();
-		setBlockName("generator");
+		setBlockName("blockGenerator");
+		setCreativeTab(CreativeTabsLMRB.MECHANICAL_TAB);
 	}
 }

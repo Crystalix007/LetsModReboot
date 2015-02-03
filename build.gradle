@@ -17,13 +17,13 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-2.0.2"
+version = "1.7.10-2.0.4"
 group= "com.crystalix007.letsmodreboot" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "LetsModReboot"
 
 minecraft {
-    version = "1.7.10-10.13.1.1217"
-    assetDir = "eclipse/assets"
+    version = "1.7.10-10.13.2.1286"
+    runDir = "eclipse"
 }
 
 dependencies {

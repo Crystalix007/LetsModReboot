@@ -9,22 +9,18 @@ import net.minecraft.entity.player.EntityPlayerMP;
 import net.minecraft.item.ItemStack;
 import net.minecraft.world.World;
 
-public class BlockInvResetter extends BlockDirectionalLMRB
-{
-	public BlockInvResetter()
-	{
+public class BlockInvResetter extends BlockDirectionalLMRB {
+	public BlockInvResetter() {
 		super(Material.cloth);
 		setBlockName("invResetterBlock");
 		setHarvestLevel("pickaxe", 0);
 	}
 
 	@Override
-	public void onFallenUpon(World world, int x, int y, int z, Entity entity, float velocity)
-	{
+	public void onFallenUpon(World world, int x, int y, int z, Entity entity, float velocity) {
 		if (!(entity instanceof EntityPlayer) || world.isRemote)
 			return;
-		else
-		{
+		else {
 			EntityPlayerMP player = (EntityPlayerMP) (entity);
 
 			if (player.capabilities.isCreativeMode && !ConfigurationHandler.removeInvOfCreative)

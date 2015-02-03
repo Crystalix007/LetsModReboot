@@ -104,14 +104,11 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 				used = true;
 			}
 			world.markBlockForUpdate(x, y, z);
-		}
-		else {
+		} else {
 			List<ItemStack> obsidiBlocks = OreDictionary.getOres("blockObsidian");
 
-			for (ItemStack oreDictStack : obsidiBlocks)
-			{
-				if (currentItem.equals(oreDictStack))
-				{
+			for (ItemStack oreDictStack : obsidiBlocks) {
+				if (currentItem.equals(oreDictStack)) {
 					tile.hardness += 20.f;
 					used = true;
 				}
@@ -128,8 +125,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 
 	@SideOnly(Side.CLIENT)
 	public int getBlockColor(IBlockAccess iBlockAccess, int x, int y, int z) {
-		if (iBlockAccess == null)
-		{
+		if (iBlockAccess == null) {
 			ClientProxy.printMessageToPlayer("World is null");
 			return super.getBlockColor();
 		}
@@ -189,7 +185,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Items.dye, tile.red / 20, 1)));
 		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Items.dye, tile.green / 20, 2)));
 		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Items.dye, tile.blue / 20, 4)));
-		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Blocks.obsidian, (int)(tile.hardness / 50.f))));
+		world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(Blocks.obsidian, (int) (tile.hardness / 50.f))));
 	}
 
 	@Override
@@ -199,7 +195,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 
 	@Override
 	public void onFallenUpon(World world, int x, int y, int z, Entity entity, float v) {
-		entity.motionY = Math.max(entity.motionY, -1);
+		entity.motionY = 10/*Math.max(entity.motionY, -1)*/;
 		entity.fallDistance = 0;
 	}
 
@@ -213,15 +209,12 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 	public boolean shouldSideBeRendered(IBlockAccess world, int x, int y, int z, int side) {
 		Block block = world.getBlock(x, y, z);
 
-		if (this == ModBlocks.invisiGlass)
-		{
-			if (world.getBlock(x, y, z).colorMultiplier(world, x, y, z) != world.getBlock(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]).colorMultiplier(world, x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]) || world.getBlockMetadata(x, y, z) != world.getBlockMetadata(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]))
-			{
+		if (this == ModBlocks.invisiGlass) {
+			if (world.getBlock(x, y, z).colorMultiplier(world, x, y, z) != world.getBlock(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]).colorMultiplier(world, x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]) || world.getBlockMetadata(x, y, z) != world.getBlockMetadata(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side])) {
 				return true;
 			}
 
-			if (block == this)
-			{
+			if (block == this) {
 				return false;
 			}
 		}
@@ -230,8 +223,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 	}
 
 	@SideOnly(Side.CLIENT)
-	public int getRenderBlockPass()
-	{
+	public int getRenderBlockPass() {
 		return 1;
 	}
 }

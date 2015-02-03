@@ -17,6 +17,7 @@ public class ClientProxy extends CommonProxy
 	{
 		ClientRegistry.registerKeyBinding(Keybindings.charge);
 		ClientRegistry.registerKeyBinding(Keybindings.release);
+		ClientRegistry.registerKeyBinding(Keybindings.flight);
 	}
 
 	public static void printMessageToPlayer(String msg) {

@@ -7,9 +7,10 @@ import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.StatCollector;
 import net.minecraft.world.World;
+
 import static org.lwjgl.opengl.GL11.*;
 
-public abstract class EntityLMRBFX extends EntityFX
+abstract public class EntityLMRBFX extends EntityFX
 {
 	protected String unlocalizedName;
 	protected static ResourceLocation texture;
@@ -95,4 +96,16 @@ public abstract class EntityLMRBFX extends EntityFX
 	{
 		return StatCollector.translateToLocal(this.getUnlocalizedName() + ".name");
 	}
+
+	public static void renderEffect(EntityFX entityFX)
+	{
+		Minecraft.getMinecraft().effectRenderer.addEffect(entityFX);
+	}
+
+	public static void updateEffects()
+	{
+		Minecraft.getMinecraft().effectRenderer.updateEffects();
+	}
+
+	public static void spreadEffects(World world, double x, double y, double z, int effectCount, int radius){};
 }

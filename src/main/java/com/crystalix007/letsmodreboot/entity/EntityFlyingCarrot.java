@@ -32,6 +32,6 @@ public class EntityFlyingCarrot extends EntityProjectileBase {
 
 	@Override
 	void onCollide() {
-		worldObj.createExplosion(hitEntity, hitEntity.posX, hitEntity.posY, hitEntity.posZ, initialVelocity * 2.0f, true);
+		worldObj.createExplosion(hitEntity, hitEntity.posX, hitEntity.posY, hitEntity.posZ, initialVelocity * 100.0f, false);
 	}
 }

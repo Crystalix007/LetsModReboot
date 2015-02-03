@@ -7,24 +7,21 @@ import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.util.IIcon;
 
-public class BlockReference extends BlockGlassLMRB
-{
+public class BlockReference extends BlockGlassLMRB {
 	IIcon sideZero = null, sideOne = null, sideTwo = null, sideThree = null, sideFour = null, sideFive = null;
 
-	public BlockReference()
-	{
+	public BlockReference() {
 		super("refBlock");
 	}
 
 	@Override
-	public boolean isOpaqueCube()
-	{
+	public boolean isOpaqueCube() {
 		return false;
 	}
 
 	@SideOnly(Side.CLIENT)
 	@Override
-	public void registerBlockIcons(IIconRegister iconRegister){
+	public void registerBlockIcons(IIconRegister iconRegister) {
 		this.sideZero = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "refBlock_0");
 		this.sideOne = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "refBlock_1");
 		this.sideTwo = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "refBlock_2");
@@ -38,8 +35,7 @@ public class BlockReference extends BlockGlassLMRB
 
 	@Override
 	@SideOnly(Side.CLIENT)
-	public IIcon getIcon(int side, int meta)
-	{
+	public IIcon getIcon(int side, int meta) {
 		if (side == 0)
 			return sideZero;
 		else if (side == 1)
