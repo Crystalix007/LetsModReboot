@@ -1,7 +1,7 @@
 package com.crystalix007.letsmodreboot.item;
 
 import com.crystalix007.letsmodreboot.creativetab.CreativeTabsLMRB;
-import com.crystalix007.letsmodreboot.reference.Reference;
+import com.crystalix007.letsmodreboot.reference.ReferenceMod;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -14,7 +14,7 @@ public class ItemDarkString extends ItemReed
 	public ItemDarkString()
 	{
 		super(Blocks.tripwire);
-		this.setUnlocalizedName("darkString");
+		this.setUnlocalizedName("itemDarkString");
 		this.setMaxStackSize(16);
 		this.setCreativeTab(CreativeTabsLMRB.LMRB_TAB);
 	}
@@ -22,13 +22,13 @@ public class ItemDarkString extends ItemReed
 	@Override
 	public String getUnlocalizedName()
 	{
-		return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", ReferenceMod.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 
 	@Override
 	public String getUnlocalizedName(ItemStack itemStack)
 	{
-		return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", ReferenceMod.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 
 	@Override

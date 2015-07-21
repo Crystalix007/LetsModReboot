@@ -9,7 +9,7 @@ particles:0
 bobView:true
 anaglyph3d:false
 advancedOpengl:true
-maxFps:260
+maxFps:100
 fboEnable:true
 difficulty:0
 fancyGraphics:true
@@ -25,7 +25,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:false
+enableVsync:true
 hideServerAddress:false
 advancedItemTooltips:true
 pauseOnLostFocus:true
@@ -88,10 +88,10 @@ key_key.hotbar.9:10
 key_keys.letsmodreboot.charge:46
 key_keys.letsmodreboot.release:19
 key_keys.letsmodreboot.flight:33
-soundCategory_master:0.0
+soundCategory_master:0.3112583
 soundCategory_music:0.0
 soundCategory_record:1.0
-soundCategory_weather:0.0
+soundCategory_weather:0.31690142
 soundCategory_block:1.0
 soundCategory_hostile:1.0
 soundCategory_neutral:1.0

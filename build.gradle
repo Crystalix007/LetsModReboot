@@ -17,12 +17,12 @@ buildscript {
 
 apply plugin: 'forge'
 
-version = "1.7.10-2.0.4"
+version = "1.7.10-2.0.5"
 group= "com.crystalix007.letsmodreboot" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = "LetsModReboot"
 
 minecraft {
-    version = "1.7.10-10.13.2.1286"
+    version = "1.7.10-10.13.4.1490-1.7.10"
     runDir = "eclipse"
 }
 
@@ -61,3 +61,5 @@ processResources
         exclude 'mcmod.info'
     }
 }
+
+idea { module { inheritOutputDirs = true } }

@@ -2,8 +2,8 @@ package com.crystalix007.letsmodreboot.item;
 
 import com.crystalix007.letsmodreboot.creativetab.CreativeTabsLMRB;
 import com.crystalix007.letsmodreboot.entity.EntityFlyingCarrot;
-import com.crystalix007.letsmodreboot.init.ModItems;
-import com.crystalix007.letsmodreboot.reference.Reference;
+import com.crystalix007.letsmodreboot.init.InitModItems;
+import com.crystalix007.letsmodreboot.reference.ReferenceMod;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -28,7 +28,7 @@ public class ItemNewBow extends ItemBow
     public ItemNewBow()
     {
         super();
-        this.setUnlocalizedName("newBow");
+        this.setUnlocalizedName("itemNewBow");
         this.setMaxStackSize(1);
         this.setCreativeTab(CreativeTabsLMRB.LMRB_TAB);
     }
@@ -49,13 +49,13 @@ public class ItemNewBow extends ItemBow
     @Override
     public String getUnlocalizedName()
     {
-        return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+        return String.format("item.%s%s", ReferenceMod.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     @Override
     public String getUnlocalizedName(ItemStack itemStack)
     {
-        return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+        return String.format("item.%s%s", ReferenceMod.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
     }
 
     protected String getUnwrappedUnlocalizedName(String unlocalizedName)
@@ -113,7 +113,7 @@ public class ItemNewBow extends ItemBow
 			return event.result;
 		}
 
-		if (entityPlayer.capabilities.isCreativeMode || entityPlayer.inventory.hasItem(ModItems.carrotAmmo))
+		if (entityPlayer.capabilities.isCreativeMode || entityPlayer.inventory.hasItem(InitModItems.itemCarrotAmmo))
 		{
 			entityPlayer.setItemInUse(itemStack, this.getMaxItemUseDuration(itemStack));
 		}
@@ -142,7 +142,7 @@ public class ItemNewBow extends ItemBow
 
 		boolean flag = entityPlayer.capabilities.isCreativeMode || EnchantmentHelper.getEnchantmentLevel(Enchantment.infinity.effectId, itemStack) > 0;
 
-		if (flag || entityPlayer.inventory.hasItem(ModItems.carrotAmmo))
+		if (flag || entityPlayer.inventory.hasItem(InitModItems.itemCarrotAmmo))
 		{
 			float f = (float)j / 20.0F;
 			f = (f * f + f * 2.0F) / 3.0F;
@@ -193,7 +193,7 @@ public class ItemNewBow extends ItemBow
 			}
 			else
 			{
-				entityPlayer.inventory.consumeInventoryItem(ModItems.carrotAmmo);
+				entityPlayer.inventory.consumeInventoryItem(InitModItems.itemCarrotAmmo);
 			}
 
 			if (!world.isRemote)

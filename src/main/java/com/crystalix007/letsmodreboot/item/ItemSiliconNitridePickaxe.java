@@ -5,7 +5,7 @@ public class ItemSiliconNitridePickaxe extends ItemPickaxeLMRB
     public ItemSiliconNitridePickaxe(ToolMaterial toolMaterial)
     {
         super(toolMaterial);
-        this.setUnlocalizedName("siliconNitridePickaxe");
+        this.setUnlocalizedName("itemSiliconNitridePickaxe");
         this.setMaxStackSize(1);
     }
 }

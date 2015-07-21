@@ -5,7 +5,7 @@ Time: 04/01/15 16:29
 Description: Ticking block entity
 
 java.lang.ArrayIndexOutOfBoundsException: 4
-	at com.crystalix007.letsmodreboot.tileentities.TileEntityNuclearWaste.updateEntity(TileEntityNuclearWaste.java:42)
+	at com.crystalix007.letsmodreboot.tileentity.TileEntityNuclearWaste.updateEntity(TileEntityNuclearWaste.java:42)
 	at net.minecraft.world.World.updateEntities(World.java:2160)
 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2086)
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1028)
@@ -31,11 +31,11 @@ A detailed walkthrough of the error, its code path and all known details is as f
 
 -- Head --
 Stacktrace:
-	at com.crystalix007.letsmodreboot.tileentities.TileEntityNuclearWaste.updateEntity(TileEntityNuclearWaste.java:42)
+	at com.crystalix007.letsmodreboot.tileentity.TileEntityNuclearWaste.updateEntity(TileEntityNuclearWaste.java:42)
 
 -- Block entity being ticked --
 Details:
-	Name: tileEntityNuclearWaste // com.crystalix007.letsmodreboot.tileentities.TileEntityNuclearWaste
+	Name: tileEntityNuclearWaste // com.crystalix007.letsmodreboot.tileentity.TileEntityNuclearWaste
 	Block type: ID #223 (tile.letsmodreboot:blockNuclearWaste // com.crystalix007.letsmodreboot.block.BlockNuclearWaste)
 	Block data value: 0 / 0x0 / 0b0000
 	Block location: World: (-114,65,292), Chunk: (at 14,4,4 in -8,18; contains blocks -128,0,288 to -113,255,303), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)

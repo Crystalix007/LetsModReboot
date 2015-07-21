@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.block;
 
-import com.crystalix007.letsmodreboot.tileentities.TileEntityNuclearWaste;
+import com.crystalix007.letsmodreboot.tileentity.TileEntityNuclearWaste;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;

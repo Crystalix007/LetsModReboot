@@ -7,8 +7,8 @@ import net.minecraft.world.World;
 
 public class BlockTrap extends BlockGlassLMRB {
 	public BlockTrap() {
-		super("trapBlock");
-		this.setBlockName("trapBlock");
+		super("blockTrap");
+		this.setBlockName("blockTrap");
 		this.lightOpacity = 0;
 	}
 

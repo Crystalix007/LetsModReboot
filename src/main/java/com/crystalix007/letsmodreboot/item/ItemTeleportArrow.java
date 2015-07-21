@@ -10,7 +10,7 @@ public class ItemTeleportArrow extends ItemLMRB
 	public ItemTeleportArrow()
 	{
 		super();
-		this.setUnlocalizedName("teleportArrow");
+		this.setUnlocalizedName("itemTeleportArrow");
 		this.setMaxStackSize(16);
 	}
 

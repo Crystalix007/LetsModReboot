@@ -1,7 +1,7 @@
 package com.crystalix007.letsmodreboot.block;
 
 import com.crystalix007.letsmodreboot.creativetab.CreativeTabsLMRB;
-import com.crystalix007.letsmodreboot.reference.Reference;
+import com.crystalix007.letsmodreboot.reference.ReferenceMod;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -22,7 +22,7 @@ public class BlockLMRB extends Block {
 
 	@Override
 	public String getUnlocalizedName() {
-		return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("tile.%s%s", ReferenceMod.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 
 	@Override

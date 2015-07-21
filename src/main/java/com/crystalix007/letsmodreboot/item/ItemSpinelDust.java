@@ -5,7 +5,7 @@ public class ItemSpinelDust extends ItemLMRB
 	public ItemSpinelDust()
 	{
 		super();
-		this.setUnlocalizedName("spinelDust");
+		this.setUnlocalizedName("itemSpinelDust");
 		this.setMaxStackSize(64);
 	}
 }

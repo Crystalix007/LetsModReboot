@@ -12,7 +12,7 @@ java.lang.IndexOutOfBoundsException: Index: 101, Size: 100
 	at net.minecraft.client.gui.GuiNewChat.printChatMessage(GuiNewChat.java:148)
 	at net.minecraft.client.entity.EntityPlayerSP.addChatMessage(EntityPlayerSP.java:647)
 	at com.crystalix007.letsmodreboot.proxy.ClientProxy.printMessageToPlayer(ClientProxy.java:24)
-	at com.crystalix007.letsmodreboot.tileentities.TileEntityNuclearWaste.updateEntity(TileEntityNuclearWaste.java:54)
+	at com.crystalix007.letsmodreboot.tileentity.TileEntityNuclearWaste.updateEntity(TileEntityNuclearWaste.java:54)
 	at net.minecraft.world.World.updateEntities(World.java:2160)
 	at net.minecraft.client.Minecraft.runTick(Minecraft.java:2086)
 	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1028)
@@ -45,11 +45,11 @@ Stacktrace:
 	at net.minecraft.client.gui.GuiNewChat.printChatMessage(GuiNewChat.java:148)
 	at net.minecraft.client.entity.EntityPlayerSP.addChatMessage(EntityPlayerSP.java:647)
 	at com.crystalix007.letsmodreboot.proxy.ClientProxy.printMessageToPlayer(ClientProxy.java:24)
-	at com.crystalix007.letsmodreboot.tileentities.TileEntityNuclearWaste.updateEntity(TileEntityNuclearWaste.java:54)
+	at com.crystalix007.letsmodreboot.tileentity.TileEntityNuclearWaste.updateEntity(TileEntityNuclearWaste.java:54)
 
 -- Block entity being ticked --
 Details:
-	Name: tileEntityNuclearWaste // com.crystalix007.letsmodreboot.tileentities.TileEntityNuclearWaste
+	Name: tileEntityNuclearWaste // com.crystalix007.letsmodreboot.tileentity.TileEntityNuclearWaste
 	Block type: ID #186 (tile.letsmodreboot:blockNuclearWaste // com.crystalix007.letsmodreboot.block.BlockNuclearWaste)
 	Block data value: 0 / 0x0 / 0b0000
 	Block location: World: (82,32,163), Chunk: (at 2,2,3 in 5,10; contains blocks 80,0,160 to 95,255,175), Region: (0,0; contains chunks 0,0 to 31,31, blocks 0,0,0 to 511,255,511)

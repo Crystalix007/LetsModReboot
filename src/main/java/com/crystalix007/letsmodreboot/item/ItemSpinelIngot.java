@@ -7,6 +7,6 @@ public class ItemSpinelIngot extends ItemLMRB
 	{
 		super();
 		this.setMaxStackSize(64);
-		this.setUnlocalizedName("spinelIngot");
+		this.setUnlocalizedName("itemSpinelIngot");
 	}
 }

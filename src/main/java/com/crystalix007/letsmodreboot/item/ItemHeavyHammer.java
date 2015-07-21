@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.item;
 
-import com.crystalix007.letsmodreboot.init.ModItems;
+import com.crystalix007.letsmodreboot.init.InitModItems;
 
 public class ItemHeavyHammer extends ItemPickaxeLMRB
 {
@@ -9,8 +9,8 @@ public class ItemHeavyHammer extends ItemPickaxeLMRB
 	public ItemHeavyHammer()
 	{
 		//super(5, ModItems.siliconNitrideMaterial, "heavyHammer", mineableBlocks);
-		super(ModItems.siliconNitrideMaterial);
-		this.setUnlocalizedName("heavyHammer");
+		super(InitModItems.materialSiliconNitride);
+		this.setUnlocalizedName("itemHeavyHammer");
 	}
 
 	/*@Override

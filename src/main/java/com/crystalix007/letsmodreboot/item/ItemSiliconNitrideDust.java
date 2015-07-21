@@ -5,7 +5,7 @@ public class ItemSiliconNitrideDust extends ItemLMRB
 	public ItemSiliconNitrideDust()
 	{
 		super();
-		this.setUnlocalizedName("siliconNitrideDust");
+		this.setUnlocalizedName("itemSiliconNitrideDust");
 		this.setMaxStackSize(64);
 	}
 }

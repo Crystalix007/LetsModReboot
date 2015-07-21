@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.block;
 
-import com.crystalix007.letsmodreboot.reference.Reference;
+import com.crystalix007.letsmodreboot.reference.ReferenceMod;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.material.Material;
@@ -66,8 +66,8 @@ public class BlockAntigrav extends BlockLMRB
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerBlockIcons(IIconRegister iconRegister) {
-		this.top_icon = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "antigrav_top");
-		this.other_icon = iconRegister.registerIcon(Reference.MOD_ID.toLowerCase() + ":" + "antigrav_side");
+		this.top_icon = iconRegister.registerIcon(ReferenceMod.MOD_ID.toLowerCase() + ":" + "blockAntigrav_top");
+		this.other_icon = iconRegister.registerIcon(ReferenceMod.MOD_ID.toLowerCase() + ":" + "blockAntigrav_side");
 	}
 
 	@Override

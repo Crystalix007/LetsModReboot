@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.entity;
 
-import com.crystalix007.letsmodreboot.utility.MoveHelper;
+import com.crystalix007.letsmodreboot.utility.UtilityMoveHelper;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.world.World;
 
@@ -16,6 +16,6 @@ public class EntityTeleportArrow extends EntityProjectileBase
 	{
 		double shootingEntityPos[] = {shootingEntity.posX, shootingEntity.posY, shootingEntity.posZ};
 		double hitEntityPos[] = {hitEntity.posX, hitEntity.posY, hitEntity.posZ};
-		MoveHelper.moveTo(shootingEntity, hitEntityPos, shootingEntityPos);
+		UtilityMoveHelper.moveTo(shootingEntity, hitEntityPos, shootingEntityPos);
 	}
 }

@@ -6,6 +6,6 @@ public class ItemSiliconNitrideIngot extends ItemLMRB
 	{
 		super();
 		this.setMaxStackSize(64);
-		this.setUnlocalizedName("siliconNitrideIngot");
+		this.setUnlocalizedName("itemSiliconNitrideIngot");
 	}
 }

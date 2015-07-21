@@ -4,7 +4,7 @@ public class net/minecraft/block/Block {
 
   // compiled from: Block.java
   // access flags 0x1008
-  static synthetic INNERCLASS net/minecraft/block/Block$6 net/minecraft/block/Block null
+  static synthetic INNERCLASS net/minecraft/block/Block$6 null null
   // access flags 0x9
   public static INNERCLASS net/minecraft/block/Block$SoundType net/minecraft/block/Block SoundType
   // access flags 0x0
@@ -3511,36 +3511,38 @@ public class net/minecraft/block/Block {
     CHECKCAST cpw/mods/fml/common/registry/FMLControlledNamespacedRegistry
     ALOAD 0
     LDC Lnet/minecraft/block/Block;.class
+   L4
+    LINENUMBER 159 L4
     INVOKEVIRTUAL cpw/mods/fml/common/registry/FMLControlledNamespacedRegistry.getDelegate (Ljava/lang/Object;Ljava/lang/Class;)Lcpw/mods/fml/common/registry/RegistryDelegate;
     PUTFIELD net/minecraft/block/Block.delegate : Lcpw/mods/fml/common/registry/RegistryDelegate;
-   L4
-    LINENUMBER 1486 L4
+   L5
+    LINENUMBER 1486 L5
     ALOAD 0
     NEW java/lang/ThreadLocal
     DUP
     INVOKESPECIAL java/lang/ThreadLocal.<init> ()V
     PUTFIELD net/minecraft/block/Block.harvesters : Ljava/lang/ThreadLocal;
-   L5
-    LINENUMBER 1487 L5
+   L6
+    LINENUMBER 1487 L6
     ALOAD 0
     NEW java/lang/ThreadLocal
     DUP
     INVOKESPECIAL java/lang/ThreadLocal.<init> ()V
     PUTFIELD net/minecraft/block/Block.silk_check_meta : Ljava/lang/ThreadLocal;
-   L6
-    LINENUMBER 1747 L6
+   L7
+    LINENUMBER 1747 L7
     ALOAD 0
     ALOAD 0
     INSTANCEOF net/minecraft/block/ITileEntityProvider
     PUTFIELD net/minecraft/block/Block.isTileProvider : Z
-   L7
-    LINENUMBER 2489 L7
+   L8
+    LINENUMBER 2489 L8
     ALOAD 0
     BIPUSH 16
     ANEWARRAY java/lang/String
     PUTFIELD net/minecraft/block/Block.harvestTool : [Ljava/lang/String;
-   L8
-    LINENUMBER 2490 L8
+   L9
+    LINENUMBER 2490 L9
     ALOAD 0
     BIPUSH 16
     NEWARRAY T_INT
@@ -3609,44 +3611,44 @@ public class net/minecraft/block/Block {
     ICONST_M1
     IASTORE
     PUTFIELD net/minecraft/block/Block.harvestLevel : [I
-   L9
-    LINENUMBER 2570 L9
+   L10
+    LINENUMBER 2570 L10
     ALOAD 0
     NEW net/minecraft/block/Block$4
     DUP
     ALOAD 0
     INVOKESPECIAL net/minecraft/block/Block$4.<init> (Lnet/minecraft/block/Block;)V
     PUTFIELD net/minecraft/block/Block.captureDrops : Ljava/lang/ThreadLocal;
-   L10
-    LINENUMBER 2574 L10
+   L11
+    LINENUMBER 2574 L11
     ALOAD 0
     NEW net/minecraft/block/Block$5
     DUP
     ALOAD 0
     INVOKESPECIAL net/minecraft/block/Block$5.<init> (Lnet/minecraft/block/Block;)V
     PUTFIELD net/minecraft/block/Block.capturedDrops : Ljava/lang/ThreadLocal;
-   L11
-    LINENUMBER 451 L11
+   L12
+    LINENUMBER 451 L12
     ALOAD 0
     GETSTATIC net/minecraft/block/Block.soundTypeStone : Lnet/minecraft/block/Block$SoundType;
     PUTFIELD net/minecraft/block/Block.stepSound : Lnet/minecraft/block/Block$SoundType;
-   L12
-    LINENUMBER 452 L12
+   L13
+    LINENUMBER 452 L13
     ALOAD 0
     FCONST_1
     PUTFIELD net/minecraft/block/Block.blockParticleGravity : F
-   L13
-    LINENUMBER 453 L13
+   L14
+    LINENUMBER 453 L14
     ALOAD 0
     LDC 0.6
     PUTFIELD net/minecraft/block/Block.slipperiness : F
-   L14
-    LINENUMBER 454 L14
+   L15
+    LINENUMBER 454 L15
     ALOAD 0
     ALOAD 1
     PUTFIELD net/minecraft/block/Block.blockMaterial : Lnet/minecraft/block/material/Material;
-   L15
-    LINENUMBER 455 L15
+   L16
+    LINENUMBER 455 L16
     ALOAD 0
     FCONST_0
     FCONST_0
@@ -3655,46 +3657,46 @@ public class net/minecraft/block/Block {
     FCONST_1
     FCONST_1
     INVOKEVIRTUAL net/minecraft/block/Block.setBlockBounds (FFFFFF)V
-   L16
-    LINENUMBER 456 L16
+   L17
+    LINENUMBER 456 L17
     ALOAD 0
     ALOAD 0
     INVOKEVIRTUAL net/minecraft/block/Block.isOpaqueCube ()Z
     PUTFIELD net/minecraft/block/Block.opaque : Z
-   L17
-    LINENUMBER 457 L17
+   L18
+    LINENUMBER 457 L18
     ALOAD 0
     ALOAD 0
     INVOKEVIRTUAL net/minecraft/block/Block.isOpaqueCube ()Z
-    IFEQ L18
+    IFEQ L19
     SIPUSH 255
-    GOTO L19
-   L18
+    GOTO L20
+   L19
    FRAME FULL [net/minecraft/block/Block net/minecraft/block/material/Material] [net/minecraft/block/Block]
     ICONST_0
-   L19
+   L20
    FRAME FULL [net/minecraft/block/Block net/minecraft/block/material/Material] [net/minecraft/block/Block I]
     PUTFIELD net/minecraft/block/Block.lightOpacity : I
-   L20
-    LINENUMBER 458 L20
+   L21
+    LINENUMBER 458 L21
     ALOAD 0
     ALOAD 1
     INVOKEVIRTUAL net/minecraft/block/material/Material.getCanBlockGrass ()Z
-    IFNE L21
+    IFNE L22
     ICONST_1
-    GOTO L22
-   L21
+    GOTO L23
+   L22
    FRAME FULL [net/minecraft/block/Block net/minecraft/block/material/Material] [net/minecraft/block/Block]
     ICONST_0
-   L22
+   L23
    FRAME FULL [net/minecraft/block/Block net/minecraft/block/material/Material] [net/minecraft/block/Block I]
     PUTFIELD net/minecraft/block/Block.canBlockGrass : Z
-   L23
-    LINENUMBER 459 L23
-    RETURN
    L24
-    LOCALVARIABLE this Lnet/minecraft/block/Block; L0 L24 0
-    LOCALVARIABLE p_i45394_1_ Lnet/minecraft/block/material/Material; L0 L24 1
+    LINENUMBER 459 L24
+    RETURN
+   L25
+    LOCALVARIABLE this Lnet/minecraft/block/Block; L0 L25 0
+    LOCALVARIABLE p_i45394_1_ Lnet/minecraft/block/material/Material; L0 L25 1
     MAXSTACK = 7
     MAXLOCALS = 2
 
@@ -4729,7 +4731,6 @@ public class net/minecraft/block/Block {
     RETURN
    L9
     LOCALVARIABLE item Lnet/minecraft/item/ItemStack; L6 L7 10
-    LOCALVARIABLE i$ Ljava/util/Iterator; L5 L1 9
     LOCALVARIABLE items Ljava/util/ArrayList; L3 L1 8
     // signature Ljava/util/ArrayList<Lnet/minecraft/item/ItemStack;>;
     // declaration: java.util.ArrayList<net.minecraft.item.ItemStack>
@@ -6010,7 +6011,6 @@ public class net/minecraft/block/Block {
     RETURN
    L18
     LOCALVARIABLE is Lnet/minecraft/item/ItemStack; L12 L13 10
-    LOCALVARIABLE i$ Ljava/util/Iterator; L10 L11 9
     LOCALVARIABLE items Ljava/util/ArrayList; L5 L11 7
     // signature Ljava/util/ArrayList<Lnet/minecraft/item/ItemStack;>;
     // declaration: java.util.ArrayList<net.minecraft.item.ItemStack>
@@ -8156,6 +8156,8 @@ public class net/minecraft/block/Block {
     IADD
     ILOAD 3
     ILOAD 4
+   L33
+    LINENUMBER 2248 L33
     INVOKEINTERFACE net/minecraft/world/IBlockAccess.getBlock (III)Lnet/minecraft/block/Block;
     INVOKEVIRTUAL net/minecraft/block/Block.getMaterial ()Lnet/minecraft/block/material/Material;
     GETSTATIC net/minecraft/block/material/Material.water : Lnet/minecraft/block/material/Material;
@@ -8166,6 +8168,8 @@ public class net/minecraft/block/Block {
     ILOAD 4
     ICONST_1
     ISUB
+   L34
+    LINENUMBER 2249 L34
     INVOKEINTERFACE net/minecraft/world/IBlockAccess.getBlock (III)Lnet/minecraft/block/Block;
     INVOKEVIRTUAL net/minecraft/block/Block.getMaterial ()Lnet/minecraft/block/material/Material;
     GETSTATIC net/minecraft/block/material/Material.water : Lnet/minecraft/block/material/Material;
@@ -8176,32 +8180,34 @@ public class net/minecraft/block/Block {
     ILOAD 4
     ICONST_1
     IADD
+   L35
+    LINENUMBER 2250 L35
     INVOKEINTERFACE net/minecraft/world/IBlockAccess.getBlock (III)Lnet/minecraft/block/Block;
     INVOKEVIRTUAL net/minecraft/block/Block.getMaterial ()Lnet/minecraft/block/material/Material;
     GETSTATIC net/minecraft/block/material/Material.water : Lnet/minecraft/block/material/Material;
-    IF_ACMPNE L33
+    IF_ACMPNE L36
    L32
    FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I] []
     ICONST_1
-    GOTO L34
-   L33
-   FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I] []
-    ICONST_0
-   L34
-   FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I] [I]
-    ISTORE 10
-   L35
-    LINENUMBER 2251 L35
-    ILOAD 9
-    IFEQ L36
-    ILOAD 10
-    IFEQ L36
-    ICONST_1
     GOTO L37
    L36
-   FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I I] []
+   FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I] []
     ICONST_0
    L37
+   FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I] [I]
+    ISTORE 10
+   L38
+    LINENUMBER 2251 L38
+    ILOAD 9
+    IFEQ L39
+    ILOAD 10
+    IFEQ L39
+    ICONST_1
+    GOTO L40
+   L39
+   FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I I] []
+    ICONST_0
+   L40
    FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType I I] [I]
     IRETURN
    L16
@@ -8209,18 +8215,18 @@ public class net/minecraft/block/Block {
    FRAME FULL [net/minecraft/block/Block net/minecraft/world/IBlockAccess I I I net/minecraftforge/common/util/ForgeDirection net/minecraftforge/common/IPlantable net/minecraft/block/Block net/minecraftforge/common/EnumPlantType] []
     ICONST_0
     IRETURN
-   L38
+   L41
     LOCALVARIABLE isBeach Z L31 L16 9
-    LOCALVARIABLE hasWater Z L35 L16 10
-    LOCALVARIABLE this Lnet/minecraft/block/Block; L0 L38 0
-    LOCALVARIABLE world Lnet/minecraft/world/IBlockAccess; L0 L38 1
-    LOCALVARIABLE x I L0 L38 2
-    LOCALVARIABLE y I L0 L38 3
-    LOCALVARIABLE z I L0 L38 4
-    LOCALVARIABLE direction Lnet/minecraftforge/common/util/ForgeDirection; L0 L38 5
-    LOCALVARIABLE plantable Lnet/minecraftforge/common/IPlantable; L0 L38 6
-    LOCALVARIABLE plant Lnet/minecraft/block/Block; L1 L38 7
-    LOCALVARIABLE plantType Lnet/minecraftforge/common/EnumPlantType; L2 L38 8
+    LOCALVARIABLE hasWater Z L38 L16 10
+    LOCALVARIABLE this Lnet/minecraft/block/Block; L0 L41 0
+    LOCALVARIABLE world Lnet/minecraft/world/IBlockAccess; L0 L41 1
+    LOCALVARIABLE x I L0 L41 2
+    LOCALVARIABLE y I L0 L41 3
+    LOCALVARIABLE z I L0 L41 4
+    LOCALVARIABLE direction Lnet/minecraftforge/common/util/ForgeDirection; L0 L41 5
+    LOCALVARIABLE plantable Lnet/minecraftforge/common/IPlantable; L0 L41 6
+    LOCALVARIABLE plant Lnet/minecraft/block/Block; L1 L41 7
+    LOCALVARIABLE plantType Lnet/minecraftforge/common/EnumPlantType; L2 L41 8
     MAXSTACK = 6
     MAXLOCALS = 11
 

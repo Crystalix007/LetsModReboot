@@ -1,7 +1,6 @@
 package com.crystalix007.letsmodreboot.block;
-import com.crystalix007.letsmodreboot.init.ModBlocks;
-import com.crystalix007.letsmodreboot.proxy.ClientProxy;
-import com.crystalix007.letsmodreboot.tileentities.TileEntityLockdown;
+import com.crystalix007.letsmodreboot.init.InitModBlocks;
+import com.crystalix007.letsmodreboot.tileentity.TileEntityLockdown;
 import net.minecraft.block.Block;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.block.material.Material;
@@ -25,17 +24,17 @@ public class BlockLockdown extends BlockLMRB implements ITileEntityProvider
 	@Override
 	public void onBlockAdded(World world, int x, int y, int z)
 	{
-		ClientProxy.printMessageToPlayer("Added block");
+		//ProxyClient.printMessageToPlayer("Added block");
 		Block blockBelow = world.getBlock(x, y - 1, z);
 
-		if ((blockBelow != null) && (blockBelow != Blocks.bedrock) && (blockBelow != ModBlocks.blockLockdown) && (!world.isRemote))
+		if ((blockBelow != null) && (blockBelow != Blocks.bedrock) && (blockBelow != InitModBlocks.blockLockdown) && (!world.isRemote))
 		{
 			TileEntity tileEntity = world.getTileEntity(x, y, z);
 
 			if (tileEntity != null && tileEntity instanceof TileEntityLockdown)
-				((TileEntityLockdown) tileEntity).setSubBlock(world.getBlock(x, y - 1, z), world.getTileEntity(x, y - 1, z), (world.getBlock(x, y + 1, z) != ModBlocks.blockLockdown));
+				((TileEntityLockdown) tileEntity).setSubBlock(world.getBlock(x, y - 1, z), world.getTileEntity(x, y - 1, z), (world.getBlock(x, y + 1, z) != InitModBlocks.blockLockdown));
 
-			world.setBlock(x, y - 1, z, ModBlocks.blockLockdown);
+			world.setBlock(x, y - 1, z, InitModBlocks.blockLockdown);
 		}
 	}
 
@@ -62,7 +61,7 @@ public class BlockLockdown extends BlockLMRB implements ITileEntityProvider
 		world.setBlockToAir(x, y, z);
 
 		if (!world.isRemote && (world.getTileEntity(x, y, z) != null && world.getTileEntity(x, y, z) instanceof TileEntityLockdown && ((TileEntityLockdown) world.getTileEntity(x, y, z)).isTop()))
-			world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(ModBlocks.blockLockdown)));
+			world.spawnEntityInWorld(new EntityItem(world, x, y, z, new ItemStack(InitModBlocks.blockLockdown)));
 		return true;
 	}
 

@@ -7,6 +7,7 @@ public class ItemInvisiGlass extends ItemBlock
 {
 	public ItemInvisiGlass(Block block) {
 		super(block);
+		this.setUnlocalizedName("itemInvisiGlass");
 		setHasSubtypes(true);
 	}
 

@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.command;
 
-import com.crystalix007.letsmodreboot.proxy.ClientProxy;
+import com.crystalix007.letsmodreboot.proxy.ProxyClient;
 import net.minecraft.command.CommandTime;
 import net.minecraft.command.ICommandSender;
 
@@ -26,7 +26,7 @@ public class CommandDetermineTime extends CommandLMRB
 
 		boolean isAfternoon = ((((worldTime / 1000) + 6) % 24) > 12);
 
-		ClientProxy.printMessageToPlayer("Time: " + String.valueOf(worldTime));
-		ClientProxy.printMessageToPlayer("...: " + String.valueOf(hour) + ':' + (minutes < 10 ? '0' : "") + String.valueOf(minutes) + (isAfternoon ? "PM" : "AM"));
+		ProxyClient.printMessageToPlayer("Time: " + String.valueOf(worldTime));
+		ProxyClient.printMessageToPlayer("...: " + String.valueOf(hour) + ':' + (minutes < 10 ? '0' : "") + String.valueOf(minutes) + (isAfternoon ? "PM" : "AM"));
 	}
 }

@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.block;
 
-import com.crystalix007.letsmodreboot.tileentities.TileEntityRamp;
+import com.crystalix007.letsmodreboot.tileentity.TileEntityRamp;
 import net.minecraft.block.ITileEntityProvider;
 import net.minecraft.entity.Entity;
 import net.minecraft.tileentity.TileEntity;
@@ -15,12 +15,12 @@ public class BlockRamp extends BlockLMRB implements ITileEntityProvider
 	{
 		super();
 		this.setBlockName("blockRamp");
+		this.setBlockTextureName("blockRamp");
 	}
 
 	@Override
 	public void addCollisionBoxesToList(World world, int x, int y, int z, AxisAlignedBB axisAlignedBB, List list, Entity entity)
 	{
-
 	}
 
 	@Override

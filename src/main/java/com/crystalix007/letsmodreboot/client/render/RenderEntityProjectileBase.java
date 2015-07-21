@@ -1,8 +1,8 @@
 package com.crystalix007.letsmodreboot.client.render;
 
 import com.crystalix007.letsmodreboot.entity.EntityProjectileBase;
-import com.crystalix007.letsmodreboot.reference.Reference;
-import com.crystalix007.letsmodreboot.utility.LogHelper;
+import com.crystalix007.letsmodreboot.reference.ReferenceMod;
+import com.crystalix007.letsmodreboot.utility.UtilityLogHelper;
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.Tessellator;
 import net.minecraft.client.renderer.entity.Render;
@@ -21,8 +21,8 @@ public class RenderEntityProjectileBase extends Render
 	public RenderEntityProjectileBase(String name)
 	{
 		thisName = name;
-		arrowTextures = new ResourceLocation(Reference.MOD_ID.toLowerCase(), "textures/entities/" + name);
-		LogHelper.info("Reading file at: " + arrowTextures.toString());
+		arrowTextures = new ResourceLocation(ReferenceMod.MOD_ID.toLowerCase(), "textures/entities/" + name);
+		UtilityLogHelper.info("Reading file at: " + arrowTextures.toString());
 		//bindEntityTexture(EntityFlyingCarrot.class);
 		//bindTexture(arrowTextures);
 		Minecraft.getMinecraft().renderEngine.bindTexture(arrowTextures);

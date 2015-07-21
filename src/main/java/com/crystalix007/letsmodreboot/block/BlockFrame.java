@@ -1,6 +1,6 @@
 package com.crystalix007.letsmodreboot.block;
 
-import com.crystalix007.letsmodreboot.tileentities.TileEntityFrame;
+import com.crystalix007.letsmodreboot.tileentity.TileEntityFrame;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockAir;
 import net.minecraft.block.ITileEntityProvider;

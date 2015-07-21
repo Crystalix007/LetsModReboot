@@ -1,9 +1,9 @@
 package com.crystalix007.letsmodreboot.item;
 
-import com.crystalix007.letsmodreboot.effect.EntityEnderFX;
-import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
-import com.crystalix007.letsmodreboot.utility.BlockCoord;
-import com.crystalix007.letsmodreboot.utility.VectorHelper;
+import com.crystalix007.letsmodreboot.effect.EffectEntityEnder;
+import com.crystalix007.letsmodreboot.handler.HandlerConfiguration;
+import com.crystalix007.letsmodreboot.utility.UtilityBlockCoord;
+import com.crystalix007.letsmodreboot.utility.UtilityVectorHelper;
 import net.minecraft.block.BlockAir;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -22,7 +22,7 @@ public class ItemEnderStaff extends ItemLMRB
 	public ItemEnderStaff()
 	{
 		super();
-		setUnlocalizedName("enderStaff");
+		setUnlocalizedName("itemEnderStaff");
 
 		setMaxStackSize(1);
 		setMaxDamage(256);
@@ -35,11 +35,11 @@ public class ItemEnderStaff extends ItemLMRB
 	public ItemStack onItemRightClick(ItemStack itemStack, World world, EntityPlayer player)
 	{
 		if (player.isSneaking()) {
-			Vector3d eye = VectorHelper.getEyePositionLMRB(player);
-			Vector3d look = VectorHelper.getLookVecLMRB(player);
+			Vector3d eye = UtilityVectorHelper.getEyePositionLMRB(player);
+			Vector3d look = UtilityVectorHelper.getLookVecLMRB(player);
 
 			Vector3d sample = new Vector3d(look);
-			sample.scale(ConfigurationHandler.teleportDist);
+			sample.scale(HandlerConfiguration.teleportDist);
 			sample.add(eye);
 
 			Vec3 eye3 = Vec3.createVectorHelper(eye.x, eye.y, eye.z);
@@ -47,7 +47,7 @@ public class ItemEnderStaff extends ItemLMRB
 
 			double playerHeight = player.yOffset;
 			double lookComp = -look.y * playerHeight;
-			double maxDistance = ConfigurationHandler.teleportDist + lookComp;
+			double maxDistance = HandlerConfiguration.teleportDist + lookComp;
 
 			MovingObjectPosition p = player.worldObj.rayTraceBlocks(eye3, end, false);
 
@@ -59,13 +59,13 @@ public class ItemEnderStaff extends ItemLMRB
 					sample.y -= playerHeight;
 
 					if (canTravelTo(player, sample.x, sample.y, sample.z)) {
-						EntityEnderFX.spreadEffects(world, player.posX, player.posY, player.posZ, 4, 2);
+						EffectEntityEnder.spreadEffects(world, player.posX, player.posY, player.posZ, 4, 2);
 						itemStack.damageItem(1, player);
 						player.fallDistance = 0;
 					}
 
 					if (doBlinkAround(player, sample)) {
-						EntityEnderFX.spreadEffects(world, player.posX, player.posY, player.posZ, 4, 2);
+						EffectEntityEnder.spreadEffects(world, player.posX, player.posY, player.posZ, 4, 2);
 						return itemStack;
 					}
 				}
@@ -113,16 +113,16 @@ public class ItemEnderStaff extends ItemLMRB
 
 	private boolean doBlinkAround(EntityPlayer player, Vector3d sample)
 	{
-		if (doBlink(player, new BlockCoord((int) Math.round(sample.x), (int) Math.round(sample.y) - 1, (int) Math.round(sample.z)))) {
+		if (doBlink(player, new UtilityBlockCoord((int) Math.round(sample.x), (int) Math.round(sample.y) - 1, (int) Math.round(sample.z)))) {
 			return true;
 		}
-		if (doBlink(player, new BlockCoord((int) Math.round(sample.x), (int) Math.round(sample.y), (int) Math.round(sample.z)))) {
+		if (doBlink(player, new UtilityBlockCoord((int) Math.round(sample.x), (int) Math.round(sample.y), (int) Math.round(sample.z)))) {
 			return true;
 		}
-		return (doBlink(player, new BlockCoord((int) Math.round(sample.x), (int) Math.round(sample.y) + 1, (int) Math.round(sample.z))));
+		return (doBlink(player, new UtilityBlockCoord((int) Math.round(sample.x), (int) Math.round(sample.y) + 1, (int) Math.round(sample.z))));
 	}
 
-	private boolean doBlink(EntityPlayer player, BlockCoord coord)
+	private boolean doBlink(EntityPlayer player, UtilityBlockCoord coord)
 	{
 		World world = player.worldObj;
 

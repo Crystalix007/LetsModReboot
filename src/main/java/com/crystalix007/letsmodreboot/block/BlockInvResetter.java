@@ -1,7 +1,7 @@
 package com.crystalix007.letsmodreboot.block;
 
-import com.crystalix007.letsmodreboot.handler.ConfigurationHandler;
-import com.crystalix007.letsmodreboot.proxy.ClientProxy;
+import com.crystalix007.letsmodreboot.handler.HandlerConfiguration;
+import com.crystalix007.letsmodreboot.proxy.ProxyClient;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.player.EntityPlayer;
@@ -12,7 +12,7 @@ import net.minecraft.world.World;
 public class BlockInvResetter extends BlockDirectionalLMRB {
 	public BlockInvResetter() {
 		super(Material.cloth);
-		setBlockName("invResetterBlock");
+		setBlockName("blockInvResetter");
 		setHarvestLevel("pickaxe", 0);
 	}
 
@@ -23,7 +23,7 @@ public class BlockInvResetter extends BlockDirectionalLMRB {
 		else {
 			EntityPlayerMP player = (EntityPlayerMP) (entity);
 
-			if (player.capabilities.isCreativeMode && !ConfigurationHandler.removeInvOfCreative)
+			if (player.capabilities.isCreativeMode && !HandlerConfiguration.removeInvOfCreative)
 				return;
 
 			boolean needToClear = false;
@@ -35,7 +35,7 @@ public class BlockInvResetter extends BlockDirectionalLMRB {
 			}
 
 			if (needToClear) {
-				ClientProxy.printMessageToPlayer("Your inventory has been reset");
+				ProxyClient.printMessageToPlayer("Your inventory has been reset");
 				player.inventory.clearInventory(null, -1);
 			}
 		}

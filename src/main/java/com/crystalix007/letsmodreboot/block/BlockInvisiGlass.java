@@ -1,9 +1,9 @@
 package com.crystalix007.letsmodreboot.block;
 
-import com.crystalix007.letsmodreboot.init.ModBlocks;
-import com.crystalix007.letsmodreboot.init.ModMaterials;
-import com.crystalix007.letsmodreboot.proxy.ClientProxy;
-import com.crystalix007.letsmodreboot.tileentities.TileEntityInvisiGlass;
+import com.crystalix007.letsmodreboot.init.InitModBlocks;
+import com.crystalix007.letsmodreboot.init.InitModMaterials;
+import com.crystalix007.letsmodreboot.proxy.ProxyClient;
+import com.crystalix007.letsmodreboot.tileentity.TileEntityInvisiGlass;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.Block;
@@ -33,8 +33,8 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 	protected IIcon[] icons = new IIcon[6]; //0 - 5
 
 	public BlockInvisiGlass() {
-		super("invisiGlass", ModMaterials.materialSoft);
-		this.setBlockName("invisiGlass");
+		super("blockInvisiGlass", InitModMaterials.materialSoft);
+		this.setBlockName("blockInvisiGlass");
 		this.lightOpacity = 0;
 		this.isBlockContainer = true;
 	}
@@ -126,7 +126,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 	@SideOnly(Side.CLIENT)
 	public int getBlockColor(IBlockAccess iBlockAccess, int x, int y, int z) {
 		if (iBlockAccess == null) {
-			ClientProxy.printMessageToPlayer("World is null");
+			ProxyClient.printMessageToPlayer("World is null");
 			return super.getBlockColor();
 		}
 
@@ -209,7 +209,7 @@ public class BlockInvisiGlass extends BlockGlassLMRB implements ITileEntityProvi
 	public boolean shouldSideBeRendered(IBlockAccess world, int x, int y, int z, int side) {
 		Block block = world.getBlock(x, y, z);
 
-		if (this == ModBlocks.invisiGlass) {
+		if (this == InitModBlocks.blockInvisiGlass) {
 			if (world.getBlock(x, y, z).colorMultiplier(world, x, y, z) != world.getBlock(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]).colorMultiplier(world, x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side]) || world.getBlockMetadata(x, y, z) != world.getBlockMetadata(x - Facing.offsetsXForSide[side], y - Facing.offsetsYForSide[side], z - Facing.offsetsZForSide[side])) {
 				return true;
 			}

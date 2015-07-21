@@ -1,7 +1,7 @@
 package com.crystalix007.letsmodreboot.block;
 
 import com.crystalix007.letsmodreboot.creativetab.CreativeTabsLMRB;
-import com.crystalix007.letsmodreboot.tileentities.TileEntityWindmill;
+import com.crystalix007.letsmodreboot.tileentity.TileEntityWindmill;
 import net.minecraft.block.material.Material;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.world.World;
@@ -9,7 +9,7 @@ import net.minecraft.world.World;
 public class BlockWindmill extends BlockContainerLMRB {
 	public BlockWindmill() {
 		super(Material.iron);
-		setBlockName("windmillBlock");
+		setBlockName("blockWindmill");
 		setCreativeTab(CreativeTabsLMRB.MECHANICAL_TAB);
 		setHarvestLevel("pickaxe", 1);
 	}

@@ -2,7 +2,7 @@ package com.crystalix007.letsmodreboot.block;
 
 import com.crystalix007.letsmodreboot.creativetab.CreativeTabsLMRB;
 import com.crystalix007.letsmodreboot.material.MaterialHidden;
-import com.crystalix007.letsmodreboot.reference.Reference;
+import com.crystalix007.letsmodreboot.reference.ReferenceMod;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.block.BlockBreakable;
@@ -12,16 +12,16 @@ import net.minecraft.world.IBlockAccess;
 
 import java.util.Random;
 
-public class BlockGlassLMRB extends BlockBreakable {
+abstract public class BlockGlassLMRB extends BlockBreakable {
 	public BlockGlassLMRB(String name) {
 		super(name, new MaterialHidden(), false);
-		this.setBlockName("refBlock");
+		this.setBlockName(name);
 		this.setCreativeTab(CreativeTabsLMRB.LMRB_TAB);
 	}
 
 	public BlockGlassLMRB(String name, Material material) {
 		super(name, material, false);
-		this.setBlockName("refBlock");
+		this.setBlockName(name);
 		this.setCreativeTab(CreativeTabsLMRB.LMRB_TAB);
 	}
 
@@ -56,7 +56,7 @@ public class BlockGlassLMRB extends BlockBreakable {
 
 	@Override
 	public String getUnlocalizedName() {
-		return String.format("tile.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("tile.%s%s", ReferenceMod.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 
 	@Override

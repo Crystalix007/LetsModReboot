@@ -1,8 +1,8 @@
 package com.crystalix007.letsmodreboot.item;
 
 import com.crystalix007.letsmodreboot.creativetab.CreativeTabsLMRB;
-import com.crystalix007.letsmodreboot.proxy.ClientProxy;
-import com.crystalix007.letsmodreboot.reference.Reference;
+import com.crystalix007.letsmodreboot.proxy.ProxyClient;
+import com.crystalix007.letsmodreboot.reference.ReferenceMod;
 import net.minecraft.block.Block;
 import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.Item;
@@ -32,13 +32,13 @@ public abstract class ItemSpecialToolLMRB extends Item
 	@Override
 	public String getUnlocalizedName()
 	{
-		return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", ReferenceMod.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 
 	@Override
 	public String getUnlocalizedName(ItemStack itemStack)
 	{
-		return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
+		return String.format("item.%s%s", ReferenceMod.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
 	}
 
 	protected String getUnwrappedUnlocalizedName(String unlocalizedName)
@@ -50,7 +50,7 @@ public abstract class ItemSpecialToolLMRB extends Item
 	{
 		for (int i = 0; i < blocksEffectiveAgainst.length; i++)
 		{
-			ClientProxy.printMessageToPlayer(blocksEffectiveAgainst[i].getLocalizedName());
+			ProxyClient.printMessageToPlayer(blocksEffectiveAgainst[i].getLocalizedName());
 
 			if (blocksEffectiveAgainst[i] == block)
 			{

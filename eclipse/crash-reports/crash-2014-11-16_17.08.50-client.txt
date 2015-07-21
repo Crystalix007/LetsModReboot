@@ -49,7 +49,7 @@ Stacktrace:
 
 -- Block Entity Details --
 Details:
-	Name: tileEntityWindmillBase // com.crystalix007.letsmodreboot.tileentities.TileEntityWindmillBase
+	Name: tileEntityWindmillBase // com.crystalix007.letsmodreboot.tileentity.TileEntityWindmillBase
 	Block type: ID #180 (tile.letsmodreboot:windmillBaseBlock // com.crystalix007.letsmodreboot.block.BlockWindmillBase)
 	Block data value: 0 / 0x0 / 0b0000
 	Block location: World: (677,56,-898), Chunk: (at 5,3,14 in 42,-57; contains blocks 672,0,-912 to 687,255,-897), Region: (1,-2; contains chunks 32,-64 to 63,-33, blocks 512,0,-1024 to 1023,255,-513)

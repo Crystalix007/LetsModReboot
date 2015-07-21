@@ -1,7 +1,7 @@
 package com.crystalix007.letsmodreboot.block;
 
-import com.crystalix007.letsmodreboot.proxy.ClientProxy;
-import com.crystalix007.letsmodreboot.tileentities.TileEntityFertilizer;
+import com.crystalix007.letsmodreboot.proxy.ProxyClient;
+import com.crystalix007.letsmodreboot.tileentity.TileEntityFertilizer;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.entity.player.EntityPlayer;
@@ -45,10 +45,10 @@ public class BlockFertilizer extends BlockContainerLMRB {
 
 		if (((TileEntityFertilizer) (te)).getItems().stackSize >= 3 && aboveBlock != null) {
 			BonemealEvent event = new BonemealEvent(entityPlayer, world, aboveBlock, x, y + 1, z);
-			ClientProxy.printMessageToPlayer("Created bonemeal event -> posting to bus!");
+			ProxyClient.printMessageToPlayer("Created bonemeal event -> posting to bus!");
 			MinecraftForge.EVENT_BUS.post(event);
 		} else
-			ClientProxy.printMessageToPlayer("Doesn't have at least 3 items!");
+			ProxyClient.printMessageToPlayer("Doesn't have at least 3 items!");
 
 		if (entityPlayer.getCurrentEquippedItem().getItem() instanceof IPlantable)
 		{
@@ -67,19 +67,19 @@ public class BlockFertilizer extends BlockContainerLMRB {
 					return false;
 			}
 			else {
-				ClientProxy.printMessageToPlayer("Not a crop!");
+				ProxyClient.printMessageToPlayer("Not a crop!");
 				return false;
 			}
 		}
 		else
 		{
-			ClientProxy.printMessageToPlayer("Trying OreDic");
+			ProxyClient.printMessageToPlayer("Trying OreDic");
 			ArrayList<ItemStack> bonemeal = OreDictionary.getOres("bonemeal");
 
 			for (ItemStack itemStack : bonemeal) {
 				if (entityPlayer.getCurrentEquippedItem().getItem() == itemStack.getItem() && entityPlayer.getCurrentEquippedItem().getItemDamage() == itemStack.getItemDamage()) {
 					boolean addedItems = ((TileEntityFertilizer) (world.getTileEntity(x, y, z))).addItems(itemStack);
-					ClientProxy.printMessageToPlayer((addedItems ? "Did" : "Didn't") + " manage to add items");
+					ProxyClient.printMessageToPlayer((addedItems ? "Did" : "Didn't") + " manage to add items");
 					return addedItems;
 				}
 			}

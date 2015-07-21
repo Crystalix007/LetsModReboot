@@ -11,7 +11,7 @@ public class ItemCarrotAmmo extends ItemLMRB
     public ItemCarrotAmmo()
     {
         super();
-        this.setUnlocalizedName("carrotAmmo");
+        this.setUnlocalizedName("itemCarrotAmmo");
         this.setMaxStackSize(64);
     }
 
